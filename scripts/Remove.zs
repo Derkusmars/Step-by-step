@@ -18,3 +18,5 @@ recipes.remove(<botania:craftinghalo>);
 recipes.remove(<botania:altar>);
 recipes.remove(<botania:livingrock0slab>);
 recipes.remove(<botania:pool>);
+recipes.remove(<ore:fiberCineris>);
+recipes.remove(<ore:fiberPlant>);

@@ -234,7 +234,7 @@ RecipeBuilder.get("basic")
       .setShaped([
       [<minecraft:stone_slab>, <botania:fertilizer>, <minecraft:stone_slab>],
       [null, <minecraft:stone>, null],
-      [<minecraft:stone_slab>, <minecraft:stone>, <minecraft:stone_slab>]])  
+      [<minecraft:stone_slab>, <minecraft:stone>, <minecraft:stone_slab>]])
       .addOutput(<botania:altar>)
       .setMaximumTier(0)
       .addTool(<ore:artisansHammer>, 30)
@@ -248,11 +248,11 @@ RecipeBuilder.get("basic")
    .create();
 
 #Mana Pool [Botania]
-    RecipeBuilder.get("mason")    
+    RecipeBuilder.get("mason")
     .setShaped([
     [null, null, null],
     [<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
-    [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])  
+    [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])
     .addOutput(<botania:altar>)
     .setMaximumTier(0)
     .addTool(<ore:artisansHammer>, 30)
