@@ -35,3 +35,8 @@ recipes.addShapeless(<botania:petal:12>, [<ore:artisansCutters>,<botania:flower:
 recipes.addShapeless(<botania:petal:13>, [<ore:artisansCutters>,<botania:flower:13>]);
 recipes.addShapeless(<botania:petal:14>, [<ore:artisansCutters>,<botania:flower:14>]);
 recipes.addShapeless(<botania:petal:15>, [<ore:artisansCutters>,<botania:flower:15>]);
+
+#Lilys
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "sunbless"}), [<ore:petalOrange>, <ore:petalOrange>, <ore:petalYellow>, <ore:petalYellow>, <botania:fertilizer>]);
+
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "moonbless"}), [<ore:petalPink>, <ore:petalPink>, <ore:petalPurple>, <ore:petalPurple>, <botania:fertilizer>]);

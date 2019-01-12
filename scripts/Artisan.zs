@@ -228,3 +228,32 @@ RecipeBuilder.get("basic")
                         .addOutput(<minecraft:stick> * 2)
                         .addTool(<ore:artisansFramingHammer>, 10)
                         .create();
+
+#Petal Apothecary [Botania]
+    RecipeBuilder.get("mason")
+      .setShaped([
+      [<minecraft:stone_slab>, <botania:fertilizer>, <minecraft:stone_slab>],
+      [null, <minecraft:stone>, null],
+      [<minecraft:stone_slab>, <minecraft:stone>, <minecraft:stone_slab>]])  
+      .addOutput(<botania:altar>)
+      .setMaximumTier(0)
+      .addTool(<ore:artisansHammer>, 30)
+      .create();
+
+#Livingrock Slab [Botania]
+    RecipeBuilder.get("mason")
+   .setShapeless([<botania:livingrock>])
+   .addOutput(<botania:livingrock0slab> * 2)
+   .addTool(<ore:artisansChisel>, 10)
+   .create();
+
+#Mana Pool [Botania]
+    RecipeBuilder.get("mason")    
+    .setShaped([
+    [null, null, null],
+    [<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
+    [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])  
+    .addOutput(<botania:altar>)
+    .setMaximumTier(0)
+    .addTool(<ore:artisansHammer>, 30)
+    .create();

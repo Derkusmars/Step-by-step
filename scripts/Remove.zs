@@ -15,3 +15,4 @@ recipes.remove(<fp:techtable>);
 recipes.remove(<fp:opti_bench:2>);
 recipes.remove(<botania:autocraftinghalo>);
 recipes.remove(<botania:craftinghalo>);
+recipes.remove(<botania:altar>);
