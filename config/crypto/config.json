@@ -1,0 +1,25 @@
+{
+  "__comment": "Do not change the config-version. If you want to restore the default config set the version to any other string.",
+  "config-version": "1.2.0",
+  "marketEntries": {
+    "1*minecraft:diamond": "48*crypto:coin",
+    "1*minecraft:gold_ingot": "32*crypto:coin",
+    "1*minecraft:iron_ingot": "4*crypto:coin",
+    "1*minecraft:obsidian": "4*crypto:coin",
+    "1*minecraft:ender_pearl": "64*crypto:coin"
+  },
+  "miner_tier_1": {
+    "ticksUntilCoin": 660
+  },
+  "miner_tier_2": {
+    "ticksUntilCoin": 71
+  },
+  "miner_tier_3": {
+    "ticksUntilCoin": 6
+  },
+  "market": {
+    "secondsUntilNewPrices": 900,
+    "minPriceChangeInPercent": 0.5,
+    "maxPriceChangeInPercent": 1.5
+  }
+}

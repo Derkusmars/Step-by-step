@@ -17,9 +17,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "bqt:bqt",
+            "id:8": "botania:cosmetic",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 30,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -27,9 +27,9 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Немного слов перед тем, как начать",
-          "desc:8": "Привет. Эта сборка попытка переосмыслить создание сборок. И сделать по настоящему продуманную и комфортную для вас.\n\nСейчас сайты со сборками модов по майну перенасыщенны всевозможными вариациями по типу \"напихаю всё подвяжу для приличия пару модов и выложу в открытый доступ\".\n\nМы считаем, что это не правильно. Сборка в первую очередь должна быть целостной. Моды должны быть хорошо завязанны между собой, а игрок должен планомерно продвигаться по прогрессу и то что он делал раньше долго, много и ручками сборка должна помочь ему облегчить механизмами в будущем и прийти к полной автоматизации. Что касается книжки она должна помогать в освоении настолько, чтобы игроку не пришлось искать пути развития и бежать на ютуб дабы узнать, как работает тот или иной блок. Это большой объём работы и многим разработчикам просто лень, но есть и исключения ).\n\nТак как на создание большой продуманной сборки может уйти несколько лет, мы решили пойти другим путём. \n\nИзначально мы взяли совсем малую часть модов, которые на наш взгляд очень хороши, но немного обделены вниманием обернули их красивой генерацией и удобрили небольшим набором модов для комфортной игры. Это наша база на которую впоследствии мы будем \"наваривать\" по 3- 5 модов с каждой новой версией сборки и включать их в цепочку развития, завязывать за уже существующие предметы и локации. Это значит, что каждая из версий сборок может быть независимой и вы сами можете выбирать в какую из них играть. Это также поможет слабым пк использовать менее насыщенную, но не менее проработанную сборку. Но могут быть и проблемы, когда изменится генерация мира или руды ). Возможно вам придётся дропнуть и начать заного или просто побегать по новым территориям. Постараемся делать новые версии таким образом, чтобы вам было интереснее дропнуть ;-).\n\nДанный подход мы назвали Steb by step или сокращённо SBS, собственно так и называется сборка. \n\nСборка выпускается русскоязычным коммьюнити Silver Wolves, под авторством стримера Derkus и в первую очередь для русскоязычных игроков. Поэтому описания квестов в первых версиях будут только на русском языке. В ближайшее время мы также выпустим книжку и на других языках.  \n\nА ещё небольшая подсказка ). Чтобы правильно читать версионность игры.\n \nSBS 2.0.1.4r RU\nПервая цифра обозначает версию сборки. То есть то, сколько раз мы добавляли пачку новых модов в сборку. \nСледующие 3 цифры предназначенны для номера актуальности сборки. Чем показатель выше тем новее данная версия. Эти цифры будут меняться в большую сторону, когда мы нашли какие-то баги или доработали механики определённой версии и выкатили вам обновлённую версию.\nБуква далее обозначает статус сборки a-альфа-версия (вряд ли будет играбельной), b-бетта (играть уже можно, но скорее всего наткнётесь на обходные пути развития и возможно дюпы), r-релизная версия (но это не значит, что проблем в ней не будет ) ).\n\nНадеюсь вам понравится, то что мы делаем. Мы всегда рады поддержке, а также держим для вас сервера по тем сборкам, которые считаем достойными. \nВсе вопросы и предложения принимаем в дискорд, ссылка на который находится под каналом http://twitch.tv/derkus или можете писать в чат прямо на канале.\n\nСпасибо и приятной игры )."
+          "desc:8": "§lПривет§r.§l Эта сборка попытка переосмыслить создание сборок§r.§l И сделать по настоящему продуманную и комфортную для вас§r.§l\n\nСейчас сайты со сборками модов по майну перенасыщенны всевозможными вариациями по типу §r\"§lнапихаю все любимые моды§r,§l подвяжу для приличия пару модов между собой и выложу в открытый доступ§r\".§l\n\nМы считаем§r,§l что это не правильно§r.§l Сборка в первую очередь должна быть целостной§r.§l Моды должны быть хорошо завязанны между собой§r,§l а игрок должен планомерно продвигаться по прогрессу и то что он делал раньше долго§r,§l много и ручками сборка должна помочь ему облегчить механизмами в будущем и прийти к полной автоматизации§r.§l Что касается книжки она должна помогать в освоении настолько§r,§l чтобы игроку не пришлось искать пути развития и бежать на ютуб дабы узнать§r,§l как работает тот или иной блок§r.§l Это большой объём работы и многим разработчикам просто лень, но есть и исключения §r).§l\n\nТак как на создание большой продуманной сборки может уйти несколько лет, мы решили пойти другим путём§r.§l \n\nИзначально мы взяли совсем малую часть модов, которые на наш взгляд очень хороши, но немного обделены вниманием обернули их красивой генерацией и удобрили небольшим набором модов для комфортной игры§r.§l Это наша база на которую впоследствии мы будем §r\"§lнаваривать§r\"§l по §r3-5§l модов с каждой новой версией сборки и включать их в цепочку развития, завязывать за уже существующие предметы и локации. Это значит, что каждая из версий сборок может быть независимой и вы сами можете выбирать в какую из них играть. Это также поможет слабым пк использовать менее насыщенную, но не менее проработанную сборку§r.§l Но могут быть и проблемы, когда изменится генерация мира или руды §r).§l Возможно вам придётся дропнуть и начать заного или просто побегать по новым территориям§r.§l Постараемся делать новые версии таким образом, чтобы вам было интереснее дропнуть §r;-).§l\n\nДанный подход мы назвали §rSteb by step §lили сокращённо §rSBS, §lсобственно так и называется сборка§r.§l \n\nСборка выпускается русскоязычным коммьюнити §rSilver Wolves, §lпод авторством стримера §rDerkus§k§k§l§r §lи §rResminZ§r§l и в первую очередь для русскоязычных игроков§r.§l Поэтому описания квестов в первых версиях будут только на русском языке. В ближайшее время мы также выпустим книжку и на других языках.  \n\nА ещё небольшая подсказка §r).§l Чтобы правильно читать версионность игры§r.§l§r\n \nSBS 2.0.1.4r RU§l\nПервая цифра обозначает версию сборки§r.§l То есть то§r,§l сколько раз мы добавляли пачку новых модов в сборку§r.§l \nСледующие §r3§l цифры предназначенны для номера актуальности сборки§r.§l Чем показатель выше тем новее данная версия§r.§l Эти цифры будут меняться в большую сторону§r,§l когда мы нашли какие§r-§lто баги или доработали механики определённой версии и выкатили вам обновлённую версию§r.§l\nБуква далее обозначает статус сборки §ra-§lальфа§r-§lверсия §r(§lвряд ли будет играбельной§r)§l§r, b-§lбетта §r(§lиграть уже можно, но скорее всего наткнётесь на обходные пути развития и возможно дюпы§r), r-§lрелизная версия §r(§lно это не значит§r, §lчто проблем в ней не будет §r) ).\n\n§lНадеюсь вам понравится, то что мы делаем§r. §lМы всегда рады поддержке§r,§l а также держим для вас сервера по тем сборкам§r,§l которые считаем достойными§r.§l \nВсе вопросы и предложения принимаем в дискорд§r,§l ссылка на который находится под каналом §rhttp://twitch.tv/derkus §lили можете писать в чат прямо на канале§r.\n§l\nСпасибо и приятной игры §r)."
         }
       },
       "tasks:9": {
@@ -68,12 +68,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Землянка",
+          "desc:8": "§lТебе определённо потребуется дом§r.§l Пока у тебя нет возможности срубать дерево или добывать камень§r,§l воспользуйся старой доброй землянкой на случай если ночью останешься без света и дома§r."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 16,
+              "OreDict:8": "dirt",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "2:10": {
       "questID:3": 2,
@@ -103,11 +134,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Инструменты нужно как-то держать",
+          "desc:8": "Для того, чтобы скрафить первые инструменты нам потребуется ручка. Для начала сойдёт обыкновенная палка. Их довольно много валяется на земле. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "3:10": {
@@ -138,11 +187,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Нам нужны верёвки",
+          "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:plant_cordage",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "4:10": {
@@ -157,6 +224,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -172,17 +240,37 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Кремень всем инструментам голова",
+          "desc:8": "Для инструментов нужен прочный и острый материал. Из доступных тебе сейчас есть только кремень. Его маленькие кусочки валяются вокруг в маленьких камушках на земле. Вскопай их и получишь нужный кусочек кременя."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_knapp",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "5:10": {
       "questID:3": 5,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        8
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -311,11 +399,16 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Магические растения",
+          "desc:8": "§lВ мире ты будешь находить множество растений. Некоторые из них окажутся магическими. Для них мы создали отдельный раздел, чтобы тебе было проще с этим разобраться. Магические разделы в книжке помечены символом §l§rM§l. Старайся делать эти разделы параллельно основной цепочке. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "9:10": {
@@ -346,11 +439,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Сетка крафта",
+          "desc:8": "Знаю ты уже хочешь получить верстак и сделать себе кровать. Но не торопись слишком быстро. Наслаждайся видами и этим чудесным кубическим солнцем (надеюсь ты не поставил стрёмные текстурпаки)\n\nНу а пока ты сидишь и любуешься этим чудесным миром давай возьмём 4 палочки и представим, как бы выглядела сетка крафта 3 на 3."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "factorytech:machinepart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 180
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "10:10": {
@@ -382,12 +493,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Говорящий топор.",
+          "desc:8": "В каждой игре должна быть магическая вещь, мы честно пытались заставить этот топор говорить, но у нас ничего не получилось. Поэтому просто продолжим использовать его для рубки дерева."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_hatchet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "11:10": {
@@ -417,12 +546,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Доски руками не обработаешь.",
+          "desc:8": "Я честно не понимаю, как можно получить доски просто положив ствол дерева в сетку крафта. Руками это делать физически невозможно. \n\nПоэтому нам потребуется топор. С топором мы сможем получить всего 2 блока досок. Позже у нас появятся более профитные рецепты. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 8,
+              "OreDict:8": "plankWood",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "12:10": {
@@ -455,17 +602,37 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Твой первый крафтинг стол",
+          "desc:8": "Ну вот мы и добрались до крафт стола. После этого квеста откроется следующий раздел. Но спешу тебя предупредить он будет намного масшабнее текущего. Данный раздел был вводным и только лишь подготавливал к сложному и тернистому пути. Во время прохождения этой сборки ты захочешь дропнуть её много раз. Надеюсь у тебя хватит сил и терпения ведь финал этой сборки того стоит. \n\nДля того, чтобы понимать насколько близко ты находишься к финалу мы создали дополнительный раздел. Он находится в самом низу квестовой книги. Загляни туда. Он уже доступен. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "artisanworktables:worktable",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 5
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "13:10": {
       "questID:3": 13,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        12
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -488,7 +655,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
@@ -499,7 +666,7 @@
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
-        15
+        40
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -513,7 +680,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "artisanworktables:artisans_handsaw_wood",
+            "id:8": "artisanworktables:artisans_handsaw_flint",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -534,7 +701,7 @@
     "15:10": {
       "questID:3": 15,
       "preRequisites:11": [
-        40
+        14
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -710,7 +877,9 @@
     },
     "20:10": {
       "questID:3": 20,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        152
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -743,7 +912,9 @@
     },
     "21:10": {
       "questID:3": 21,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        151
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1135,7 +1306,7 @@
     "32:10": {
       "questID:3": 32,
       "preRequisites:11": [
-        15
+        13
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1149,7 +1320,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "artisanworktables:artisans_shears_wood",
+            "id:8": "primal:flint_shears",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1170,7 +1341,7 @@
     "33:10": {
       "questID:3": 33,
       "preRequisites:11": [
-        14
+        15
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1205,7 +1376,7 @@
     "34:10": {
       "questID:3": 34,
       "preRequisites:11": [
-        15
+        13
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1219,7 +1390,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "artisanworktables:artisans_cutters_wood",
+            "id:8": "artisanworktables:artisans_cutters_flint",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1418,7 +1589,7 @@
     "40:10": {
       "questID:3": 40,
       "preRequisites:11": [
-        13
+        147
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1960,12 +2131,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Эта сборка уже должна начать бесить тебя",
+          "desc:8": "Знаешь мне всегда казалось, что скрафтить верстак это довольно простое дело. А так как у нас верстак не простой, нам нужно усложнить его получение.\n\nДля начала давай сделаем вот такой вот скребок, дальше я расскажу, что с ним делать."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_workblade",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "56:10": {
@@ -1996,11 +2185,35 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "В поисках короедов",
+          "desc:8": "Отлично, у нас есть скребок. Теперь подойди к дереву зажми Shift и ПКМ для обработки дерева (скорее всего некоторые деревья не будут с этим работать, но мы работаем над этим)."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:logs_stripped",
+              "Count:3": 1,
+              "OreDict:8": "logStripped",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "primal:bark_oak",
+              "Count:3": 1,
+              "OreDict:8": "barkWood",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "57:10": {
@@ -2031,12 +2244,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Отсыпь-ка немного огня",
+          "desc:8": "§lСкорее всего в ближайшие пару ночей огнём ты не разживёшься§r.§l Поэтому вручаю тебе §r6 §lфакелов§r.§l Береги их§r.§l Но§r,§l чтобы это не было так халявно давай обменяем их на §r6§l блоков дерева§r."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 6,
+              "OreDict:8": "logWood",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 6,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "58:10": {
       "questID:3": 58,
@@ -4860,6 +5104,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4875,12 +5120,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_8",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "140:10": {
@@ -4895,6 +5158,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4910,12 +5174,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_7",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "141:10": {
@@ -4930,6 +5212,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4945,12 +5228,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_6",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "142:10": {
@@ -4965,6 +5266,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -4980,12 +5282,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_5",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "143:10": {
@@ -5000,6 +5320,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5015,12 +5336,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_4",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "144:10": {
@@ -5035,6 +5374,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5050,12 +5390,30 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_3",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "145:10": {
@@ -5070,12 +5428,120 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
             "id:8": "botania_tweaks:compressed_tiny_potato_2",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_2",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "botania_tweaks:compressed_tiny_potato_1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania_tweaks:compressed_tiny_potato_1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:artisans_framing_hammer_flint",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5093,9 +5559,11 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "146:10": {
-      "questID:3": 146,
-      "preRequisites:11": [],
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        29
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5108,7 +5576,343 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "botania_tweaks:compressed_tiny_potato_1",
+            "id:8": "primal:thatch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:tatami_bed",
+            "Count:3": 1,
+            "tag:10": {
+              "type:8": "oak"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:flint_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:flint_shovel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        150
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:cobblestone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "153:10": {
+      "questID:3": 153,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:logs_stacked",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "154:10": {
+      "questID:3": 154,
+      "preRequisites:11": [
+        153
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:coal",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "155:10": {
+      "questID:3": 155,
+      "preRequisites:11": [
+        154
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:torch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "156:10": {
+      "questID:3": 156,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "crypto:coin",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Запускаем ICO",
+          "desc:8": "\"Кажется нам нужно что-то давать в награду этим жаждующим приключений игрокам\" подумали мы и решили насыпать за выполнение квестов немного монет. Представьте, что это деньги и вы с каждым новым квестом становитесь чуть богаче. \n\nДеньги надо где-то тратить поэтому в одной из глав этой книжки мы запрятали магазинчик. Новые товары будут появляться там по мере продвижения вас по сборке. \n\nЧтобы вы не тратили место в сундуках монетка будет одного типа. Без всяких там медных, золотых и серебрянных. Также в третьем тире у вас появится возможность их майнить, но об этом я вам не говорил ;)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "crypto:coin",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "157:10": {
+      "questID:3": 157,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "harvestcraft:creepercookieitem",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5205,8 +6009,20 @@
         "12:10": {
           "size:3": 24,
           "x:3": -12,
-          "y:3": -60,
+          "y:3": -72,
           "id:3": 57
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 42,
+          "y:3": -24,
+          "id:3": 156
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": -66,
+          "y:3": -24,
+          "id:3": 157
         }
       },
       "lineID:3": 0,
@@ -5550,19 +6366,19 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -162,
+          "x:3": -198,
           "y:3": 78,
           "id:3": 13
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -54,
+          "x:3": -90,
           "y:3": 78,
           "id:3": 14
         },
         "2:10": {
           "size:3": 24,
-          "x:3": -90,
+          "x:3": -54,
           "y:3": 78,
           "id:3": 15
         },
@@ -5574,20 +6390,20 @@
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 162,
-          "y:3": 186,
+          "x:3": 126,
+          "y:3": 150,
           "id:3": 19
         },
         "5:10": {
           "size:3": 24,
           "x:3": 90,
-          "y:3": 222,
+          "y:3": 240,
           "id:3": 20
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 162,
-          "y:3": 222,
+          "x:3": 126,
+          "y:3": 6,
           "id:3": 21
         },
         "7:10": {
@@ -5604,14 +6420,14 @@
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 162,
+          "x:3": 90,
           "y:3": 150,
           "id:3": 24
         },
         "10:10": {
           "size:3": 24,
-          "x:3": 162,
-          "y:3": 114,
+          "x:3": 54,
+          "y:3": 150,
           "id:3": 25
         },
         "11:10": {
@@ -5622,37 +6438,37 @@
         },
         "12:10": {
           "size:3": 24,
-          "x:3": 126,
-          "y:3": 114,
+          "x:3": 18,
+          "y:3": 150,
           "id:3": 27
         },
         "13:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 114,
+          "x:3": -18,
+          "y:3": 150,
           "id:3": 28
         },
         "14:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 114,
+          "x:3": -54,
+          "y:3": 150,
           "id:3": 29
         },
         "15:10": {
           "size:3": 24,
-          "x:3": 18,
-          "y:3": 114,
+          "x:3": -90,
+          "y:3": 150,
           "id:3": 30
         },
         "16:10": {
           "size:3": 24,
-          "x:3": -18,
-          "y:3": 114,
+          "x:3": -126,
+          "y:3": 150,
           "id:3": 31
         },
         "17:10": {
           "size:3": 24,
-          "x:3": -54,
+          "x:3": -162,
           "y:3": 114,
           "id:3": 32
         },
@@ -5664,7 +6480,7 @@
         },
         "19:10": {
           "size:3": 24,
-          "x:3": -54,
+          "x:3": -162,
           "y:3": 42,
           "id:3": 34
         },
@@ -5676,8 +6492,8 @@
         },
         "21:10": {
           "size:3": 24,
-          "x:3": -126,
-          "y:3": 150,
+          "x:3": -162,
+          "y:3": 186,
           "id:3": 41
         },
         "22:10": {
@@ -5688,13 +6504,13 @@
         },
         "23:10": {
           "size:3": 24,
-          "x:3": 126,
+          "x:3": 90,
           "y:3": 42,
           "id:3": 43
         },
         "24:10": {
           "size:3": 24,
-          "x:3": -90,
+          "x:3": -162,
           "y:3": 150,
           "id:3": 46
         },
@@ -5712,27 +6528,81 @@
         },
         "27:10": {
           "size:3": 24,
-          "x:3": 90,
+          "x:3": 54,
           "y:3": 42,
           "id:3": 49
         },
         "28:10": {
           "size:3": 24,
-          "x:3": -18,
+          "x:3": -54,
           "y:3": 42,
           "id:3": 50
         },
         "29:10": {
           "size:3": 24,
-          "x:3": 18,
+          "x:3": -18,
           "y:3": 42,
           "id:3": 51
         },
         "30:10": {
           "size:3": 24,
-          "x:3": 54,
+          "x:3": 18,
           "y:3": 42,
           "id:3": 52
+        },
+        "31:10": {
+          "size:3": 24,
+          "x:3": -162,
+          "y:3": 78,
+          "id:3": 147
+        },
+        "32:10": {
+          "size:3": 24,
+          "x:3": -18,
+          "y:3": 186,
+          "id:3": 148
+        },
+        "33:10": {
+          "size:3": 24,
+          "x:3": 18,
+          "y:3": 186,
+          "id:3": 149
+        },
+        "34:10": {
+          "size:3": 24,
+          "x:3": -198,
+          "y:3": 240,
+          "id:3": 150
+        },
+        "35:10": {
+          "size:3": 24,
+          "x:3": -198,
+          "y:3": 6,
+          "id:3": 151
+        },
+        "36:10": {
+          "size:3": 24,
+          "x:3": -162,
+          "y:3": 240,
+          "id:3": 152
+        },
+        "37:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": 114,
+          "id:3": 153
+        },
+        "38:10": {
+          "size:3": 24,
+          "x:3": -90,
+          "y:3": 114,
+          "id:3": 154
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": -54,
+          "y:3": 114,
+          "id:3": 155
         }
       },
       "lineID:3": 7,

@@ -36,13 +36,13 @@ botania:emptiness
 botania:bloodthirst
 botania:allure
 botania:clear
+fp:paralyze
 extrabotany:mindcrack
 extrabotany:eternity
 extrabotany:reflect
 extrabotany:constantpain
 extrabotany:divinejustice
 extrabotany:blacksabbath
-fp:paralyze
 primal:aconite
 primal:yew
 primal:adrenaline
