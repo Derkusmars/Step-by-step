@@ -27,15 +27,15 @@ recipes.addShapeless(<primal:flint_workblade>, [<primal:flint_knapp>,<ore:cordag
 .create();
 
 #Drying Rack
-recipes.remove(<primal:drying_rack:*>)
-RecipeBuilder.get("carpenter")
-  .setShaped([
-  [<minecraft:stick>, <primal:slat_oak>, <minecraft:stick>],
-  [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
-  [<minecraft:stick>, null, <minecraft:stick>]])
-  .addOutput(<primal:drying_rack>)
-  .addTool(<ore:artisansFramingHammer>, 75)
-  .create();
+  recipes.remove(<primal:drying_rack:*>);
+   RecipeBuilder.get("carpenter")
+   .setShaped([
+   [<minecraft:stick>, <primal:slat_oak>, <minecraft:stick>],
+   [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
+   [<minecraft:stick>, null, <minecraft:stick>]])
+   .addOutput(<primal:drying_rack>)
+   .addTool(<ore:artisansFramingHammer>, 75)
+   .create();
 
   RecipeBuilder.get("carpenter")
     .setShaped([
