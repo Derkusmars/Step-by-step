@@ -1,0 +1,9 @@
+#Remove
+recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<primal:worktable_shelf:*>);
+recipes.remove(<primal:worktable_slab:*>);
+recipes.remove(<tetra:workbench>);
+recipes.remove(<botania:opencrate:*>);
+recipes.remove(<factorytech:autocrafter>);
+recipes.remove(<minecraft:furnace>);
+furnace.remove(<minecraft:brick>);
