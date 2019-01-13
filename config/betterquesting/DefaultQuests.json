@@ -519,9 +519,7 @@
     },
     "11:10": {
       "questID:3": 11,
-      "preRequisites:11": [
-        185
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -534,8 +532,13 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "primal:copper_dust",
-            "Count:3": 8,
+            "id:8": "factorytech:handbook",
+            "Count:3": 1,
+            "tag:10": {
+              "entry:3": 0,
+              "section:3": -1,
+              "page:3": 0
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -827,7 +830,8 @@
       "questID:3": 18,
       "preRequisites:11": [
         23,
-        20
+        20,
+        198
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1309,7 +1313,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "primal:drying_rack",
-              "Count:3": 1,
+              "Count:3": 4,
               "tag:10": {
                 "type:8": "oak"
               },
@@ -2494,7 +2498,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "primal:plant_fiber_pulp",
-              "Count:3": 1,
+              "Count:3": 4,
               "OreDict:8": "pulp",
               "Damage:3": 0
             }
@@ -2560,7 +2564,11 @@
     },
     "53:10": {
       "questID:3": 53,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        199,
+        172,
+        200
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2573,9 +2581,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "artisanworktables:worktable",
+            "id:8": "factorytech:intermediate",
             "Count:3": 1,
-            "Damage:2": 8,
+            "Damage:2": 4,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2593,9 +2601,7 @@
     },
     "54:10": {
       "questID:3": 54,
-      "preRequisites:11": [
-        53
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -6963,7 +6969,8 @@
     "164:10": {
       "questID:3": 164,
       "preRequisites:11": [
-        181
+        181,
+        196
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6988,7 +6995,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Хитер",
           "desc:8": "No Description"
         }
       },
@@ -7121,7 +7128,9 @@
     },
     "167:10": {
       "questID:3": 167,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        164
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7144,7 +7153,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
@@ -7224,7 +7233,9 @@
     },
     "170:10": {
       "questID:3": 170,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        187
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7292,7 +7303,9 @@
     },
     "172:10": {
       "questID:3": 172,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        184
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7305,9 +7318,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:iron_ingot",
+            "id:8": "factorytech:machinepart",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 51,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7650,8 +7663,7 @@
     "181:10": {
       "questID:3": 181,
       "preRequisites:11": [
-        180,
-        166
+        180
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7738,7 +7750,10 @@
     },
     "183:10": {
       "questID:3": 183,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        53,
+        213
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7751,7 +7766,7 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:nether_star",
+            "id:8": "factorytech:grindstone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -7772,7 +7787,8 @@
     "184:10": {
       "questID:3": 184,
       "preRequisites:11": [
-        49
+        193,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7786,9 +7802,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:iron_ore",
+            "id:8": "artisanworktables:worktable",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7807,7 +7823,7 @@
     "185:10": {
       "questID:3": 185,
       "preRequisites:11": [
-        49
+        186
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7821,9 +7837,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "fp:erze",
+            "id:8": "foundry:casting_table",
             "Count:3": 1,
-            "Damage:2": 2,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7856,9 +7872,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "fp:erze",
+            "id:8": "foundry:mold",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7877,7 +7893,7 @@
     "187:10": {
       "questID:3": 187,
       "preRequisites:11": [
-        184
+        49
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7891,9 +7907,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "primal:iron_dust",
+            "id:8": "foundry:mold",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 4,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7912,7 +7928,8 @@
     "188:10": {
       "questID:3": 188,
       "preRequisites:11": [
-        186
+        194,
+        193
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7926,9 +7943,9 @@
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "primal:tin_dust",
+            "id:8": "artisanworktables:worktable",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 6,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -7947,7 +7964,7 @@
     "189:10": {
       "questID:3": 189,
       "preRequisites:11": [
-        11
+        49
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7982,7 +7999,7 @@
     "190:10": {
       "questID:3": 190,
       "preRequisites:11": [
-        187
+        49
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8017,7 +8034,7 @@
     "191:10": {
       "questID:3": 191,
       "preRequisites:11": [
-        188
+        49
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8100,6 +8117,887 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
+      "rewards:9": {}
+    },
+    "193:10": {
+      "questID:3": 193,
+      "preRequisites:11": [
+        170
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:iron_plate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "194:10": {
+      "questID:3": 194,
+      "preRequisites:11": [
+        185
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:iron_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "195:10": {
+      "questID:3": 195,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "196:10": {
+      "questID:3": 196,
+      "preRequisites:11": [
+        166
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "primal:iron_dust",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:iron_dust",
+              "Count:3": 16,
+              "OreDict:8": "dustIron",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "primal:copper_dust",
+              "Count:3": 16,
+              "OreDict:8": "dustCopper",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "primal:tin_dust",
+              "Count:3": 16,
+              "OreDict:8": "dustTin",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "197:10": {
+      "questID:3": 197,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "factorytech:sluice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "factorytech:sluice",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "factorytech:machinepart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 180
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "198:10": {
+      "questID:3": 198,
+      "preRequisites:11": [
+        150
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:iron_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 16,
+              "OreDict:8": "oreIron",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "fp:erze",
+              "Count:3": 16,
+              "OreDict:8": "oreCopper",
+              "Damage:3": 2
+            },
+            "2:10": {
+              "id:8": "fp:erze",
+              "Count:3": 16,
+              "OreDict:8": "oreTin",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "199:10": {
+      "questID:3": 199,
+      "preRequisites:11": [
+        184
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:dye",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "200:10": {
+      "questID:3": 200,
+      "preRequisites:11": [
+        184
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:redstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "201:10": {
+      "questID:3": 201,
+      "preRequisites:11": [
+        193
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:toolbox",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "202:10": {
+      "questID:3": 202,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:anvil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "203:10": {
+      "questID:3": 203,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "204:10": {
+      "questID:3": 204,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "205:10": {
+      "questID:3": 205,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "206:10": {
+      "questID:3": 206,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "207:10": {
+      "questID:3": 207,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "208:10": {
+      "questID:3": 208,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:workstation",
+            "Count:3": 1,
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "209:10": {
+      "questID:3": 209,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "210:10": {
+      "questID:3": 210,
+      "preRequisites:11": [
+        211
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "fp:escenner",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "211:10": {
+      "questID:3": 211,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "factorytech:oredrill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "212:10": {
+      "questID:3": 212,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "fp:scanner_block",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "213:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        188
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "factorytech:machinepart",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "214:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        215
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "factorytech:metalcutter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "215:10": {
+      "questID:3": 215,
+      "preRequisites:11": [
+        183
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "factorytech:machinepart",
+            "Count:3": 1,
+            "Damage:2": 32,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
       "rewards:9": {}
     }
   },
@@ -8415,7 +9313,20 @@
       "order:3": 5
     },
     "2:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 210,
+          "id:3": 210
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 211
+        }
+      },
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
@@ -8428,7 +9339,14 @@
       "order:3": 3
     },
     "3:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 54,
+          "id:3": 212
+        }
+      },
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
@@ -8444,15 +9362,15 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 126,
-          "id:3": 11
-        },
-        "1:10": {
-          "size:3": 24,
           "x:3": -12,
           "y:3": 126,
           "id:3": 49
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": 204,
+          "y:3": 126,
+          "id:3": 53
         },
         "2:10": {
           "size:3": 24,
@@ -8474,50 +9392,50 @@
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 132,
-          "y:3": 18,
+          "x:3": 60,
+          "y:3": 90,
           "id:3": 170
         },
         "6:10": {
           "size:3": 24,
           "x:3": -48,
-          "y:3": 90,
+          "y:3": 126,
           "id:3": 171
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": 60,
+          "x:3": 168,
+          "y:3": 126,
           "id:3": 172
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 192,
-          "y:3": 234,
+          "x:3": 144,
+          "y:3": 372,
           "id:3": 173
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 144,
-          "y:3": 126,
+          "x:3": 102,
+          "y:3": 354,
           "id:3": 174
         },
         "10:10": {
           "size:3": 24,
-          "x:3": 180,
-          "y:3": 126,
+          "x:3": 192,
+          "y:3": 348,
           "id:3": 175
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": 126,
+          "x:3": 234,
+          "y:3": 312,
           "id:3": 176
         },
         "12:10": {
           "size:3": 24,
-          "x:3": 252,
-          "y:3": 126,
+          "x:3": 288,
+          "y:3": 294,
           "id:3": 177
         },
         "13:10": {
@@ -8528,57 +9446,159 @@
         },
         "14:10": {
           "size:3": 24,
-          "x:3": 102,
-          "y:3": 258,
+          "x:3": 240,
+          "y:3": 126,
           "id:3": 183
         },
         "15:10": {
           "size:3": 24,
-          "x:3": 24,
-          "y:3": 90,
+          "x:3": 132,
+          "y:3": 126,
           "id:3": 184
         },
         "16:10": {
           "size:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 126,
           "id:3": 185
         },
         "17:10": {
           "size:3": 24,
           "x:3": 24,
-          "y:3": 162,
+          "y:3": 126,
           "id:3": 186
         },
         "18:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 24,
           "y:3": 90,
           "id:3": 187
         },
         "19:10": {
           "size:3": 24,
-          "x:3": 60,
-          "y:3": 162,
+          "x:3": 132,
+          "y:3": 90,
           "id:3": 188
         },
         "20:10": {
           "size:3": 24,
-          "x:3": 96,
-          "y:3": 126,
+          "x:3": 24,
+          "y:3": 162,
           "id:3": 189
         },
         "21:10": {
           "size:3": 24,
-          "x:3": 96,
+          "x:3": -12,
           "y:3": 90,
           "id:3": 190
         },
         "22:10": {
           "size:3": 24,
-          "x:3": 96,
+          "x:3": -12,
           "y:3": 162,
           "id:3": 191
+        },
+        "23:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 90,
+          "id:3": 193
+        },
+        "24:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 126,
+          "id:3": 194
+        },
+        "25:10": {
+          "size:3": 24,
+          "x:3": 84,
+          "y:3": 258,
+          "id:3": 195
+        },
+        "26:10": {
+          "size:3": 24,
+          "x:3": 168,
+          "y:3": 90,
+          "id:3": 199
+        },
+        "27:10": {
+          "size:3": 24,
+          "x:3": 168,
+          "y:3": 162,
+          "id:3": 200
+        },
+        "28:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 54,
+          "id:3": 201
+        },
+        "29:10": {
+          "size:3": 24,
+          "x:3": 132,
+          "y:3": 258,
+          "id:3": 202
+        },
+        "30:10": {
+          "size:3": 24,
+          "x:3": 132,
+          "y:3": 306,
+          "id:3": 203
+        },
+        "31:10": {
+          "size:3": 24,
+          "x:3": 168,
+          "y:3": 294,
+          "id:3": 204
+        },
+        "32:10": {
+          "size:3": 24,
+          "x:3": 168,
+          "y:3": 222,
+          "id:3": 205
+        },
+        "33:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 258,
+          "id:3": 206
+        },
+        "34:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 294,
+          "id:3": 207
+        },
+        "35:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 222,
+          "id:3": 208
+        },
+        "36:10": {
+          "size:3": 24,
+          "x:3": 378,
+          "y:3": 264,
+          "id:3": 209
+        },
+        "37:10": {
+          "size:3": 24,
+          "x:3": 168,
+          "y:3": 54,
+          "id:3": 213
+        },
+        "38:10": {
+          "size:3": 24,
+          "x:3": 312,
+          "y:3": 126,
+          "id:3": 214
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": 276,
+          "y:3": 126,
+          "id:3": 215
         }
       },
       "lineID:3": 4,
@@ -8803,8 +9823,8 @@
         },
         "22:10": {
           "size:3": 24,
-          "x:3": -306,
-          "y:3": 42,
+          "x:3": -234,
+          "y:3": 186,
           "id:3": 42
         },
         "23:10": {
@@ -8822,13 +9842,13 @@
         "25:10": {
           "size:3": 24,
           "x:3": -234,
-          "y:3": 42,
+          "y:3": 114,
           "id:3": 47
         },
         "26:10": {
           "size:3": 24,
-          "x:3": -270,
-          "y:3": 42,
+          "x:3": -234,
+          "y:3": 150,
           "id:3": 48
         },
         "27:10": {
@@ -8948,7 +9968,7 @@
         "46:10": {
           "size:3": 24,
           "x:3": 90,
-          "y:3": 258,
+          "y:3": 294,
           "id:3": 165
         },
         "47:10": {
@@ -8977,8 +9997,8 @@
         },
         "51:10": {
           "size:3": 24,
-          "x:3": 162,
-          "y:3": 294,
+          "x:3": 198,
+          "y:3": 258,
           "id:3": 181
         },
         "52:10": {
@@ -8986,6 +10006,24 @@
           "x:3": -126,
           "y:3": 114,
           "id:3": 192
+        },
+        "53:10": {
+          "size:3": 24,
+          "x:3": 162,
+          "y:3": 294,
+          "id:3": 196
+        },
+        "54:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": 294,
+          "id:3": 197
+        },
+        "55:10": {
+          "size:3": 24,
+          "x:3": -162,
+          "y:3": 258,
+          "id:3": 198
         }
       },
       "lineID:3": 7,
@@ -9049,9 +10087,9 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -12,
-          "y:3": -12,
-          "id:3": 53
+          "x:3": 24,
+          "y:3": 24,
+          "id:3": 11
         },
         "1:10": {
           "size:3": 24,
