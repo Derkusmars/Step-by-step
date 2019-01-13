@@ -379,3 +379,40 @@ RecipeBuilder.get("mason")
 .setMaximumTier(0)
 .addTool(<ore:artisansHammer>, 50)
 .create();
+
+#Flint Mortar [Artisan]
+recipes.remove(<ore:artisansMortar>);
+RecipeBuilder.get("basic")
+.setShaped([
+[null, null, null],
+[<primal:flint_point>, <primal:flint_point>, null],
+[null, <primal:flint_point>, null]])
+.addOutput(<artisanworktables:artisans_mortar_flint>)
+.create();
+
+#Tailor's Workbench
+RecipeBuilder.get("basic")
+.setShaped([
+[<minecraft:stick>, <minecraft:brick_block>, <minecraft:stick>],
+[<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>], 
+[<minecraft:stick>, <minecraft:brick_block>, <minecraft:stick>]])
+.addOutput(<artisanworktables:worktable:2>)
+.setMaximumTier(0)
+.create();
+
+#Mason's Workbench
+RecipeBuilder.get("basic")
+.setShaped([
+[<minecraft:stick>, <ore:blockWoolWhite>, <minecraft:stick>],
+[<minecraft:wool:*>, <ore:logWood>, <ore:blockWoolWhite>], 
+[<minecraft:stick>, <minecraft:wool:*>, <minecraft:stick>]])
+.addOutput(<artisanworktables:worktable>)
+.setMaximumTier(0)
+.create();
+
+#Razor
+recipes.remove(<ore:artisansRazor>);
+RecipeBuilder.get("tailor")
+.setShapeless([<ore:cordageGeneral>,<primal:flint_knapp>,<minecraft:stick>])
+.addOutput(<artisanworktables:artisans_razor_flint>)
+.create();
