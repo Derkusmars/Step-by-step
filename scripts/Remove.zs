@@ -30,3 +30,7 @@ recipes.remove(<botania:altar:5>);
 recipes.remove(<botania:altar:6>);
 recipes.remove(<botania:altar:7>);
 recipes.remove(<botania:altar:8>);
+recipes.remove(<primal:flint_saw>);
+recipes.remove(<minecraft:flint>);
+recipes.remove(<primal:adobe_clump>);
+recipes.remove(<ore:brickmold>);
