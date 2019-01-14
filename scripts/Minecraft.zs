@@ -272,3 +272,34 @@ RecipeBuilder.get("basic")
 [null, <minecraft:stick>, null]])
 .addOutput(<minecraft:torch> * 4)
 .create();
+
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <primal:charcoal_fair>, null],
+[null, <ore:cordagePlant>, null], 
+[null, <minecraft:stick>, null]])
+.addOutput(<minecraft:torch> * 4)
+.create();
+
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <primal:charcoal_good>, null],
+[null, <ore:cordagePlant>, null], 
+[null, <minecraft:stick>, null]])
+.addOutput(<minecraft:torch> * 4)
+.create();
+
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <primal:charcoal_high>, null],
+[null, <ore:cordagePlant>, null], 
+[null, <minecraft:stick>, null]])
+.addOutput(<minecraft:torch> * 4)
+.create();
+
+#Stone Slab
+RecipeBuilder.get("basic")
+.setShapeless([<minecraft:stone>])
+.addOutput(<minecraft:stone_slab>)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();

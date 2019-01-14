@@ -412,7 +412,7 @@ RecipeBuilder.get("basic")
 
 #Razor
 recipes.remove(<ore:artisansRazor>);
-RecipeBuilder.get("tailor")
+RecipeBuilder.get("basic")
 .setShapeless([<ore:cordageGeneral>,<primal:flint_knapp>,<minecraft:stick>])
 .addOutput(<artisanworktables:artisans_razor_flint>)
 .create();

@@ -3,7 +3,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 #Sariras Brick
 mods.primal.Smelter.addRecipe(
 "brick",
-6,
+2,
 [<minecraft:clay_ball>],
 [<minecraft:brick>]
 );
@@ -226,7 +226,7 @@ RecipeBuilder.get("basic")
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>],
 [<primal:adobe_brick_dry>, <primal:adobe_clump>, <primal:adobe_brick_dry>], 
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>]])
-.addOutput(<primal:smelter:3>)
+.addOutput(<primal:smelter:3>.withTag({type: "adobe"}))
 .create();
 
 #Abode Sariras Lid
@@ -299,4 +299,59 @@ RecipeBuilder.get("basic")
 [<minecraft:stick>, null, null], 
 [null, null, null]])
 .addOutput(<primal:flint_hoe>)
+.create();
+
+#Thatch
+RecipeBuilder.get("farmer")
+.setShaped([
+[<primal:thatching_dry>, <primal:thatching_dry>, <primal:thatching_dry>],
+[<primal:thatching_dry>, <ore:fiberPlant>, <primal:thatching_dry>], 
+[<primal:thatching_dry>, <primal:thatching_dry>, <primal:thatching_dry>]])
+.addOutput(<primal:thatch>)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+#Clay Bucket
+RecipeBuilder.get("potter")
+.setShaped([
+[null, null, null],
+[<minecraft:clay_ball>, null, <minecraft:clay_ball>], 
+[null, <minecraft:clay_ball>, null]])
+.addOutput(<primal:bucket_clay_soft>)
+.create();
+
+#Terra Bucket
+RecipeBuilder.get("potter")
+.setShaped([
+[null, null, null],
+[<primal:terra_clump>, null, <primal:terra_clump>], 
+[null, <primal:terra_clump>, null]])
+.addOutput(<primal:bucket_terra_soft>)
+.create();
+
+#Cinic Bucket
+RecipeBuilder.get("potter")
+.setShaped([
+[null, null, null],
+[<primal:cinis_clump>, null, <primal:cinis_clump>], 
+[null, <primal:cinis_clump>, null]])
+.addOutput(<primal:bucket_cinis_soft>)
+.create();
+
+#Stone in Sariras
+mods.primal.Smelter.removeRecipe("stone");
+mods.primal.Smelter.addRecipe(
+"Cob_to_Stone",
+2,
+[<minecraft:cobblestone>],
+[<minecraft:stone>]
+);
+
+#Fire Bow
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <minecraft:stick>, null],
+[<minecraft:stick>, <primal:plant_cordage>, null], 
+[null, null, null]])
+.addOutput(<primal:fire_bow>)
 .create();
