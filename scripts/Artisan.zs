@@ -37,7 +37,7 @@ RecipeBuilder.get("basic")
 
 #Flint Handsaw
 recipes.remove(<ore:artisansHandsaw>);
-RecipeBuilder.get("carpenter")
+RecipeBuilder.get("basic")
 .setShaped([
 [null, <primal:flint_knapp>, <ore:stickWood>],
 [<primal:flint_knapp>, <ore:stickWood>, null],

@@ -40,3 +40,5 @@ recipes.remove(<minecraft:torch>);
 recipes.remove(<primal:logs_stacked:*>);
 recipes.remove(<primal:smelter_lid_adobe>);
 recipes.remove(<primal:smelter:*>);
+recipes.remove(<primal:sword_crude_flint>);
+recipes.remove(<primal:wood_pin>);

@@ -22,7 +22,7 @@ recipes.addShapeless(<primal:flint_workblade>, [<primal:flint_knapp>,<ore:cordag
 #Wood Pin
 RecipeBuilder.get("carpenter")
 .setShapeless([<minecraft:stick>])
-.addOutput(<primal:wood_pin>)
+.addOutput(<primal:wood_pin> * 2)
 .addTool(<ore:artisansHandsaw>, 10)
 .create();
 
@@ -34,7 +34,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack>.withTag({type: "oak"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
  
 #Drying Rack [Spruce] 
@@ -44,7 +44,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack:1>.withTag({type: "spruce"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
 
 #Drying Rack [Birch]
@@ -54,7 +54,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack:2>.withTag({type: "birch"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
 
 #Drying Rack [Jungle]
@@ -64,7 +64,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack:3>.withTag({type: "jungle"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
 
 #Drying Rack [Acacia]
@@ -74,7 +74,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack:4>.withTag({type: "acacia"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
 
 #Drying Rack [Dark Oak]
@@ -84,7 +84,7 @@ RecipeBuilder.get("carpenter")
 [<primal:wood_pin>, <minecraft:stick>, <primal:wood_pin>],
 [<minecraft:stick>, null, <minecraft:stick>]])
 .addOutput(<primal:drying_rack:5>.withTag({type: "dark_oak"}))
-.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansFramingHammer>, 50)
 .create();
 
 #Flint Pickaxe [Primal]
@@ -214,11 +214,10 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:sword_crude_flint>)
 .create();
 
-#Brick Mold [Acacia]
+#Twine
 RecipeBuilder.get("basic")
 .setShapeless([<primal:plant_fiber>,<primal:plant_fiber>,<primal:plant_fiber>])
 .addOutput(<primal:plant_cordage>)
-.addTool(<ore:artisansHandsaw>, 25)
 .create();
 
 #Abode Sariras
@@ -239,7 +238,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:smelter_lid_adobe>)
 .create();
 
-#Log Stack
+#Log Stack [Oak]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_oak>, <primal:logs_split_oak>, <primal:logs_split_oak>],
@@ -248,6 +247,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:logs_stacked>)
 .create();
 
+#Log Stack [Spruce]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_spruce>, <primal:logs_split_spruce>, <primal:logs_split_spruce>],
@@ -256,6 +256,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:logs_stacked:1>)
 .create();
 
+#Log Stack [Birch]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_birch>, <primal:logs_split_birch>, <primal:logs_split_birch>],
@@ -264,6 +265,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:logs_stacked:2>)
 .create();
 
+#Log Stack [Jungle]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_jungle>, <primal:logs_split_jungle>, <primal:logs_split_jungle>],
@@ -272,6 +274,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:logs_stacked:3>)
 .create();
 
+#Log Stack [Acacia]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_acacia>, <primal:logs_split_acacia>, <primal:logs_split_acacia>],
@@ -280,10 +283,20 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:logs_stacked:4>)
 .create();
 
+#Log Stack [Dark Oak]
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>],
 [<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>], 
 [<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>]])
 .addOutput(<primal:logs_stacked:5>)
+.create();
+
+#Flint Hoe
+RecipeBuilder.get("basic")
+.setShaped([
+[<primal:flint_knapp>, <ore:cordageGeneral>, null],
+[<minecraft:stick>, null, null], 
+[null, null, null]])
+.addOutput(<primal:flint_hoe>)
 .create();
