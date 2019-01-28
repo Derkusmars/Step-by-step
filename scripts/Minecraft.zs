@@ -1,16 +1,16 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
-#Chest [Minecraft]
+//Chest
 RecipeBuilder.get("carpenter")
 .setShaped([
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<ore:plankWood>, null, <ore:plankWood>],
+[<ore:plankWood>, <primal:flint_knapp>, <ore:plankWood>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
 .addOutput(<minecraft:chest>)
 .addTool(<ore:artisansHandsaw>, 10)
 .create();
 
-#Flint Shears
+//Flint Shears
 recipes.remove(<primal:flint_shears>);
 RecipeBuilder.get("basic")
 .setShaped([
@@ -20,7 +20,7 @@ RecipeBuilder.get("basic")
 .addOutput(<primal:flint_shears>)
 .create();
 
-#Bed
+//Bed
 recipes.remove(<minecraft:bed:*>);
 RecipeBuilder.get("carpenter")
 .setShaped([
@@ -166,7 +166,7 @@ RecipeBuilder.get("carpenter")
 .addOutput(<minecraft:bed:15>)
 .create();
 
-#Carpet
+//Carpet
 recipes.remove(<minecraft:carpet:*>);
 RecipeBuilder.get("tailor")
 .setShapeless([<minecraft:wool>])
@@ -264,7 +264,7 @@ RecipeBuilder.get("tailor")
 .addTool(<ore:artisansRazor>, 10)
 .create();
 
-#Torch
+//Torch
 RecipeBuilder.get("basic")
 .setShaped([
 [null, <ore:coal>, null],
@@ -286,7 +286,7 @@ RecipeBuilder.get("basic")
 [null, <primal:charcoal_good>, null],
 [null, <ore:cordagePlant>, null], 
 [null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 4)
+.addOutput(<minecraft:torch> * 5)
 .create();
 
 RecipeBuilder.get("basic")
@@ -294,12 +294,196 @@ RecipeBuilder.get("basic")
 [null, <primal:charcoal_high>, null],
 [null, <ore:cordagePlant>, null], 
 [null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 4)
+.addOutput(<minecraft:torch> * 6)
 .create();
 
-#Stone Slab
-RecipeBuilder.get("basic")
+//Stone Slab
+RecipeBuilder.get("carpenter")
 .setShapeless([<minecraft:stone>])
 .addOutput(<minecraft:stone_slab>)
 .addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+//Bonemeal
+RecipeBuilder.get("farmer")
+.setShapeless([<minecraft:bone>])
+.addOutput(<minecraft:dye:15> *3)
+.addTool(<ore:artisansMortar>, 10)
+.create();
+
+recipes.addShapeless(<minecraft:dye:15> * 3, [<ore:artisansMortar>.transformDamage(10), <minecraft:bone>]);
+
+//Lead
+RecipeBuilder.get("tailor")
+.setShaped([
+[<primal:leather_strip>, <primal:leather_strip>, null],
+[<primal:leather_strip>, <primal:tannin_ground>, null], 
+[null, null, <primal:leather_strip>]])
+.addOutput(<minecraft:lead>)
+.create();
+
+//Log to Planks
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log>])
+.addOutput(<minecraft:planks> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log:1>])
+.addOutput(<minecraft:planks:1> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log:2>])
+.addOutput(<minecraft:planks:2> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log:3>])
+.addOutput(<minecraft:planks:3> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log2>])
+.addOutput(<minecraft:planks:4> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:log2:1>])
+.addOutput(<minecraft:planks:5> * 4)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+//Planks to Slabs
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks>])
+.addOutput(<minecraft:wooden_slab> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks:1>])
+.addOutput(<minecraft:wooden_slab:1> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks:2>])
+.addOutput(<minecraft:wooden_slab:2> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks:3>])
+.addOutput(<minecraft:wooden_slab:3> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks:4>])
+.addOutput(<minecraft:wooden_slab:4> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:planks:5>])
+.addOutput(<minecraft:wooden_slab:5> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansFramingHammer>, 10)
+.create();
+
+//Sticks [Minecraft]
+RecipeBuilder.get("carpenter")
+.setShapeless([<ore:plankWood>])
+.addOutput(<minecraft:stick> * 2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+//String
+RecipeBuilder.get("tailor")
+.setShapeless([<minecraft:wool:*>])
+.addOutput(<minecraft:string> * 3)
+.addTool(<ore:artisansShears>, 10)
+.create();
+
+//Glass Pane
+RecipeBuilder.get("carpenter")
+.setShapeless([<minecraft:glass>])
+.addOutput(<minecraft:glass_pane> * 2)
+.setMaximumTier(2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+//Paper
+RecipeBuilder.get("farmer")
+.setShaped([
+[null, null, null],
+[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>], 
+[null, null, null]])
+.addOutput(<minecraft:paper> * 2)
+.addTool(<ore:artisansCutters>, 10)
+.create();
+
+//Stonebrick
+RecipeBuilder.get("designer")
+.setShapeless([<minecraft:stone>])
+.addOutput(<minecraft:stonebrick>)
+.setMaximumTier(2)
+.addTool(<ore:artisansChisel>, 10)
+.create();
+
+//Bricks
+RecipeBuilder.get("potter")
+.setShaped([
+[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
+[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], 
+[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]])
+.addOutput(<minecraft:brick_block>)
+.addTool(<ore:artisansTrowel>, 10)
+.create();
+
+//String
+RecipeBuilder.get("tailor")
+.setShaped([
+[<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>],
+[<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>], 
+[<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>]])
+.addOutput(<minecraft:string> * 2)
+.addTool(<ore:artisansRazor>, 10)
+.create();
+
+//Leather
+RecipeBuilder.get("tailor")
+.setShaped([
+[<terraqueous:item_main:100>, <terraqueous:item_main:100>, <terraqueous:item_main:100>],
+[<terraqueous:item_main:100>, <terraqueous:item_main:100>, <terraqueous:item_main:100>], 
+[<terraqueous:item_main:100>, <terraqueous:item_main:100>, <terraqueous:item_main:100>]])
+.addOutput(<minecraft:leather>)
+.addTool(<ore:artisansNeedle>, 10)
+.create();
+
+//Bow
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, <minecraft:stick>, <primal:silk_cordage>],
+[<minecraft:stick>, null, <primal:silk_cordage>], 
+[null, <minecraft:stick>, <primal:silk_cordage>]])
+.addOutput(<minecraft:bow>)
+.addTool(<ore:artisansRazor>, 50)
 .create();

@@ -1,6 +1,6 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
-#Botania Dye
+//Botania Dye
 recipes.remove(<botania:dye:*>);
 
 RecipeBuilder.get("farmer")
@@ -99,7 +99,7 @@ RecipeBuilder.get("farmer")
 .addTool(<ore:artisansMortar>, 5)
 .create();
 
-#Botania Petals
+//Botania Petals
 recipes.remove(<botania:petal:*>);
 RecipeBuilder.get("farmer")
 .setShapeless([<botania:flower>])
@@ -197,7 +197,174 @@ RecipeBuilder.get("farmer")
 .addTool(<ore:artisansCutters>, 5)
 .create();
 
-#Lilys
+//Lilys
 mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "sunbless"}), [<ore:petalOrange>, <ore:petalOrange>, <ore:petalYellow>, <ore:petalYellow>, <botania:fertilizer>]);
 
 mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "moonbless"}), [<ore:petalPink>, <ore:petalPink>, <ore:petalPurple>, <ore:petalPurple>, <botania:fertilizer>]);
+
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[<minecraft:stone_slab>, <botania:fertilizer>, <minecraft:stone_slab>],
+[null, <minecraft:stone>, null],
+[<minecraft:stone_slab>, <minecraft:stone>, <minecraft:stone_slab>]])
+.addOutput(<botania:altar>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:5>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:1>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:4>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:2>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:12>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:3>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:10>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:4>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:13>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:5>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:1>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:6>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:9>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:7>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Petal Apothecary [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, <botania:dye:14>, null],
+[null, <botania:altar>, null],
+[null, <minecraft:stone>, null]])
+.addOutput(<botania:altar:8>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+
+//Livingrock Slab [Botania]
+RecipeBuilder.get("mason")
+.setShapeless([<botania:livingrock>])
+.addOutput(<botania:livingrock0slab> * 2)
+.addTool(<ore:artisansHandsaw>, 10)
+.create();
+
+//Mana Pool [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, null, null],
+[<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
+[<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])
+.addOutput(<botania:pool>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Diluted Mana Pool [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, null, null],
+[<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
+[<botania:livingrock0slab>, <botania:livingrock>, <botania:livingrock0slab>]])
+.addOutput(<botania:pool:2>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 30)
+.create();
+
+//Fabulous Mana Pool [Botania]
+RecipeBuilder.get("mason")
+.setShaped([
+[null, null, null],
+[<botania:shimmerrock0slab>, <botania:fertilizer>, <botania:shimmerrock0slab>],
+[<botania:shimmerrock0slab>, <botania:shimmerrock0slab>, <botania:shimmerrock0slab>]])
+.addOutput(<botania:pool:3>)
+.setMaximumTier(0)
+.addTool(<ore:artisansHammer>, 50)
+.create();
+
+//Floral Ferilizer
+RecipeBuilder.get("farmer")
+.setShaped([
+[<minecraft:dye:15>, <botania:dye:*>, <botania:dye:*>],
+[<botania:dye:*>, <botania:dye:*>, null], 
+[null, null, null]])
+.addOutput(<botania:fertilizer>)
+.addTool(<ore:artisansMortar>, 10)
+.create();
+
+//Floral Fertilizer
+RecipeBuilder.get("farmer")
+.setShaped([
+[<minecraft:dye:15>, <minecraft:dye:11>, <minecraft:dye:11>],
+[<minecraft:dye:1>, <minecraft:dye:1>, null], 
+[null, null, null]])
+.addOutput(<botania:fertilizer>)
+.addTool(<ore:artisansMortar>, 20)
+.create();
+
+//Disable Flint Infusion
+mods.botania.ManaInfusion.removeRecipe(<minecraft:flint>);
+
+//Disable Flint [ExtraBotany]
+mods.extrabotany.Pedestal.remove(<minecraft:flint>, <minecraft:gravel>);
