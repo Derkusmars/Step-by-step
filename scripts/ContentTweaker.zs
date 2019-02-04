@@ -29,6 +29,24 @@ compressedsand.setToolLevel(1);
 compressedsand.setBlockSoundType(<soundtype:sand>);
 compressedsand.register();
 
+// Compressed Sand =====================================================================
+var compressedfdirt = VanillaFactory.createBlock("compressed_fert_dirt", <blockmaterial:ground>);
+compressedfdirt.setBlockHardness(4.0);
+compressedfdirt.setBlockResistance(5.0);
+compressedfdirt.setToolClass("shovel");
+compressedfdirt.setToolLevel(1);
+compressedfdirt.setBlockSoundType(<soundtype:ground>);
+compressedfdirt.register();
+
+// Compressed Sand =====================================================================
+var fertdirt = VanillaFactory.createBlock("fertilized_dirt", <blockmaterial:ground>);
+fertdirt.setBlockHardness(3.0);
+fertdirt.setBlockResistance(5.0);
+fertdirt.setToolClass("shovel");
+fertdirt.setToolLevel(1);
+fertdirt.setBlockSoundType(<soundtype:ground>);
+fertdirt.register();
+
 //River Nuggets ================================================================================
 var anugget = VanillaFactory.createItem("nugget_aluminum_river");
 anugget.register();

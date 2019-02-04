@@ -1,6 +1,8 @@
 item.contenttweaker.string_mesh.name=String Mesh
 tile.contenttweaker.compressed_cob.name=Compressed Cobblestone
-tile.contenttweaker.compressed_sand.name= Compressed Sand
+tile.contenttweaker.compressed_sand.name=Compressed Sand
+tile.contenttweaker.fertilized_dirt.name=Fertilized Dirt
+tile.contenttweaker.compressed_fert_dirt.name=Compressed Fertilized Dirt
 item.contenttweaker.nugget_gold_river.name=River Gold Nugget
 item.contenttweaker.nugget_aluminum_river.name=River Aluminum Nugget
 item.contenttweaker.nugget_silver_river.name=River Silver Nugget

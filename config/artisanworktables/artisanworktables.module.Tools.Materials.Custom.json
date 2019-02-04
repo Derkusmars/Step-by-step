@@ -222,6 +222,19 @@
       "oreDictKey": "artisansToolSilver"
     },
     {
+      "name": "quartz",
+      "harvestLevel": 2,
+      "maxUses": 160,
+      "efficiency": 5.0,
+      "damage": 2.0,
+      "enchantability": 10,
+      "color": "ffffff",
+      "shiny": true,
+      "ingredient": "ore:flakeQuartz",
+      "langKey": "Quartz",
+      "oreDictKey": "artisansToolQuartz"
+    },
+    {
       "name": "steel",
       "harvestLevel": 2,
       "maxUses": 500,

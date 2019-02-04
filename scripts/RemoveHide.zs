@@ -57,6 +57,10 @@ var removeItems as IItemStack[] = [
 <primal:slat_iron>,
 <primal:hibachi:3>,
 <primal:adobe_brick>,
+<primal:charcoal_mote>,
+<primal:dirt_stick>,
+<primal:iron_ring>,
+<primal:iron_mesh>,
 
 //Remove [Botania]
 <botania:pool>,
@@ -135,6 +139,13 @@ var removeItems as IItemStack[] = [
 <minecraft:sandstone_stairs>,
 <minecraft:oak_stairs>,
 <minecraft:stone_stairs>,
+<minecraft:cauldron>,
+<minecraft:shears>,
+<minecraft:light_weighted_pressure_plate>,
+<minecraft:heavy_weighted_pressure_plate>,
+<minecraft:wooden_pressure_plate>,
+<minecraft:stone_pressure_plate>,
+<minecraft:hopper>,
 
 //Remove [Thermal Foundation]
 <thermalfoundation:material:32>,
@@ -196,7 +207,13 @@ var removeItems as IItemStack[] = [
 <malisisdoors:big_door_jungle_3x3>,
 <malisisdoors:big_door_birch_3x3>,
 <malisisdoors:big_door_spruce_3x3>,
-<malisisdoors:big_door_oak_3x3>
+<malisisdoors:big_door_oak_3x3>,
+<malisisdoors:trapdoor_spruce>,
+<malisisdoors:trapdoor_birch>,
+<malisisdoors:trapdoor_jungle>,
+<malisisdoors:trapdoor_acacia>,
+<malisisdoors:trapdoor_dark_oak>,
+<terraqueous:item_main:207>
 ];
 
 for item in removeItems {
@@ -312,6 +329,7 @@ recipes.remove(<ore:artisansCutters>);
 recipes.remove(<ore:artisansMortar>);
 recipes.remove(<ore:artisansPunch>);
 recipes.remove(<ore:artisansRazor>);
+recipes.remove(<ore:artisansCarver>);
 recipes.remove(<ore:artisansHandsaw>);
 recipes.remove(<ore:fiberCineris>);
 recipes.remove(<ore:fiberPlant>);

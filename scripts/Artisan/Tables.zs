@@ -36,7 +36,7 @@ RecipeBuilder.get("basic")
 .create();
 
 //Toolbox
-RecipeBuilder.get("basic")
+RecipeBuilder.get("carpenter")
 .setShaped([
 [<ore:slabWood>, <minecraft:trapdoor>, <ore:slabWood>],
 [<ore:plankWood>, <minecraft:chest>, <ore:plankWood>], 
@@ -86,9 +86,19 @@ RecipeBuilder.get("basic")
 //Blacksmith's Workbench
 RecipeBuilder.get("mason")
 .setShaped([
-[<ore:logSplit>, <minecraft:iron_ingot>, <ore:logSplit>],
-[<minecraft:iron_ingot>, <factorytech:metal:4>, <minecraft:iron_ingot>], 
-[<ore:logSplit>, <minecraft:iron_ingot>, <ore:logSplit>]])
+[<ore:logSplit>, <factorytech:ingot:5>, <ore:logSplit>],
+[<factorytech:ingot:5>, <factorytech:metal:4>, <factorytech:ingot:5>], 
+[<ore:logSplit>, <factorytech:ingot:5>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:3>)
+.setMaximumTier(1)
+.create();
+
+//Farmer's Workbench
+RecipeBuilder.get("basic")
+.setShaped([
+[<ore:logSplit>, <minecraft:tallgrass:1>, <ore:logSplit>],
+[<minecraft:tallgrass:1>, <contenttweaker:compressed_fert_dirt>, <minecraft:tallgrass:1>], 
+[<ore:logSplit>, <minecraft:tallgrass:1>, <ore:logSplit>]])
+.addOutput(<artisanworktables:workstation:10>)
 .setMaximumTier(1)
 .create();

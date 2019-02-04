@@ -74,3 +74,14 @@ RecipeBuilder.get("carpenter")
 
 //Renaming "Lump Of Sandstone" to "Lump of Sand"
 <terraqueous:item_main:214>.displayName = "Lump of Sand";
+
+//Renaming "Tiny Pile of Coal Dust" to "Tiny Pile of Coal"
+<terraqueous:item_main:206>.displayName = "Tiny Pile of Coal";
+
+//Tiny Pile of Coal
+RecipeBuilder.get("basic")
+.setShapeless([<minecraft:coal>])
+.addOutput(<terraqueous:item_main:206>)
+.addTool(<ore:artisansHammer>, 10)
+.setMaximumTier(1)
+.create();

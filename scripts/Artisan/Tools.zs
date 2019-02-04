@@ -377,6 +377,9 @@ RecipeBuilder.get("mason")
 .setMaximumTier(1)
 .create();
 
+///Razor Flint [Inventory]
+recipes.addShapeless(<artisanworktables:artisans_razor_flint>, [<ore:cordageGeneral>, <primal:flint_knapp>, <minecraft:stick>]);
+
 //Shears ========================================================
 RecipeBuilder.get("basic")
 .setShaped([
@@ -865,7 +868,7 @@ RecipeBuilder.get("mason")
 .setShaped([
 [<minecraft:stick>, < primal:quartz_knapp>, <minecraft:stick>],
 [<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
-[<minecraft:stick>, < primal:quartz_knapp>, <minecraft:stick>]])
+[<minecraft:stick>, <primal:quartz_knapp>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_quartz>)
 .setMaximumTier(1)
 .create();
@@ -873,7 +876,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:32>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
 [<minecraft:stick>, <thermalfoundation:material:32>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_iron>)
 .setMaximumTier(1)
@@ -882,7 +885,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:33>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
 [<minecraft:stick>, <thermalfoundation:material:33>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_gold>)
 .setMaximumTier(1)
@@ -891,7 +894,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:320>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
 [<minecraft:stick>, <thermalfoundation:material:320>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_copper>)
 .setMaximumTier(1)
@@ -900,7 +903,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:321>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
 [<minecraft:stick>, <thermalfoundation:material:321>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_tin>)
 .setMaximumTier(1)
@@ -1041,5 +1044,15 @@ RecipeBuilder.get("blacksmith")
 [null, <minecraft:stick>, <ore:cordageGeneral>], 
 [<thermalfoundation:material:325>, <ore:cordageGeneral>, null]])
 .addOutput(<artisanworktables:artisans_punch_nickel>)
+.setMaximumTier(1)
+.create();
+
+//Carver ========================================================
+RecipeBuilder.get("basic")
+.setShaped([
+[null, null, <primal:flint_knapp>],
+[<primal:plant_cordage>, <minecraft:stick>, <primal:plant_cordage>], 
+[<primal:flint_knapp>, null, null]])
+.addOutput(<artisanworktables:artisans_carver_flint>)
 .setMaximumTier(1)
 .create();

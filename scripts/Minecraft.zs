@@ -353,7 +353,7 @@ RecipeBuilder.get("farmer")
 recipes.addShapeless(<minecraft:dye:15> * 3, [<ore:artisansMortar>.transformDamage(10), <minecraft:bone>]);
 
 //Lead
-RecipeBuilder.get("tailor")
+RecipeBuilder.get("tanner")
 .setShaped([
 [<primal:leather_cordage>, <primal:leather_cordage>, null],
 [<primal:leather_cordage>, <primal:tannin_ground>, null], 
@@ -506,7 +506,7 @@ RecipeBuilder.get("designer")
 RecipeBuilder.get("potter")
 .setShaped([
 [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>],
-[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], 
+[<minecraft:brick>, <primal:adobe_clump>, <minecraft:brick>], 
 [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]])
 .addOutput(<minecraft:brick_block>)
 .addTool(<ore:artisansTrowel>, 10)
@@ -796,6 +796,14 @@ RecipeBuilder.get("farmer")
 .setMaximumTier(1)
 .create();
 
+RecipeBuilder.get("farmer")
+.setShapeless([<minecraft:beetroot>])
+.addOutput(<minecraft:dye:1>)
+.addTool(<ore:artisansMortar>, 10)
+.setMaximumTier(1)
+.create();
+
+
 //Chisel
 RecipeBuilder.get("designer")
 .setShaped([
@@ -821,8 +829,7 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("carpenter")
 .setShapeless([<ore:plankWood>])
 .addOutput(<minecraft:bowl>)
-.addTool(<ore:artisansFramingHammer>, 10)
-.addTool(<ore:artisansHandsaw>, 10)
+.addTool(<ore:artisansCarver>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -900,7 +907,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:spruce_door>, <minecraft:spruce_door>, null],[<minecraft:spruce_door>, <minecraft:spruce_door>, null], [null, null, null]])
+[<minecraft:spruce_door>, <minecraft:spruce_door>, null],
+[<minecraft:spruce_door>, <minecraft:spruce_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_spruce_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -908,7 +917,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:birch_door>, <minecraft:birch_door>, null],[<minecraft:birch_door>, <minecraft:birch_door>, null], [null, null, null]])
+[<minecraft:birch_door>, <minecraft:birch_door>, null],
+[<minecraft:birch_door>, <minecraft:birch_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_birch_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -916,7 +927,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:jungle_door>, <minecraft:jungle_door>, null],[<minecraft:jungle_door>, <minecraft:jungle_door>, null], [null, null, null]])
+[<minecraft:jungle_door>, <minecraft:jungle_door>, null],
+[<minecraft:jungle_door>, <minecraft:jungle_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_jungle_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -924,7 +937,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:acacia_door>, <minecraft:acacia_door>, null],[<minecraft:acacia_door>, <minecraft:acacia_door>, null], [null, null, null]])
+[<minecraft:acacia_door>, <minecraft:acacia_door>, null],
+[<minecraft:acacia_door>, <minecraft:acacia_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_acacia_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -932,7 +947,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:dark_oak_door>, <minecraft:dark_oak_door>, null],[<minecraft:dark_oak_door>, <minecraft:dark_oak_door>, null], [null, null, null]])
+[<minecraft:dark_oak_door>, <minecraft:dark_oak_door>, null],
+[<minecraft:dark_oak_door>, <minecraft:dark_oak_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_dark_oak_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -940,7 +957,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("blacksmith")
 .setShaped([
-[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null], [<thermalfoundation:material:32>, <thermalfoundation:material:32>, null]])
+[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null],
+[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null], 
+[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null]])
 .addOutput(<minecraft:iron_door>)
 .addTool(<ore:hammer_iron>, 10)
 .setMaximumTier(1)
@@ -948,15 +967,20 @@ RecipeBuilder.get("blacksmith")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[<minecraft:iron_door>, <minecraft:iron_door>, null],[<minecraft:iron_door>, <minecraft:iron_door>, null], [null, null, null]])
+[<minecraft:iron_door>, <minecraft:iron_door>, null],
+[<minecraft:iron_door>, <minecraft:iron_door>, null], 
+[null, null, null]])
 .addOutput(<malisisdoors:big_door_iron_3x3>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
 .create();
 
+//Trapdoor
 RecipeBuilder.get("blacksmith")
 .setShaped([
-[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null], [null, null, null]])
+[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null],
+[<thermalfoundation:material:32>, <thermalfoundation:material:32>, null], 
+[null, null, null]])
 .addOutput(<minecraft:iron_trapdoor>)
 .addTool(<ore:hammer_iron>, 10)
 .setMaximumTier(1)
@@ -964,7 +988,9 @@ RecipeBuilder.get("blacksmith")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[null, null, null],[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]])
+[null, null, null],
+[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], 
+[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]])
 .addOutput(<minecraft:trapdoor>)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -972,7 +998,60 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[null, null, null],[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>], [<minecraft:planks>, <minecraft:stick>, <minecraft:planks>]])
+[null, null, null],
+[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>], 
+[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]])
+.addOutput(<malisisdoors:trapdoor_spruce>)
+.addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, null, null],
+[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>], 
+[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]])
+.addOutput(<malisisdoors:trapdoor_birch>)
+.addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, null, null],
+[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>], 
+[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]])
+.addOutput(<malisisdoors:trapdoor_jungle>)
+.addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, null, null],
+[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>], 
+[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]])
+.addOutput(<malisisdoors:trapdoor_acacia>)
+.addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, null, null],
+[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], 
+[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]])
+.addOutput(<malisisdoors:trapdoor_dark_oak>)
+.addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+//Fence
+RecipeBuilder.get("carpenter")
+.setShaped([
+[null, null, null],
+[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>], 
+[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>]])
 .addOutput(<minecraft:fence> * 2)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -980,7 +1059,9 @@ RecipeBuilder.get("carpenter")
 
 RecipeBuilder.get("carpenter")
 .setShaped([
-[null, null, null],[<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>], [<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>]])
+[null, null, null],
+[<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>], 
+[<minecraft:planks:1>, <minecraft:stick>, <minecraft:planks:1>]])
 .addOutput(<minecraft:spruce_fence> * 2)
 .addTool(<ore:artisansFramingHammer>, 10)
 .setMaximumTier(1)
@@ -1080,7 +1161,7 @@ RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:cobblestone>, null, null],[<minecraft:cobblestone>, <minecraft:cobblestone>, null], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]])
 .addOutput(<minecraft:stone_stairs> * 4)
-.addTool(<ore:hammer_iron>, 10)
+.addTool(<ore:toolGallagher>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -1096,7 +1177,7 @@ RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:sandstone>, null, null],[<minecraft:sandstone>, <minecraft:sandstone>, null], [<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>]])
 .addOutput(<minecraft:sandstone_stairs> * 4)
-.addTool(<ore:artisansFramingHammer>, 10)
+.addTool(<ore:toolGallagher>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -1104,7 +1185,7 @@ RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:brick_block>, null, null],[<minecraft:brick_block>, <minecraft:brick_block>, null], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]])
 .addOutput(<minecraft:brick_stairs> * 4)
-.addTool(<ore:hammer_iron>, 10)
+.addTool(<ore:toolGallagher>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -1128,7 +1209,7 @@ RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:red_sandstone>, null, null],[<minecraft:red_sandstone>, <minecraft:red_sandstone>, null], [<minecraft:red_sandstone>, <minecraft:red_sandstone>, <minecraft:red_sandstone>]])
 .addOutput(<minecraft:red_sandstone_stairs> * 4)
-.addTool(<ore:hammer_iron>, 10)
+.addTool(<ore:toolGallagher>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -1136,7 +1217,7 @@ RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:stonebrick>, null, null],[<minecraft:stonebrick>, <minecraft:stonebrick>, null], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]])
 .addOutput(<minecraft:stone_brick_stairs> * 4)
-.addTool(<ore:hammer_iron>, 10)
+.addTool(<ore:toolGallagher>, 10)
 .setMaximumTier(1)
 .create();
 
@@ -1161,5 +1242,88 @@ RecipeBuilder.get("carpenter")
 [<minecraft:planks:5>, null, null],[<minecraft:planks:5>, <minecraft:planks:5>, null], [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]])
 .addOutput(<minecraft:dark_oak_stairs> * 4)
 .addTool(<ore:artisansFramingHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+//Fertilized Dirt
+RecipeBuilder.get("basic")
+.setShapeless([<minecraft:dirt>, <minecraft:dye:15>])
+.addOutput(<contenttweaker:fertilized_dirt>)
+.addTool(<ore:artisansMortar>, 10)
+.addTool(<ore:artisansTrowel>, 10)
+.setMaximumTier(1)
+.create();
+
+//Compressed Fertilized Dirt
+RecipeBuilder.get("basic")
+.setShaped([
+[<contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>],
+[<contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>], 
+[<contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>, <contenttweaker:fertilized_dirt>]])
+.addOutput(<contenttweaker:compressed_fert_dirt>)
+.addTool(<ore:artisansTrowel>, 10)
+.setMaximumTier(1)
+.create();
+
+//Cauldron
+RecipeBuilder.get("blacksmith")
+.setShaped([
+[<thermalfoundation:material:32>, null, <thermalfoundation:material:32>],[<thermalfoundation:material:32>, null, <thermalfoundation:material:32>], [<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>]])
+.addOutput(<minecraft:cauldron>)
+.addTool(<ore:hammer_iron>, 50)
+.setMaximumTier(1)
+.create();
+
+//Shears
+RecipeBuilder.get("blacksmith")
+.setShaped([
+[null, null, null],
+[<thermalfoundation:material:32>, <primal:iron_ring>, <thermalfoundation:material:32>], 
+[null, null, null]])
+.addOutput(<minecraft:shears>)
+.addTool(<ore:hammer_iron>, 20)
+.setMaximumTier(1)
+.create();
+
+//Wood Pressure Plate
+RecipeBuilder.get("carpenter")
+.setShapeless([<ore:plankWood>, <ore:plankWood>])
+.addOutput(<minecraft:wooden_pressure_plate>)
+.addTool(<ore:artisansHammer>, 20)
+.setMaximumTier(1)
+.create();
+
+//Stone Pressure Plate
+RecipeBuilder.get("mason")
+.setShapeless([<ore:stone>, <ore:stone>])
+.addOutput(<minecraft:stone_pressure_plate>)
+.addTool(<ore:artisansHammer>, 20)
+.setMaximumTier(1)
+.create();
+
+//Iron Pressure Plate
+RecipeBuilder.get("blacksmith")
+.setShapeless([<thermalfoundation:material:32>, <thermalfoundation:material:32>])
+.addOutput(<minecraft:heavy_weighted_pressure_plate>)
+.addTool(<ore:hammer_iron>, 20)
+.setMaximumTier(1)
+.create();
+
+//Gold Pressure Plate
+RecipeBuilder.get("blacksmith")
+.setShapeless([<thermalfoundation:material:33>, <thermalfoundation:material:33>])
+.addOutput(<minecraft:light_weighted_pressure_plate>)
+.addTool(<ore:hammer_iron>, 20)
+.setMaximumTier(1)
+.create();
+
+//Hopper
+RecipeBuilder.get("blacksmith")
+.setShaped([
+[<thermalfoundation:material:32>, null, <thermalfoundation:material:32>],
+[<thermalfoundation:material:32>, <minecraft:chest>, <thermalfoundation:material:32>], 
+[null, <thermalfoundation:material:32>, null]])
+.addOutput(<minecraft:hopper>)
+.addTool(<ore:hammer_iron>, 20)
 .setMaximumTier(1)
 .create();

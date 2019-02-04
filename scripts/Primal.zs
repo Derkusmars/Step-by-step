@@ -4,7 +4,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 mods.primal.Smelter.addRecipe(
 "brick",
 6,
-[<minecraft:clay_ball>, <primal:charcoal_mote>],
+[<minecraft:clay_ball>, <ore:tiny_coal>],
 [<minecraft:brick>]
 );
 
@@ -117,10 +117,7 @@ RecipeBuilder.get("basic")
 
 //Plant Fiber Pulp
 RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:flint_knapp>, null],
-[null, <primal:plant_tinder>, null],
-[null, null, null]])
+.setShapeless([<primal:flint_knapp>, <primal:plant_tinder>])
 .addTool(<ore:artisansMortar>, 25)
 .addOutput(<primal:plant_fiber_pulp>)
 .setMaximumTier(1)
@@ -383,7 +380,7 @@ mods.primal.Smelter.removeRecipe("stone");
 mods.primal.Smelter.addRecipe(
 "Cob_to_Stone",
 2,
-[<minecraft:cobblestone>, <primal:charcoal_mote>],
+[<minecraft:cobblestone>, <ore:tiny_coal>],
 [<minecraft:stone>]
 );
 
@@ -775,7 +772,7 @@ for recipeRegex in removeRecipes {
 mods.primal.Smelter.addRecipe(
 "sand_to_glass",
 6,
-[<minecraft:sand>, <primal:charcoal_mote>],
+[<minecraft:sand>, <ore:tiny_coal>],
 [<minecraft:glass>]
 );		
 
@@ -1023,7 +1020,7 @@ RecipeBuilder.get("mason")
 .create();
 
 //Leather Strip
-RecipeBuilder.get("tailor")
+RecipeBuilder.get("tanner")
 .setShapeless([<ore:leather>])
 .addOutput(<primal:leather_strip>)
 .addTool(<ore:toolWorkBlade>, 20)
@@ -1031,7 +1028,7 @@ RecipeBuilder.get("tailor")
 .create();
 
 //Leather Cordage
-RecipeBuilder.get("tailor")
+RecipeBuilder.get("tanner")
 .setShapeless([<primal:leather_strip>,<primal:leather_strip>,<primal:leather_strip>])
 .addOutput(<primal:leather_cordage>)
 .setMaximumTier(1)
@@ -1076,3 +1073,37 @@ var removeHibRecipes as string[] = [
 for recipeRegex in removeHibRecipes {
 	mods.primal.Hibachi.removeRecipe(recipeRegex);
 }
+
+//Charcoal Mote
+RecipeBuilder.get("basic")
+.setShapeless([<ore:charcoal>])
+.addOutput(<primal:charcoal_mote>)
+.addTool(<ore:artisansHammer>, 10)
+.setMaximumTier(1)
+.create();
+
+//Dirt Stick
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <ore:dirt>, null],[<ore:dirt>, null, null], [null, null, null]])
+.addOutput(<primal:dirt_stick>)
+.setMaximumTier(1)
+.create();
+
+//Iron Ring
+RecipeBuilder.get("blacksmith")
+.setShapeless([<primal:iron_strand>])
+.addOutput(<primal:iron_ring>)
+.addTool(<ore:toolGallagher>, 10)
+.setMaximumTier(1)
+.create();
+
+RecipeBuilder.get("blacksmith")
+.setShaped([
+[null, null, null],
+[<primal:iron_strand>, <primal:iron_strand>, <primal:iron_strand>],
+[<primal:iron_strand>, <primal:iron_strand>, <primal:iron_strand>]])
+.addOutput(<primal:iron_mesh>)
+.addTool(<ore:hammer_iron>, 20)
+.setMaximumTier(1)
+.create();

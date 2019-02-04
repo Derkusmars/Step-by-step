@@ -58,3 +58,9 @@ import crafttweaker.item.IItemStack;
 <botania:petalblock:13>,
 <botania:petalblock:14>,
 <botania:petalblock:15>);
+
+
+//Tiny Coal OreDict
+<ore:tiny_coal>.add(
+<primal:charcoal_mote>,
+<terraqueous:item_main:206>);

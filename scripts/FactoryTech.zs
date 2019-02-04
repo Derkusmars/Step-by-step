@@ -5,7 +5,7 @@ recipes.remove(<factorytech:machinepart:180>);
 recipes.addShapeless(<factorytech:machinepart:180>, [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]);
 
 //String Mesh
-RecipeBuilder.get("basic")
+RecipeBuilder.get("tailor")
 .setShaped([
 [<minecraft:string>, <minecraft:string>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>], 
@@ -44,6 +44,7 @@ mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_gold_river>, 0.2);
 mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_lead_river>, 0.2);
 mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_silver_river>, 0.2);
 mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_aluminum_river>, 0.2);
+mods.factorytech.rivergrate.addRecipe(<primal:quartz_knapp>, 0.002);
 
 //Renaming "Sheet Metal Siding" to "Sheet Metal Block"
 <factorytech:metal:4>.displayName = "Sheet Metal Block";
