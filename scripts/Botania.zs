@@ -210,7 +210,7 @@ RecipeBuilder.get("mason")
 [null, <minecraft:stone>, null],
 [<minecraft:stone_slab>, <minecraft:stone>, <minecraft:stone_slab>]])
 .addOutput(<botania:altar>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -221,7 +221,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:1>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -232,7 +232,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:2>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -243,7 +243,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:3>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -254,7 +254,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:4>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -265,7 +265,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:5>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -276,7 +276,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:6>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -287,7 +287,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:7>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -298,7 +298,7 @@ RecipeBuilder.get("mason")
 [null, <botania:altar>, null],
 [null, <minecraft:stone>, null]])
 .addOutput(<botania:altar:8>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -317,7 +317,7 @@ RecipeBuilder.get("mason")
 [<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
 [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])
 .addOutput(<botania:pool>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -328,7 +328,7 @@ RecipeBuilder.get("mason")
 [<botania:livingrock0slab>, <botania:fertilizer>, <botania:livingrock0slab>],
 [<botania:livingrock0slab>, <botania:livingrock>, <botania:livingrock0slab>]])
 .addOutput(<botania:pool:2>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 30)
 .create();
 
@@ -339,7 +339,7 @@ RecipeBuilder.get("mason")
 [<botania:shimmerrock0slab>, <botania:fertilizer>, <botania:shimmerrock0slab>],
 [<botania:shimmerrock0slab>, <botania:shimmerrock0slab>, <botania:shimmerrock0slab>]])
 .addOutput(<botania:pool:3>)
-.setMaximumTier(0)
+.setMaximumTier(1)
 .addTool(<ore:artisansHammer>, 50)
 .create();
 
@@ -368,3 +368,159 @@ mods.botania.ManaInfusion.removeRecipe(<minecraft:flint>);
 
 //Disable Flint [ExtraBotany]
 mods.extrabotany.Pedestal.remove(<minecraft:flint>, <minecraft:gravel>);
+
+//Mana Spreader
+RecipeBuilder.get("mage")
+.setShaped([
+[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],
+[<minecraft:gold_ingot>, <ore:petal_block>, null], 
+[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]])
+.addOutput(<botania:spreader>)
+.addTool(<ore:artisansFramingHammer>, 75)
+.addTool(<ore:artisansChisel>, 75)
+.create();
+
+//Petal Block
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal>, <botania:petal>, <botania:petal>],
+[<botania:petal>, <botania:petal>, <botania:petal>], 
+[<botania:petal>, <botania:petal>, <botania:petal>]])
+.addOutput(<botania:petalblock>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:1>, <botania:petal:1>, <botania:petal:1>],
+[<botania:petal:1>, <botania:petal:1>, <botania:petal:1>], 
+[<botania:petal:1>, <botania:petal:1>, <botania:petal:1>]])
+.addOutput(<botania:petalblock:1>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:2>, <botania:petal:2>, <botania:petal:2>],
+[<botania:petal:2>, <botania:petal:2>, <botania:petal:2>], 
+[<botania:petal:2>, <botania:petal:2>, <botania:petal:2>]])
+.addOutput(<botania:petalblock:2>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:3>, <botania:petal:3>, <botania:petal:3>],
+[<botania:petal:3>, <botania:petal:3>, <botania:petal:3>], 
+[<botania:petal:3>, <botania:petal:3>, <botania:petal:3>]])
+.addOutput(<botania:petalblock:3>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:4>, <botania:petal:4>, <botania:petal:4>],
+[<botania:petal:4>, <botania:petal:4>, <botania:petal:4>], 
+[<botania:petal:4>, <botania:petal:4>, <botania:petal:4>]])
+.addOutput(<botania:petalblock:4>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:5>, <botania:petal:5>, <botania:petal:5>],
+[<botania:petal:5>, <botania:petal:5>, <botania:petal:5>], 
+[<botania:petal:5>, <botania:petal:5>, <botania:petal:5>]])
+.addOutput(<botania:petalblock:5>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:6>, <botania:petal:6>, <botania:petal:6>],
+[<botania:petal:6>, <botania:petal:6>, <botania:petal:6>], 
+[<botania:petal:6>, <botania:petal:6>, <botania:petal:6>]])
+.addOutput(<botania:petalblock:6>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:7>, <botania:petal:7>, <botania:petal:7>],
+[<botania:petal:7>, <botania:petal:7>, <botania:petal:7>], 
+[<botania:petal:7>, <botania:petal:7>, <botania:petal:7>]])
+.addOutput(<botania:petalblock:7>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:8>, <botania:petal:8>, <botania:petal:8>],
+[<botania:petal:8>, <botania:petal:8>, <botania:petal:8>], 
+[<botania:petal:8>, <botania:petal:8>, <botania:petal:8>]])
+.addOutput(<botania:petalblock:8>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:9>, <botania:petal:9>, <botania:petal:9>],
+[<botania:petal:9>, <botania:petal:9>, <botania:petal:9>], 
+[<botania:petal:9>, <botania:petal:9>, <botania:petal:9>]])
+.addOutput(<botania:petalblock:9>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:10>, <botania:petal:10>, <botania:petal:10>],
+[<botania:petal:10>, <botania:petal:10>, <botania:petal:10>], 
+[<botania:petal:10>, <botania:petal:10>, <botania:petal:10>]])
+.addOutput(<botania:petalblock:10>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>],
+[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>], 
+[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>]])
+.addOutput(<botania:petalblock:11>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:12>, <botania:petal:12>, <botania:petal:12>],
+[<botania:petal:12>, <botania:petal:12>, <botania:petal:12>], 
+[<botania:petal:12>, <botania:petal:12>, <botania:petal:12>]])
+.addOutput(<botania:petalblock:12>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:13>, <botania:petal:13>, <botania:petal:13>],
+[<botania:petal:13>, <botania:petal:13>, <botania:petal:13>], 
+[<botania:petal:13>, <botania:petal:13>, <botania:petal:13>]])
+.addOutput(<botania:petalblock:13>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:14>, <botania:petal:14>, <botania:petal:14>],
+[<botania:petal:14>, <botania:petal:14>, <botania:petal:14>], 
+[<botania:petal:14>, <botania:petal:14>, <botania:petal:14>]])
+.addOutput(<botania:petalblock:14>)
+.addTool(<ore:artisansPunch>, 20)
+.create();
+
+RecipeBuilder.get("farmer")
+.setShaped([
+[<botania:petal:15>, <botania:petal:15>, <botania:petal:15>],
+[<botania:petal:15>, <botania:petal:15>, <botania:petal:15>], 
+[<botania:petal:15>, <botania:petal:15>, <botania:petal:15>]])
+.addOutput(<botania:petalblock:15>)
+.addTool(<ore:artisansPunch>, 20)
+.create();

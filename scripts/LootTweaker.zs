@@ -17,6 +17,8 @@ var chests as string[] = [
 	"minecraft:chests/stronghold_library",
 	"minecraft:chests/village_blacksmith",
 	"minecraft:chests/woodland_mansion",
+	"minecraft:gameplay/fishing/junk",
+	"minecraft:gameplay/fishing/treasure"
 ];
 
 for table in chests {
@@ -28,3 +30,8 @@ for table in chests {
 val entity = <entity:primitivemobs:haunted_tool>;
 
 entity.clearDrops();
+
+mods.ltt.LootTable.removeModEntry("biomebundle");
+mods.ltt.LootTable.removeModEntry("openterraingenerator");
+mods.ltt.LootTable.removeModEntry("additionalstructures");
+mods.ltt.LootTable.removeModTable("additionalstructures");
