@@ -29,14 +29,12 @@ terraqueous:deathfruit_countdown
 terraqueous:deathfruit_withdraw
 terraqueous:pitchfork_ready
 terraqueous:pitchfork_angrymob
-tetra:bleeding
 botania:soulcross
 botania:featherfeet
 botania:emptiness
 botania:bloodthirst
 botania:allure
 botania:clear
-fp:paralyze
 extrabotany:mindcrack
 extrabotany:eternity
 extrabotany:reflect
@@ -49,6 +47,8 @@ primal:adrenaline
 primal:porphyria
 primal:water_burn
 primal:sun_burn
+scalinghealth:bandaged
+morerefinedstorage:freezing
 factorytech:lockdown
 naturalpledge:faithlessness
 naturalpledge:drab
