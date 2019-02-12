@@ -60,12 +60,4 @@ minecraft:mutated_savanna_rock
 minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
-fp:menelaus
-fp:menelaus_sea
-fp:menelaus_flat
-fp:tyros
-fp:tyros_swamp
-fp:tyros_mountain
-fp:tyros_rockdesert
-fp:tyros_rockdesertflat
-fp:envia
+nuclearcraft:nuclear_wasteland

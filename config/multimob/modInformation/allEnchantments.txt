@@ -28,5 +28,15 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
+morerefinedstorage:freeze
+morerefinedstorage:antifreeze
+cofhcore:holding
+cofhcore:insight
+cofhcore:leech
+cofhcore:multishot
+cofhcore:smashing
+cofhcore:smelting
+cofhcore:soulbound
+cofhcore:vorpal
 naturalpledge:heavy
 naturalpledge:light
