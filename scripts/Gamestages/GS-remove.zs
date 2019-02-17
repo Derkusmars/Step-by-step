@@ -119,7 +119,6 @@ var allmods as string[] = [
 "wanionlib",
 "kiwi",
 "morerefinedstorage",
-"researchtable",
 "librarianliblate",
 "unidict"
 ];
