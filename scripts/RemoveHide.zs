@@ -337,5 +337,4 @@ recipes.remove(<ore:brickmold>);
 recipes.remove(<ore:plankWood>);
 recipes.remove(<ore:slabWood>);
 recipes.remove(<ore:rock>);
-recipes.remove(<ore:petal_block>);
 recipes.remove(<ore:dye>);

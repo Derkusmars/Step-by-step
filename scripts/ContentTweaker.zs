@@ -6,6 +6,8 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.ItemFood;
+import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.Player;
 
 // String Mesh ================================================================================
 var string_mesh = VanillaFactory.createItem("string_mesh");
@@ -78,3 +80,37 @@ gingot.register();
 
 var tingot = VanillaFactory.createItem("river_tin");
 tingot.register();
+
+//Botania =====================================================================================
+var blankrune = VanillaFactory.createItem("blank_rune");
+blankrune.maxStackSize = 1;
+blankrune.maxDamage = 16;
+blankrune.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var firePos = pos.getOffset(facing, 1);
+    if (world.getBlockState(firePos).isReplaceable(world, firePos)) {
+        world.setBlockState(<block:minecraft:fire>, firePos);
+        player.sendChat("Покрываясь трещинами камень пульсирует огнем");
+        player.getHeldItem(hand).damage(1, player);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
+blankrune.register();
+
+  #Armor
+var emptyArmor = [
+  "blankManaHelmet",
+  "blankManaChestplate",
+  "blankManaLeggings",
+  "blankManaBoots",
+  "blankElementiumHelmet",
+  "blankElementiumChestplate",
+  "blankElementiumLeggings",
+  "blankElementiumBoots",
+  "blankTerrasteelHelmet",
+  "blankTerrasteelChestplate",
+  "blankTerrasteelLeggings",
+  "blankTerrasteelBoots"
+  ] as string[];
+
+for i in emptyArmor {VanillaFactory.createItem(i).register();}
