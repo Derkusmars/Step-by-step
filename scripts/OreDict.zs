@@ -40,26 +40,6 @@ import crafttweaker.item.IItemStack;
 <artisanworktables:artisans_hammer_diamond>,
 <artisanworktables:artisans_hammer_iron>);
 
-//Petal Block OreDict
-<ore:petal_block>.add(
-<botania:petalblock>,
-<botania:petalblock:1>,
-<botania:petalblock:2>,
-<botania:petalblock:3>,
-<botania:petalblock:4>,
-<botania:petalblock:5>,
-<botania:petalblock:6>,
-<botania:petalblock:7>,
-<botania:petalblock:8>,
-<botania:petalblock:9>,
-<botania:petalblock:10>,
-<botania:petalblock:11>,
-<botania:petalblock:12>,
-<botania:petalblock:13>,
-<botania:petalblock:14>,
-<botania:petalblock:15>);
-
-
 //Tiny Coal OreDict
 <ore:tiny_coal>.add(
 <primal:charcoal_mote>,
