@@ -1,3 +1,5 @@
+#priority 4000
+
 import crafttweaker.item.IIngredient;
 
 var stage = stages.base;
@@ -34,7 +36,7 @@ var stagebaseItems as IIngredient[] = [
 	<primal:corn_stalk_wet>,
 
 	//Terraqueous
-	<terraqueous:flower_single:*>,
+	<terraqueous:flowers_single:*>,
 	<terraqueous:multifood:*>,
 
 	//Botania
@@ -54,13 +56,13 @@ var stagebaseItems as IIngredient[] = [
 	<harvestcraft:peanutitem>,
 	<harvestcraft:strawberryitem>,
 	<harvestcraft:wintersquashitem>,
-	<harvestcraft:cucmberitem>,
+	<harvestcraft:cucumberitem>,
 	<harvestcraft:onionitem>,
 	<harvestcraft:bellpepperitem>,
 	<harvestcraft:blackberryitem>,
 	<harvestcraft:tomatoitem>,
 	<harvestcraft:beanitem>,
-	<harvestcraft:redishitem>,
+	<harvestcraft:radishitem>,
 	<harvestcraft:rhubarbitem>,
 	<harvestcraft:tealeafitem>,
 	<harvestcraft:sweetpotatoitem>,

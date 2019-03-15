@@ -1,8 +1,10 @@
+#priority 3950
+
 import crafttweaker.item.IIngredient;
 
 var stage = stages.basetools;
 
-var stagebasetoolsItems as IIngredient[] = [
+var stagebasetools as IIngredient[] = [
 
 	//Primal
 	<primal:plant_cordage>,
@@ -28,6 +30,6 @@ var stagebasetoolsItems as IIngredient[] = [
 
 ];
 
-for item in stagebasetoolsItems {
+for item in stagebasetools {
 	mods.ItemStages.addItemStage(stage, item);
 }

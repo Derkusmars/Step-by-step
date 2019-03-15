@@ -2,6 +2,29 @@ import mods.ResearchTable;
 
 var cat = ResearchTable.addCategory(<minecraft:grass>);
 
+  // Tutorial
+
+  ResearchTable.builder("base", cat) 
+  .setIcons(<researchtable:table>)
+  .setTitle("Tutorial")
+  .setDescription("Research rhis item for start you adventure!")
+  .addCondition(<botania:cosmetic:30> * 1)
+  .setRewardStages("base")
+  .setRewardCommands("/say \"@s start adventure!\"")
+  .build();
+
+  // Base tools
+
+  ResearchTable.builder("basetools", cat) 
+  .setIcons(<primal:flint_hatchet>)
+  .setTitle("You first tools")
+  .setDescription("empty")
+  .addCondition(<minecraft:stick> * 2)
+  .addCondition(<primal:flint_knapp> * 2)
+  .addCondition(<primal:plant_fiber> * 8)
+  .setRewardStages("basetools")
+  .setRewardCommands("/say \"@s learn basetools!\"")
+  .build();
 
   // Cartography
 

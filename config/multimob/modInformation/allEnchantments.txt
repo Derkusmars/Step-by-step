@@ -28,6 +28,8 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
+gregtech:disjunction
+gregtech:radioactivity
 morerefinedstorage:freeze
 morerefinedstorage:antifreeze
 cofhcore:holding

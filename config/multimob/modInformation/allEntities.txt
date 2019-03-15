@@ -261,6 +261,8 @@ thermalfoundation:basalz
 thermalfoundation:blizz_bolt
 thermalfoundation:blitz_bolt
 thermalfoundation:basalz_bolt
+gregtech:dynamite
+integrateddynamics:entityitemtargetted
 naturalpledge:sealarrow
 primitivemobs:chameleon
 primitivemobs:treasure_slime
@@ -380,6 +382,8 @@ extrabotany:subspacespear
 extrabotany:judahspear
 extrabotany:judahoath
 foundry:gun_skeleton
+cfm:mountable_block
+cfm:mirror
 terraqueous:paintingearth
 terraqueous:paintingcloud
 terraqueous:coconut
