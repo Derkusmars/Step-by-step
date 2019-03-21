@@ -11,9 +11,6 @@ var stagemortarItems as IIngredient[] = [
 	<primal:plant_fiber_pulp>,
 	<primal:tannin_ground>,
 	<primal:tannin_ground>,
-
-	//Artisan
-	<artisanworktables:artisans_trowel_flint>,
 	
 	//Contenttweaker
 	<contenttweaker:compressed_fert_dirt>,

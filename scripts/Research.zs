@@ -65,11 +65,12 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
 
   ResearchTable.builder("tools", cat) 
   .setIcons(<artisanworktables:artisans_hammer_flint>)
-  .setTitle("Tools")
+  .setTitle("Need more tools")
   .setDescription("empty")
-  .addCondition(<minecraft:stick> * 6)
+  .addCondition(<minecraft:stick> * 4)
   .addCondition(<primal:flint_knapp> * 8)
-  .addCondition(<primal:plant_fiber> * 12)
+  .addCondition(<primal:plant_cordage> * 8)
+  .addCondition(<factorytech:machinepart:180> * 1)
   .setRewardStages("tools")
   .setRewardCommands("/say \"@s learn tools!\"")
   .build();

@@ -23,7 +23,8 @@ var stagetoolsItems as IIngredient[] = [
 	<artisanworktables:artisans_handsaw_flint>,
 	<artisanworktables:artisans_chisel_flint>,
 	<artisanworktables:artisans_mortar_flint>,
-	<artisanworktables:artisans_trowel_flint>
+	<artisanworktables:artisans_trowel_flint>,
+	<artisanworktables:artisans_razor_flint>
 ];
 
 for item in stagetoolsItems {
