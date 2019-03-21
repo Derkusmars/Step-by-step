@@ -1,11 +1,30 @@
-#priority 3950
-
 import crafttweaker.item.IIngredient;
 
 var stage = stages.basetools;
 
 var stagebasetools as IIngredient[] = [
 
+
+	<minecraft:log:*>,
+	<minecraft:log2:*>,
+
+	//Silentgear
+	<silentgear:netherwood_log>,
+
+	//integrateddynamics
+	<integrateddynamics:menril_log>,
+	<integrateddynamics:menril_log_filled>,
+	
+	
+	//Terraqueous
+	<terraqueous:trunk2:*>,
+	<terraqueous:trunk1:*>,
+	
+	//Pams
+	<harvestcraft:pampaperbark>,
+	<harvestcraft:pammaple>,
+	<harvestcraft:pamcinnamon>,
+	
 	//Primal
 	<primal:plant_cordage>,
 	<primal:flint_hatchet>,

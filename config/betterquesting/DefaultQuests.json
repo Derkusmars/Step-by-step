@@ -10320,10 +10320,10 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "0 - Первые шаги",
+          "name:8": "Tier 0 - You first step",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "Эта глава рассказывает о том, как сделать первые шаги в этом чудесном мире."
+          "desc:8": ""
         }
       },
       "order:3": 0
@@ -11335,7 +11335,7 @@
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "1 - Первые верстаки",
+          "name:8": "Tier 1 - Road to hibachi",
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "No Description"
@@ -11832,7 +11832,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
