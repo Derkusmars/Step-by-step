@@ -335,6 +335,8 @@ RecipeBuilder.get("farmer")
 .addTool(<ore:artisansHandsaw>, 10)
 .setMaximumTier(1)
 .create();
+// Thatch
+mods.horsepower.Press.add(<primal:thatching_dry> * 8, <primal:thatch>);
 
 //Clay Bucket
 mods.primal.Hibachi.removeRecipe("primal:bucket_clay");
@@ -395,7 +397,7 @@ RecipeBuilder.get("basic")
 .create();
 
 //Fire Bow [Inventory Crafting]
-recipes.addShapeless(<primal:fire_bow>, [<minecraft:stick>, <minecraft:stick>, <primal:plant_cordage>,]);
+recipes.addShapeless(<primal:fire_bow>, [<minecraft:stick>, <minecraft:stick>, <primal:plant_cordage>]);
 
 //Stone Gallagher
 RecipeBuilder.get("basic")
@@ -552,6 +554,16 @@ RecipeBuilder.get("farmer")
 .addOutput(<primal:tannin_ground>)
 .setMaximumTier(1)
 .create();
+
+
+//Resin [Flint]
+RecipeBuilder.get("basic")
+.setShapeless([<primal:flint_knapp>])
+.addTool(<ore:artisansMortar>, 25)
+.addOutput(<primal:tannin_ground>)
+.setMaximumTier(1)
+.create();
+
 
 //Clay Bucket in Sariras
 mods.primal.Smelter.addRecipe(
