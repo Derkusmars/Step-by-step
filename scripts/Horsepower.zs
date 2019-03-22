@@ -1,184 +1,101 @@
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemStack;
+// Chopping
 
-//Chopping
+
+function createChoppingBlock(base as IItemStack, baseDamage as short, type as string ) {
+    RecipeBuilder.get("carpenter")
+    .setShapeless([base])
+    .addOutput(
+        <horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}))
+    .addTool(<ore:artisansHandsaw>, 10)
+    .setMaximumTier(1)
+    .create();
+}
+
+createChoppingBlock(<minecraft:log>, 0,"minecraft:log");
+createChoppingBlock(<minecraft:log:1>, 1,"minecraft:log");
+createChoppingBlock(<minecraft:log:2>, 2,"minecraft:log");
+createChoppingBlock(<minecraft:log:3>, 3,"minecraft:log");
+createChoppingBlock(<minecraft:log2>, 0,"minecraft:log2");
+createChoppingBlock(<minecraft:log2:1>, 1,"minecraft:log2");
+createChoppingBlock(<primal:logs>, 0,"primal:logs");
+createChoppingBlock(<primal:logs:1> , 1,"primal:logs");
+createChoppingBlock(<integrateddynamics:menril_log> , 0,"integrateddynamics:menril_log");
+createChoppingBlock(<integrateddynamics:menril_log_filled> , 0,"integrateddynamics:menril_log_filled");
+createChoppingBlock(<naturalpledge:iris_log0:*> , 0,"naturalpledge:iris_log0");
+createChoppingBlock(<naturalpledge:rainbow_log> , 0,"naturalpledge:rainbow_log");
+createChoppingBlock(<naturalpledge:alt_log0> , 0,"customnpcs:itemscripteddata");
+createChoppingBlock(<naturalpledge:alt_log0:1>, 1,"naturalpledge:alt_log0");
+createChoppingBlock(<naturalpledge:alt_log0:2>, 2,"naturalpledge:alt_log0");
+createChoppingBlock(<naturalpledge:alt_log0:3>, 3,"naturalpledge:alt_log0");
+createChoppingBlock(<naturalpledge:alt_log1>, 0,"naturalpledge:alt_log1");
+createChoppingBlock(<naturalpledge:alt_log1:1>, 1,"naturalpledge:alt_log1");
+createChoppingBlock(<naturalpledge:seal_log>, 0,"naturalpledge:seal_log");
+createChoppingBlock(<naturalpledge:thunder_log>, 0,"naturalpledge:thunder_log");
+createChoppingBlock(<naturalpledge:circuit_log>, 0,"naturalpledge:circuit_log");
+createChoppingBlock(<naturalpledge:calico_log>, 0,"naturalpledge:calico_log");
+createChoppingBlock(<naturalpledge:calico_log>, 0,"naturalpledge:calico_log");
+createChoppingBlock(<gregtech:log>, 0,"gregtech:log");
+createChoppingBlock(<terraqueous:trunk1>, 0,"terraqueous:trunk1");
+createChoppingBlock(<terraqueous:trunk2>, 0,"terraqueous:trunk2");
+createChoppingBlock(<silentgear:netherwood_log>, 0,"silentgear:netherwood_log");
+
+
+function createChopper(base as IItemStack, baseDamage as short, type as string ) {
+    RecipeBuilder.get("carpenter")
+    .setShaped([
+        [<ore:logSplit>,<minecraft:lead>,<ore:logSplit>],
+        [<ore:logSplit>,<primal:flint_point>,<ore:logSplit>],
+        [base,base,base]]
+    )
+    .addOutput(
+        <horsepower:chopper>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}))
+    .addTool(<ore:artisansHandsaw>, 25)
+    .setMaximumTier(1)
+    .create();
+}
+
+
+createChopper(<minecraft:log>, 0,"minecraft:log");
+createChopper(<minecraft:log:1>, 1,"minecraft:log");
+createChopper(<minecraft:log:2>, 2,"minecraft:log");
+createChopper(<minecraft:log:3>, 3,"minecraft:log");
+createChopper(<minecraft:log2>, 0,"minecraft:log2");
+createChopper(<minecraft:log2:1>, 1,"minecraft:log2");
+createChopper(<primal:logs>, 0,"primal:logs");
+createChopper(<primal:logs:1> , 1,"primal:logs");
+createChopper(<integrateddynamics:menril_log> , 0,"integrateddynamics:menril_log");
+createChopper(<integrateddynamics:menril_log_filled> , 0,"integrateddynamics:menril_log_filled");
+createChopper(<naturalpledge:iris_log0:*> , 0,"naturalpledge:iris_log0");
+createChopper(<naturalpledge:rainbow_log> , 0,"naturalpledge:rainbow_log");
+createChopper(<naturalpledge:alt_log0> , 0,"customnpcs:itemscripteddata");
+createChopper(<naturalpledge:alt_log0:1>, 1,"naturalpledge:alt_log0");
+createChopper(<naturalpledge:alt_log0:2>, 2,"naturalpledge:alt_log0");
+createChopper(<naturalpledge:alt_log0:3>, 3,"naturalpledge:alt_log0");
+createChopper(<naturalpledge:alt_log1>, 0,"naturalpledge:alt_log1");
+createChopper(<naturalpledge:alt_log1:1>, 1,"naturalpledge:alt_log1");
+createChopper(<naturalpledge:seal_log>, 0,"naturalpledge:seal_log");
+createChopper(<naturalpledge:thunder_log>, 0,"naturalpledge:thunder_log");
+createChopper(<naturalpledge:circuit_log>, 0,"naturalpledge:circuit_log");
+createChopper(<naturalpledge:calico_log>, 0,"naturalpledge:calico_log");
+createChopper(<naturalpledge:calico_log>, 0,"naturalpledge:calico_log");
+createChopper(<gregtech:log>, 0,"gregtech:log");
+createChopper(<terraqueous:trunk1>, 0,"terraqueous:trunk1");
+createChopper(<terraqueous:trunk2>, 0,"terraqueous:trunk2");
+createChopper(<silentgear:netherwood_log>, 0,"silentgear:netherwood_log");
+
+
+
+// Horse Press
 RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log>])
-.addOutput(<horsepower:chopping_block> * 2)
-.addTool(<ore:artisansHandsaw>, 10)
+.setShaped([
+    [<minecraft:lead>,<ore:logSplit>,<minecraft:lead>],
+    [<ore:plankWood>,<ore:logWood>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]
+)
+.addOutput(<horsepower:press>)
+.addTool(<ore:artisansHandsaw>, 25)
 .setMaximumTier(1)
 .create();
 
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "minecraft:log", Count: 1 as byte, Damage: 1 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:2>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "minecraft:log", Count: 1 as byte, Damage: 2 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:3>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "minecraft:log", Count: 1 as byte, Damage: 3 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log2>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "minecraft:log2", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log2:1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "minecraft:log2", Count: 1 as byte, Damage: 1 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<primal:logs>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "primal:logs", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<primal:logs:1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "primal:logs", Count: 1 as byte, Damage: 1 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<integrateddynamics:menril_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "integrateddynamics:menril_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<integrateddynamics:menril_log_filled>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "integrateddynamics:menril_log_filled", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:iris_log0:*>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:iris_log0", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:rainbow_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:rainbow_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log0>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log0", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log0:1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log0", Count: 1 as byte, Damage: 1 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log0:2>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log0", Count: 1 as byte, Damage: 2 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log0:3>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log0", Count: 1 as byte, Damage: 3 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log1", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:alt_log1:1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:alt_log1", Count: 1 as byte, Damage: 1 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:seal_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:seal_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:thunder_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:thunder_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:circuit_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:circuit_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<naturalpledge:calico_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "naturalpledge:calico_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<gregtech:log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "gregtech:log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<terraqueous:trunk1>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "terraqueous:trunk1", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<terraqueous:trunk2>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "terraqueous:trunk2", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<silentgear:netherwood_log>])
-.addOutput(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: "silentgear:netherwood_log", Count: 1 as byte, Damage: 0 as short}}) * 2)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
