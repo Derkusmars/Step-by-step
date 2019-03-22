@@ -1019,7 +1019,8 @@
     "20:10": {
       "questID:3": 20,
       "preRequisites:11": [
-        152
+        152,
+        24
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2287,7 +2288,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "artisanworktables:worktable",
+              "id:8": "artisanworktables:workstation",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 8
@@ -2659,7 +2660,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "primal:plant_tinder",
-              "Count:3": 1,
+              "Count:3": 4,
               "OreDict:8": "tinder",
               "Damage:3": 0
             }
@@ -6704,7 +6705,8 @@
     "149:10": {
       "questID:3": 149,
       "preRequisites:11": [
-        218
+        218,
+        41
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9630,6 +9632,59 @@
       "rewards:9": {}
     },
     "209:10": {
+      "questID:3": 209,
+      "preRequisites:11": [
+        221
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "artisanworktables:artisans_needle_flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "artisansNeedle"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "artisanworktables:artisans_needle_flint",
+              "Count:3": 1,
+              "OreDict:8": "artisansNeedle",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "210:10": {
       "questID:3": 210,
       "preRequisites:11": [
         211
@@ -9690,7 +9745,7 @@
       },
       "rewards:9": {}
     },
-    "210:10": {
+    "211:10": {
       "questID:3": 211,
       "preRequisites:11": [
         203
@@ -9743,7 +9798,7 @@
       },
       "rewards:9": {}
     },
-    "211:10": {
+    "212:10": {
       "questID:3": 212,
       "preRequisites:11": [
         210
@@ -9804,7 +9859,7 @@
       },
       "rewards:9": {}
     },
-    "212:10": {
+    "213:10": {
       "questID:3": 213,
       "preRequisites:11": [
         188
@@ -9839,7 +9894,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "213:10": {
+    "214:10": {
       "questID:3": 214,
       "preRequisites:11": [
         215
@@ -9874,7 +9929,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "214:10": {
+    "215:10": {
       "questID:3": 215,
       "preRequisites:11": [
         183
@@ -9909,10 +9964,9 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "215:10": {
+    "216:10": {
       "questID:3": 218,
       "preRequisites:11": [
-        41,
         148
       ],
       "properties:10": {
@@ -9963,7 +10017,7 @@
       },
       "rewards:9": {}
     },
-    "216:10": {
+    "217:10": {
       "questID:3": 220,
       "preRequisites:11": [
         24
@@ -10016,7 +10070,7 @@
       },
       "rewards:9": {}
     },
-    "217:10": {
+    "218:10": {
       "questID:3": 221,
       "preRequisites:11": [
         41
@@ -10069,7 +10123,7 @@
       },
       "rewards:9": {}
     },
-    "218:10": {
+    "219:10": {
       "questID:3": 222,
       "preRequisites:11": [
         223,
@@ -10129,7 +10183,7 @@
       },
       "rewards:9": {}
     },
-    "219:10": {
+    "220:10": {
       "questID:3": 223,
       "preRequisites:11": [
         227
@@ -10182,7 +10236,7 @@
       },
       "rewards:9": {}
     },
-    "220:10": {
+    "221:10": {
       "questID:3": 224,
       "preRequisites:11": [
         225,
@@ -10236,7 +10290,7 @@
       },
       "rewards:9": {}
     },
-    "221:10": {
+    "222:10": {
       "questID:3": 225,
       "preRequisites:11": [
         197
@@ -10289,7 +10343,7 @@
       },
       "rewards:9": {}
     },
-    "222:10": {
+    "223:10": {
       "questID:3": 226,
       "preRequisites:11": [
         198
@@ -10342,10 +10396,10 @@
       },
       "rewards:9": {}
     },
-    "223:10": {
+    "224:10": {
       "questID:3": 227,
       "preRequisites:11": [
-        221
+        209
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -11129,25 +11183,25 @@
         "4:10": {
           "size:3": 24,
           "x:3": 216,
-          "y:3": 48,
+          "y:3": 84,
           "id:3": 19
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 156,
           "id:3": 20
         },
         "6:10": {
           "size:3": 24,
           "x:3": 216,
-          "y:3": -24,
+          "y:3": 12,
           "id:3": 21
         },
         "7:10": {
           "size:3": 24,
           "x:3": 216,
-          "y:3": 84,
+          "y:3": 120,
           "id:3": 22
         },
         "8:10": {
@@ -11158,8 +11212,8 @@
         },
         "9:10": {
           "size:3": 24,
-          "x:3": 216,
-          "y:3": -60,
+          "x:3": 180,
+          "y:3": -24,
           "id:3": 24
         },
         "10:10": {
@@ -11224,7 +11278,7 @@
         },
         "20:10": {
           "size:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": -96,
           "id:3": 41
         },
@@ -11242,7 +11296,7 @@
         },
         "23:10": {
           "size:3": 24,
-          "x:3": 108,
+          "x:3": 144,
           "y:3": -96,
           "id:3": 46
         },
@@ -11404,13 +11458,13 @@
         },
         "50:10": {
           "size:3": 24,
-          "x:3": 180,
-          "y:3": 84,
+          "x:3": 252,
+          "y:3": 120,
           "id:3": 162
         },
         "51:10": {
           "size:3": 24,
-          "x:3": 180,
+          "x:3": 288,
           "y:3": 120,
           "id:3": 163
         },
@@ -11464,55 +11518,61 @@
         },
         "60:10": {
           "size:3": 24,
+          "x:3": 252,
+          "y:3": -96,
+          "id:3": 209
+        },
+        "61:10": {
+          "size:3": 24,
           "x:3": 180,
           "y:3": -132,
           "id:3": 218
         },
-        "61:10": {
-          "size:3": 24,
-          "x:3": 252,
-          "y:3": -60,
-          "id:3": 220
-        },
         "62:10": {
           "size:3": 24,
-          "x:3": 180,
+          "x:3": 216,
+          "y:3": -24,
+          "id:3": 220
+        },
+        "63:10": {
+          "size:3": 24,
+          "x:3": 216,
           "y:3": -96,
           "id:3": 221
         },
-        "63:10": {
+        "64:10": {
           "size:3": 48,
           "x:3": 384,
           "y:3": -108,
           "id:3": 222
         },
-        "64:10": {
+        "65:10": {
           "size:3": 24,
-          "x:3": 252,
+          "x:3": 324,
           "y:3": -96,
           "id:3": 223
         },
-        "65:10": {
+        "66:10": {
           "size:3": 24,
           "x:3": 396,
           "y:3": 48,
           "id:3": 224
         },
-        "66:10": {
+        "67:10": {
           "size:3": 24,
           "x:3": 360,
           "y:3": 84,
           "id:3": 225
         },
-        "67:10": {
+        "68:10": {
           "size:3": 24,
           "x:3": 396,
           "y:3": 156,
           "id:3": 226
         },
-        "68:10": {
+        "69:10": {
           "size:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": -96,
           "id:3": 227
         }
