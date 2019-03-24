@@ -1,97 +1,124 @@
 import mods.artisanworktables.builder.RecipeBuilder;
-
+import crafttweaker.item.IItemStack;
 //Framing Hammer ========================================================
-RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:flint_knapp>, <primal:flint_knapp>],
-[null, <ore:stickWood>, <ore:cordageGeneral>],
-[<ore:stickWood>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_flint>)
-.setMaximumTier(1)
-.create();
 
-RecipeBuilder.get("mason")
-.setShaped([
-[null, <primal:quartz_knapp>, <primal:quartz_knapp>],
-[null, <ore:stickWood>, <ore:cordageGeneral>],
-[<ore:stickWood>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_quartz>)
-.setMaximumTier(1)
-.create();
+function createFramingHammer(base as IItemStack, output as IItemStack, workplace as string) {
+    RecipeBuilder.get(workplace)
+    .setShaped([
+    [null, base, base],
+    [null, <minecraft:stick>, <ore:cordageGeneral>],
+    [<minecraft:stick>, null, null]])
+    .addOutput(output)
+    .setMaximumTier(1)
+    .create();
+}
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:32>, <thermalfoundation:material:32>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_iron>)
-.setMaximumTier(1)
-.create();
+createFramingHammer(<primal:flint_knapp>, <artisanworktables:artisans_framing_hammer_flint>,"basic");
+createFramingHammer(<primal:quartz_knapp>, <artisanworktables:artisans_framing_hammer_quartz>,"mason");
+createFramingHammer(<thermalfoundation:material:32>, <artisanworktables:artisans_framing_hammer_iron>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:33>, <artisanworktables:artisans_framing_hammer_gold>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:320>, <artisanworktables:artisans_framing_hammer_copper>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:321>, <artisanworktables:artisans_framing_hammer_tin>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:322>, <artisanworktables:artisans_framing_hammer_silver>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:323>, <artisanworktables:artisans_framing_hammer_lead>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:324>, <artisanworktables:artisans_framing_hammer_aluminum>,"blacksmith");
+createFramingHammer(<thermalfoundation:material:325>, <artisanworktables:artisans_framing_hammer_nickel>,"blacksmith");
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:33>, <thermalfoundation:material:33>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_gold>)
-.setMaximumTier(1)
-.create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:320>, <thermalfoundation:material:320>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_copper>)
-.setMaximumTier(1)
-.create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:321>, <thermalfoundation:material:321>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_tin>)
-.setMaximumTier(1)
-.create();
+// RecipeBuilder.get("basic")
+// .setShaped([
+// [null, <primal:flint_knapp>, <primal:flint_knapp>],
+// [null, <ore:stickWood>, <ore:cordageGeneral>],
+// [<ore:stickWood>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_flint>)
+// .setMaximumTier(1)
+// .create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:322>, <thermalfoundation:material:322>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_silver>)
-.setMaximumTier(1)
-.create();
+// RecipeBuilder.get("mason")
+// .setShaped([
+// [null, <primal:quartz_knapp>, <primal:quartz_knapp>],
+// [null, <ore:stickWood>, <ore:cordageGeneral>],
+// [<ore:stickWood>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_quartz>)
+// .setMaximumTier(1)
+// .create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:323>, <thermalfoundation:material:323>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_lead>)
-.setMaximumTier(1)
-.create();
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:32>, <thermalfoundation:material:32>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_iron>)
+// .setMaximumTier(1)
+// .create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:324>, <thermalfoundation:material:324>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_aluminum>)
-.setMaximumTier(1)
-.create();
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:33>, <thermalfoundation:material:33>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_gold>)
+// .setMaximumTier(1)
+// .create();
 
-RecipeBuilder.get("blacksmith")
-.setShaped([
-[null, <thermalfoundation:material:325>, <thermalfoundation:material:325>],
-[null, <minecraft:stick>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
-.addOutput(<artisanworktables:artisans_framing_hammer_nickel>)
-.setMaximumTier(1)
-.create();
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:320>, <thermalfoundation:material:320>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_copper>)
+// .setMaximumTier(1)
+// .create();
+
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:321>, <thermalfoundation:material:321>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_tin>)
+// .setMaximumTier(1)
+// .create();
+
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:322>, <thermalfoundation:material:322>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_silver>)
+// .setMaximumTier(1)
+// .create();
+
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:323>, <thermalfoundation:material:323>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_lead>)
+// .setMaximumTier(1)
+// .create();
+
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:324>, <thermalfoundation:material:324>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_aluminum>)
+// .setMaximumTier(1)
+// .create();
+
+// RecipeBuilder.get("blacksmith")
+// .setShaped([
+// [null, <thermalfoundation:material:325>, <thermalfoundation:material:325>],
+// [null, <minecraft:stick>, <ore:cordageGeneral>], 
+// [<minecraft:stick>, null, null]])
+// .addOutput(<artisanworktables:artisans_framing_hammer_nickel>)
+// .setMaximumTier(1)
+// .create();
 
 //Cutters ========================================================
+
+
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:flint_knapp>, null, <primal:flint_knapp>],
@@ -277,7 +304,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("basic")
 .setShaped([
 [null, null, <minecraft:stick>],
-[<primal:flint_knapp>, <primal:flint_knapp>, null],
+[<primal:flint_knapp>, <primal:flint_point>, null],
 [null, <primal:flint_knapp>, null]])
 .addOutput(<artisanworktables:artisans_mortar_flint>)
 .setMaximumTier(1)
@@ -472,11 +499,21 @@ RecipeBuilder.get("blacksmith")
 .create();
 
 //Needle ========================================================
+
+// FLINT
 RecipeBuilder.get("basic")
 .setShaped([
-[null, null, <primal:flint_knapp>],
-[null, <primal:flint_knapp>, <ore:cordageGeneral>], 
-[<minecraft:stick>, null, null]])
+[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+[<minecraft:string>, <primal:flint_point>, <minecraft:string>], 
+[<minecraft:string>, <minecraft:string>, <minecraft:string>]])
+.addOutput(<artisanworktables:artisans_needle_flint>)
+.setMaximumTier(1)
+.create();
+RecipeBuilder.get("basic")
+.setShaped([
+[<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>],
+[<ore:cordageGeneral>, <primal:flint_point>, <ore:cordageGeneral>], 
+[<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]])
 .addOutput(<artisanworktables:artisans_needle_flint>)
 .setMaximumTier(1)
 .create();

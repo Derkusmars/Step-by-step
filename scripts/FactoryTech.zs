@@ -35,16 +35,16 @@ RecipeBuilder.get("carpenter")
 mods.factorytech.Centrifuge.removeRecipe(<minecraft:flint> *4, <minecraft:iron_nugget> *2, <minecraft:flint> *2, <factorytech:ore_dust:17> *2);
 
 //Adding Items To River Grate
-mods.factorytech.rivergrate.addRecipe(<primal:flint_knapp>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<primal:nickel_nugget>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<minecraft:iron_nugget>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<primal:copper_nugget>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_tin_river>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_gold_river>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_lead_river>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_silver_river>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_aluminum_river>, 0.2);
-mods.factorytech.rivergrate.addRecipe(<primal:quartz_knapp>, 0.002);
+mods.factorytech.rivergrate.addRecipe(<primal:flint_knapp>, 0.015);
+mods.factorytech.rivergrate.addRecipe(<primal:nickel_nugget>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<minecraft:iron_nugget>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<primal:copper_nugget>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_tin_river>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_gold_river>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_lead_river>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_silver_river>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<contenttweaker:nugget_aluminum_river>, 0.001);
+mods.factorytech.rivergrate.addRecipe(<primal:quartz_knapp>, 0.001);
 
 //Renaming "Sheet Metal Siding" to "Sheet Metal Block"
 <factorytech:metal:4>.displayName = "Sheet Metal Block";

@@ -362,50 +362,6 @@ RecipeBuilder.get("tanner")
 .setMaximumTier(1)
 .create();
 
-
-//Log to Planks
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log>])
-.addOutput(<minecraft:planks> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:1>])
-.addOutput(<minecraft:planks:1> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:2>])
-.addOutput(<minecraft:planks:2> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log:3>])
-.addOutput(<minecraft:planks:3> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log2>])
-.addOutput(<minecraft:planks:4> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("carpenter")
-.setShapeless([<minecraft:log2:1>])
-.addOutput(<minecraft:planks:5> * 4)
-.addTool(<ore:artisansHandsaw>, 10)
-.setMaximumTier(1)
-.create();
-
 //Planks to Slabs
 RecipeBuilder.get("carpenter")
 .setShapeless([<minecraft:planks>])

@@ -1,7 +1,10 @@
+#priority 5000
+
 global stages as string[string] = {
 	
 	//Tier 0
 	base : "base",
+	basetools : "basetools",
 
 	//Tier 1
 
@@ -12,5 +15,6 @@ global stages as string[string] = {
 	//Magical 2
 
 	//Remove stage
-	remove : "remove"
+	remove : "remove",
+	remove : "removetwo"
 };

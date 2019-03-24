@@ -183,7 +183,6 @@ var removeItems as IItemStack[] = [
 //Remove [Mix]
 <factorytech:sluice>,
 <factorytech:metal:4>,
-<fp:itemerze:2>,
 <factorytech:ingot:5>,
 <factorytech:ingot:6>,
 <factorytech:ingot:7>,
@@ -228,7 +227,6 @@ mods.jei.JEI.removeAndHide(<botania:opencrate:*>);
 mods.jei.JEI.removeAndHide(<factorytech:autocrafter>);
 mods.jei.JEI.removeAndHide(<primal:flint_saw>);
 mods.jei.JEI.removeAndHide(<minecraft:flint>);
-mods.jei.JEI.removeAndHide(<fp:recycler:2>);
 mods.jei.JEI.removeAndHide(<primal:smelter>.withTag({type: "mud"}));
 mods.jei.JEI.removeAndHide(<primal:smelter:1>.withTag({type: "terra"}));
 mods.jei.JEI.removeAndHide(<primal:smelter:2>.withTag({type: "cinis"}));

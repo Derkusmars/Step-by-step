@@ -60,4 +60,5 @@ minecraft:mutated_savanna_rock
 minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
+integrateddynamics:biome_meneglin
 nuclearcraft:nuclear_wasteland
