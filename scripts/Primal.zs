@@ -115,6 +115,18 @@ RecipeBuilder.get("basic")
 .setMaximumTier(1)
 .create();
 
+//Flint Shears
+RecipeBuilder.get("basic")
+.setShaped([
+[null, <primal:flint_point>, null],
+[<primal:flint_point>, <ore:cordageGeneral>, null], 
+[null, null, null]])
+.addOutput(<primal:flint_shears>)
+.setMaximumTier(1)
+.create();
+
+recipes.addShapeless(<primal:flint_shears>, [<primal:flint_point>,<primal:flint_point>,<ore:cordageGeneral>]);
+
 //Plant Fiber Pulp
 RecipeBuilder.get("basic")
 .setShapeless([<primal:flint_knapp>, <primal:plant_tinder>])
@@ -557,12 +569,16 @@ RecipeBuilder.get("farmer")
 
 
 //Resin [Flint]
-RecipeBuilder.get("basic")
-.setShapeless([<primal:flint_knapp>])
+RecipeBuilder.get("farmer")
+.setShapeless([<primal:flint_knapp>, <ore:barkWood>])
 .addTool(<ore:artisansMortar>, 25)
 .addOutput(<primal:tannin_ground>)
 .setMaximumTier(1)
 .create();
+
+recipes.addShapeless("Ground Resin Flint", <primal:tannin_ground>,
+    [<artisanworktables:artisans_mortar_flint>.anyDamage().transformDamage(25), <primal:flint_knapp>,<ore:barkWood>]
+);
 
 
 //Clay Bucket in Sariras
@@ -1032,9 +1048,10 @@ RecipeBuilder.get("mason")
 .create();
 
 //Leather Strip
+recipes.remove(<primal:leather_strip>);
 RecipeBuilder.get("tanner")
-.setShapeless([<ore:leather>])
-.addOutput(<primal:leather_strip>)
+.setShapeless([<ore:pelt>])
+.addOutput(<primal:leather_strip> * 3)
 .addTool(<ore:toolWorkBlade>, 20)
 .setMaximumTier(1)
 .create();
