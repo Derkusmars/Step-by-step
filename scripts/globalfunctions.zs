@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-#priority 90
+#priority 9000
 /*
 * item - the item you want to disable
 */
@@ -31,5 +31,16 @@ function disableCrafting(item as IItemStack){
 function disableCraftings(items as IItemStack[]){
   for item in items {
     disableCrafting(item);
+  }
+}
+
+function hideItem(item as IItemStack){
+  //any operation on a hide item happends here
+  mods.jei.JEI.hide(item);
+}
+
+function hideItems(items as IItemStack[]){
+  for item in items {
+    hideItem(item);
   }
 }
