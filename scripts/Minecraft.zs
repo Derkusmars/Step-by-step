@@ -11,18 +11,6 @@ RecipeBuilder.get("carpenter")
 .setMaximumTier(1)
 .create();
 
-//Flint Shears
-RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:flint_point>, null],
-[<primal:flint_point>, <ore:cordageGeneral>, null], 
-[null, null, null]])
-.addOutput(<primal:flint_shears>)
-.setMaximumTier(1)
-.create();
-
-recipes.addShapeless(<primal:flint_shears>, [<primal:flint_point>,<primal:flint_point>,<ore:cordageGeneral>]);
-
 //Bed
 RecipeBuilder.get("carpenter")
 .setShaped([
@@ -415,7 +403,7 @@ RecipeBuilder.get("carpenter")
 
 //String
 RecipeBuilder.get("tailor")
-.setShapeless([<minecraft:wool:*>])
+.setShapeless([<ore:wool>])
 .addOutput(<minecraft:string> * 3)
 .addTool(<ore:artisansShears>, 10)
 .setMaximumTier(1)
@@ -423,7 +411,7 @@ RecipeBuilder.get("tailor")
 
 //String
 RecipeBuilder.get("tailor")
-.setShapeless([<minecraft:wool:*>])
+.setShapeless([<ore:wool>])
 .addOutput(<minecraft:string> * 2)
 .addTool(<primal:flint_shears>, 10)
 .setMaximumTier(1)

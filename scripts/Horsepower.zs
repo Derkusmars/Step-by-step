@@ -4,13 +4,15 @@ import crafttweaker.item.IItemStack;
 
 
 function createChoppingBlock(base as IItemStack, baseDamage as short, type as string ) {
+    recipes.remove(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}));
     RecipeBuilder.get("carpenter")
     .setShapeless([base])
     .addOutput(
-        <horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}))
+        <horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}) * 2)
     .addTool(<ore:artisansHandsaw>, 10)
     .setMaximumTier(1)
     .create();
+    mods.jei.JEI.addItem(<horsepower:chopping_block>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}));
 }
 
 createChoppingBlock(<minecraft:log>, 0,"minecraft:log");
@@ -43,6 +45,7 @@ createChoppingBlock(<silentgear:netherwood_log>, 0,"silentgear:netherwood_log");
 
 
 function createChopper(base as IItemStack, baseDamage as short, type as string ) {
+    recipes.remove(<horsepower:chopper>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}));
     RecipeBuilder.get("carpenter")
     .setShaped([
         [<ore:logSplit>,<minecraft:lead>,<ore:logSplit>],
@@ -50,12 +53,13 @@ function createChopper(base as IItemStack, baseDamage as short, type as string )
         [base,base,base]]
     )
     .addOutput(
-        <horsepower:chopper>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}))
+        <horsepower:chopper>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}})
+    )
     .addTool(<ore:artisansHandsaw>, 25)
     .setMaximumTier(1)
     .create();
+    mods.jei.JEI.addItem(<horsepower:chopper>.withTag({textureBlock: {ForgeCaps: {"customnpcs:itemscripteddata": {}}, id: type, Count: 1 as byte, Damage: baseDamage}}));
 }
-
 
 createChopper(<minecraft:log>, 0,"minecraft:log");
 createChopper(<minecraft:log:1>, 1,"minecraft:log");
@@ -87,7 +91,9 @@ createChopper(<silentgear:netherwood_log>, 0,"silentgear:netherwood_log");
 
 
 
+
 // Horse Press
+recipes.remove(<horsepower:press>);
 RecipeBuilder.get("carpenter")
 .setShaped([
     [<minecraft:lead>,<ore:logSplit>,<minecraft:lead>],
@@ -98,4 +104,6 @@ RecipeBuilder.get("carpenter")
 .addTool(<ore:artisansHandsaw>, 25)
 .setMaximumTier(1)
 .create();
+mods.jei.JEI.addItem(<horsepower:press>);
 
+ 
