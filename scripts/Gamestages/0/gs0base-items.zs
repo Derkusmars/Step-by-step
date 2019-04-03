@@ -1,11 +1,9 @@
-#priority 4000
-
 import crafttweaker.item.IIngredient;
 
 var stage = stages.base;
 
 var stagebaseItems as IIngredient[] = [
-	
+
 	<botania:tinypotato>
 
 ];

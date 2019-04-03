@@ -3,6 +3,10 @@ import crafttweaker.item.IItemStack;
 //Remove all Recipes in Furnace
 furnace.removeAll();
 
+//гомно коверы
+recipes.remove(<refinedstorage:cover:*>);
+recipes.remove(<refinedstorage:hollow_cover:*>);
+
 //Primal
 var removeItems as IItemStack[] = [
 <primal:thatching_wet>,
@@ -63,21 +67,6 @@ var removeItems as IItemStack[] = [
 <primal:iron_mesh>,
 
 //Remove [Botania]
-<botania:pool>,
-<botania:pool:2>,
-<botania:pool:3>,
-<botania:altar:1>,
-<botania:altar:2>,
-<botania:altar:3>,
-<botania:altar:4>,
-<botania:altar:5>,
-<botania:altar:6>,
-<botania:altar:7>,
-<botania:altar:8>,
-<botania:autocraftinghalo>,
-<botania:craftinghalo>,
-<botania:altar>,
-<botania:livingrock0slab>,
 <botanicadds:mana_tesseract>,
 
 //Remove [Minecraft]
