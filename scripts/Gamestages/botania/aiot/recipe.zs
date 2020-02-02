@@ -1,6 +1,6 @@
 #priority 10
 import mods.artisanworktables.builder.RecipeBuilder;
-import mods.artisanworktables.integration.requirement.GameStages;
+import mods.artisanintegrations.requirement.GameStages;
 
 //==============================================================================bot_ms_tools
   //Manasteel hoe

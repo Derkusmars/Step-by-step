@@ -4,7 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.artisanworktables.builder.RecipeBuilder;
-import mods.artisanworktables.integration.requirement.GameStages;
+import mods.artisanintegrations.requirement.GameStages;
 
 import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
