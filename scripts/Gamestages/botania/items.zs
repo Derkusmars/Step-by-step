@@ -8,9 +8,6 @@ var ItemsForStage as IIngredient[][string] = {
 		<ore:redstoneRoot>,																													//Redstone root
     <botania:fertilizer>,																												//Floral Ferilizer
 		<botania:shinyflower:*>,																										//Glimmering flowers
-		<botania:dye:*>,																														//Dye powder
-		<botania:petal:*>,																													//Petal
-		<botania:petalblock:*>,																											//Petal block
 		<botania:mushroom:*>,																												//Shimmering mushrooms
 		<botania:floatingspecialflower:*>,
 		<botania:miniisland:*>,

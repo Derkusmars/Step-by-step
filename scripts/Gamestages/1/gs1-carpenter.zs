@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 
 var stagecarpenterItems as IIngredient[] = [
-	
+
 
 	//Artisan
 	<artisanworktables:workstation:1>,
@@ -63,7 +63,7 @@ var stagecarpenterItems as IIngredient[] = [
 	<naturalpledge:rainbow_planks>,
 	<naturalpledge:seal_planks>,
 	<naturalpledge:thunder_planks>,
-	
+
 	//Silentgear
 	<silentgear:netherwood_planks>,
 
@@ -72,14 +72,14 @@ var stagecarpenterItems as IIngredient[] = [
 
 	//terraqueous
 	<terraqueous:planks:*>,
-	
+
 	//Malisisdoors
 	<malisisdoors:trapdoor_acacia>,
 	<malisisdoors:trapdoor_birch>,
 	<malisisdoors:trapdoor_dark_oak>,
 	<malisisdoors:trapdoor_jungle>,
 	<malisisdoors:trapdoor_spruce>,
-	
+
 	//Drawers
 	<storagedrawers:basicdrawers:*>,
 	<storagedrawers:trim:*>,

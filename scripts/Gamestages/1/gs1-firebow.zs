@@ -1,12 +1,11 @@
 import crafttweaker.item.IIngredient;
 
 var stagelightItems as IIngredient[] = [
-	
+
 	<minecraft:torch>,
 	<minecraft:coal:1>,
 
 	//Primal
-	<primal:logs_stacked:*>,
 	<primal:charcoal_stack:*>,
 	<primal:charcoal_fair>,
 	<primal:charcoal_good>,
