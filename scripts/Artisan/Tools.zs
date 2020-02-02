@@ -14,7 +14,6 @@ function createFramingHammer(base as IItemStack, output as IItemStack, workplace
 }
 
 /* FLINT    */  createFramingHammer(<primal:flint_knapp>, <artisanworktables:artisans_framing_hammer_flint>,"basic");
-/* QUARTZ   */  createFramingHammer(<primal:quartz_knapp>, <artisanworktables:artisans_framing_hammer_quartz>,"mason");
 /* IRON     */  createFramingHammer(<thermalfoundation:material:32>, <artisanworktables:artisans_framing_hammer_iron>,"blacksmith");
 /* GOLD     */  createFramingHammer(<thermalfoundation:material:33>, <artisanworktables:artisans_framing_hammer_gold>,"blacksmith");
 /* COPPER   */  createFramingHammer(<thermalfoundation:material:320>, <artisanworktables:artisans_framing_hammer_copper>,"blacksmith");
@@ -38,7 +37,6 @@ function createCutters(base as IItemStack, output as IItemStack, workplace as st
 }
 
 /* FLINT    */  createCutters(<primal:flint_knapp>,<artisanworktables:artisans_cutters_flint>,"basic");
-/* QUARTZ   */  createCutters(<primal:quartz_knapp>,<artisanworktables:artisans_cutters_quartz>,"mason");
 /* IRON     */  createCutters(<thermalfoundation:material:32>,<artisanworktables:artisans_cutters_iron>,"blacksmith");
 /* GOLD     */  createCutters(<thermalfoundation:material:33>,<artisanworktables:artisans_cutters_gold>,"blacksmith");
 /* COPPER   */  createCutters(<thermalfoundation:material:320>,<artisanworktables:artisans_cutters_copper>,"blacksmith");
@@ -62,7 +60,6 @@ function createHandsaw(base as IItemStack, output as IItemStack, workplace as st
     .create();
 }
 /* FLINT    */  createHandsaw(<primal:flint_knapp>,<artisanworktables:artisans_handsaw_flint>,"basic");
-/* QUARTZ   */  createHandsaw(<primal:quartz_knapp>,<artisanworktables:artisans_handsaw_quartz>,"mason");
 /* IRON     */  createHandsaw(<thermalfoundation:material:32>,<artisanworktables:artisans_handsaw_iron>,"blacksmith");
 /* GOLD     */  createHandsaw(<thermalfoundation:material:33>,<artisanworktables:artisans_handsaw_gold>,"blacksmith");
 /* COPPER   */  createHandsaw(<thermalfoundation:material:320>,<artisanworktables:artisans_handsaw_copper>,"blacksmith");
@@ -86,7 +83,6 @@ function createMortar(base as IItemStack, output as IItemStack, workplace as str
     .create();
 }
 
-/* QUARTZ   */  createMortar(<primal:quartz_knapp>,<artisanworktables:artisans_mortar_quartz>,"mason");
 /* IRON     */  createMortar(<thermalfoundation:material:32>,<artisanworktables:artisans_mortar_iron>,"blacksmith");
 /* GOLD     */  createMortar(<thermalfoundation:material:33>,<artisanworktables:artisans_mortar_gold>,"blacksmith");
 /* COPPER   */  createMortar(<thermalfoundation:material:320>,<artisanworktables:artisans_mortar_copper>,"blacksmith");
@@ -119,7 +115,7 @@ RecipeBuilder.get("basic")
 // QUARTZ
 RecipeBuilder.get("mason")
 .setShapeless([<ore:cordageGeneral>, <primal:quartz_knapp>, <minecraft:stick>])
-.addOutput(<artisanworktables:artisans_razor_quartz>)
+.addOutput(<artisanworktables:artisans_razor_flint>)
 .setMaximumTier(1)
 .create();
 
@@ -140,7 +136,6 @@ function createShears(base as IItemStack, output as IItemStack, workplace as str
 }
 
 /* FLINT    */  createShears(<primal:flint_knapp>,<artisanworktables:artisans_shears_flint>,"basic");
-/* QUARTZ   */  createShears(<primal:quartz_knapp>,<artisanworktables:artisans_shears_quartz>,"mason");
 /* IRON     */  createShears(<thermalfoundation:material:32>,<artisanworktables:artisans_shears_iron>,"blacksmith");
 /* GOLD     */  createShears(<thermalfoundation:material:33>,<artisanworktables:artisans_shears_gold>,"blacksmith");
 /* COPPER   */  createShears(<thermalfoundation:material:320>,<artisanworktables:artisans_shears_copper>,"blacksmith");
@@ -162,11 +157,11 @@ function createShears(base as IItemStack, output as IItemStack, workplace as str
 // [s][s][s]
 
 function createNeedle(base as IItemStack, output as IItemStack, workplace as string) {
-    
+
     RecipeBuilder.get(workplace)
     .setShaped([
     [<minecraft:string>, <minecraft:string>, <minecraft:string>],
-    [<minecraft:string>, base,               <minecraft:string>], 
+    [<minecraft:string>, base,               <minecraft:string>],
     [<minecraft:string>, <minecraft:string>, <minecraft:string>]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -174,7 +169,7 @@ function createNeedle(base as IItemStack, output as IItemStack, workplace as str
     RecipeBuilder.get(workplace)
     .setShaped([
     [<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>],
-    [<ore:cordageGeneral>, base                , <ore:cordageGeneral>], 
+    [<ore:cordageGeneral>, base                , <ore:cordageGeneral>],
     [<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -182,7 +177,6 @@ function createNeedle(base as IItemStack, output as IItemStack, workplace as str
 }
 
 /* FLINT    */  createNeedle(<primal:flint_knapp>,<artisanworktables:artisans_needle_flint>,"basic");
-/* QUARTZ   */  createNeedle(<primal:quartz_knapp>,<artisanworktables:artisans_needle_quartz>,"mason");
 /* IRON     */  createNeedle(<thermalfoundation:material:32>,<artisanworktables:artisans_needle_iron>,"blacksmith");
 /* GOLD     */  createNeedle(<thermalfoundation:material:33>,<artisanworktables:artisans_needle_gold>,"blacksmith");
 /* COPPER   */  createNeedle(<thermalfoundation:material:320>,<artisanworktables:artisans_needle_copper>,"blacksmith");
@@ -196,11 +190,11 @@ function createNeedle(base as IItemStack, output as IItemStack, workplace as str
 //Flint Chisel ========================================================
 
 
-function createChisel(base as IItemStack, output as IItemStack, workplace as string) { 
+function createChisel(base as IItemStack, output as IItemStack, workplace as string) {
     RecipeBuilder.get(workplace)
     .setShaped([
     [null, null, base],
-    [null, base, null], 
+    [null, base, null],
     [<minecraft:stick>, null, null]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -208,7 +202,6 @@ function createChisel(base as IItemStack, output as IItemStack, workplace as str
 }
 
 /* FLINT    */  createChisel(<primal:flint_knapp>,<artisanworktables:artisans_chisel_flint>,"basic");
-/* QUARTZ   */  createChisel(<primal:quartz_knapp>,<artisanworktables:artisans_chisel_quartz>,"mason");
 /* IRON     */  createChisel(<thermalfoundation:material:32>,<artisanworktables:artisans_chisel_iron>,"blacksmith");
 /* GOLD     */  createChisel(<thermalfoundation:material:33>,<artisanworktables:artisans_chisel_gold>,"blacksmith");
 /* COPPER   */  createChisel(<thermalfoundation:material:320>,<artisanworktables:artisans_chisel_copper>,"blacksmith");
@@ -220,11 +213,11 @@ function createChisel(base as IItemStack, output as IItemStack, workplace as str
 
 //Hammer ========================================================
 
-function createHammer(base as IItemStack, output as IItemStack, workplace as string) { 
+function createHammer(base as IItemStack, output as IItemStack, workplace as string) {
     RecipeBuilder.get(workplace)
     .setShaped([
     [null, base, <ore:cordageGeneral>],
-    [null, <minecraft:stick>, base], 
+    [null, <minecraft:stick>, base],
     [<minecraft:stick>, null, null]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -232,7 +225,6 @@ function createHammer(base as IItemStack, output as IItemStack, workplace as str
 }
 
 /* FLINT    */  createHammer(<primal:flint_knapp>,<artisanworktables:artisans_hammer_flint>,"basic");
-/* QUARTZ   */  createHammer(<primal:quartz_knapp>,<artisanworktables:artisans_hammer_quartz>,"mason");
 /* IRON     */  createHammer(<thermalfoundation:material:32>,<artisanworktables:artisans_hammer_iron>,"blacksmith");
 /* GOLD     */  createHammer(<thermalfoundation:material:33>,<artisanworktables:artisans_hammer_gold>,"blacksmith");
 /* COPPER   */  createHammer(<thermalfoundation:material:320>,<artisanworktables:artisans_hammer_copper>,"blacksmith");
@@ -245,11 +237,11 @@ function createHammer(base as IItemStack, output as IItemStack, workplace as str
 
 //Trowel ========================================================
 
-function createTrowel(base as IItemStack, output as IItemStack, workplace as string) { 
+function createTrowel(base as IItemStack, output as IItemStack, workplace as string) {
     RecipeBuilder.get(workplace)
     .setShaped([
     [null, base, base],
-    [null, <minecraft:stick>, base], 
+    [null, <minecraft:stick>, base],
     [<minecraft:stick>, null, null]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -257,7 +249,6 @@ function createTrowel(base as IItemStack, output as IItemStack, workplace as str
 }
 
 /* FLINT    */  createTrowel(<primal:flint_knapp>,<artisanworktables:artisans_trowel_flint>,"basic");
-/* QUARTZ   */  createTrowel(<primal:quartz_knapp>,<artisanworktables:artisans_trowel_quartz>,"mason");
 /* IRON     */  createTrowel(<thermalfoundation:material:32>,<artisanworktables:artisans_trowel_iron>,"blacksmith");
 /* GOLD     */  createTrowel(<thermalfoundation:material:33>,<artisanworktables:artisans_trowel_gold>,"blacksmith");
 /* COPPER   */  createTrowel(<thermalfoundation:material:320>,<artisanworktables:artisans_trowel_copper>,"blacksmith");
@@ -271,18 +262,18 @@ function createTrowel(base as IItemStack, output as IItemStack, workplace as str
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:flint_knapp>, <primal:flint_knapp>, <primal:flint_knapp>],
-[<minecraft:glass_pane>, null, <minecraft:glass_pane>], 
+[<minecraft:glass_pane>, null, <minecraft:glass_pane>],
 [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]])
 .addOutput(<artisanworktables:artisans_beaker_flint>)
 .setMaximumTier(1)
 .create();
- 
+
  RecipeBuilder.get("mason")
 .setShaped([
 [<primal:quartz_knapp>, <primal:quartz_knapp>, <primal:quartz_knapp>],
-[<minecraft:glass_pane>, null, <minecraft:glass_pane>], 
+[<minecraft:glass_pane>, null, <minecraft:glass_pane>],
 [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]])
-.addOutput(<artisanworktables:artisans_beaker_quartz>)
+.addOutput(<artisanworktables:artisans_beaker_flint>)
 .setMaximumTier(1)
 .create();
 
@@ -290,7 +281,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<minecraft:stick>, <primal:flint_knapp>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <primal:flint_knapp>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_flint>)
 .setMaximumTier(1)
@@ -299,16 +290,16 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("mason")
 .setShaped([
 [<minecraft:stick>, < primal:quartz_knapp>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <primal:quartz_knapp>, <minecraft:stick>]])
-.addOutput(<artisanworktables:artisans_sifter_quartz>)
+.addOutput(<artisanworktables:artisans_sifter_flint>)
 .setMaximumTier(1)
 .create();
 
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:32>, <minecraft:stick>],
-[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:32>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_iron>)
 .setMaximumTier(1)
@@ -317,7 +308,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:33>, <minecraft:stick>],
-[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:33>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_gold>)
 .setMaximumTier(1)
@@ -326,7 +317,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:320>, <minecraft:stick>],
-[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:320>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_copper>)
 .setMaximumTier(1)
@@ -335,7 +326,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:321>, <minecraft:stick>],
-[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <primal:iron_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:321>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_tin>)
 .setMaximumTier(1)
@@ -344,7 +335,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:322>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:322>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_silver>)
 .setMaximumTier(1)
@@ -353,7 +344,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:323>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:323>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_lead>)
 .setMaximumTier(1)
@@ -362,7 +353,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:324>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:324>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_aluminum>)
 .setMaximumTier(1)
@@ -371,7 +362,7 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<minecraft:stick>, <thermalfoundation:material:325>, <minecraft:stick>],
-[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>], 
+[<minecraft:stick>, <contenttweaker:string_mesh>, <minecraft:stick>],
 [<minecraft:stick>, <thermalfoundation:material:325>, <minecraft:stick>]])
 .addOutput(<artisanworktables:artisans_sifter_nickel>)
 .setMaximumTier(1)
@@ -382,19 +373,19 @@ RecipeBuilder.get("blacksmith")
 RecipeBuilder.get("mason")
 .setShaped([
 [<primal:quartz_knapp>, null, <primal:quartz_knapp>],
-[<minecraft:stick>, <ore:cordageGeneral>, <minecraft:stick>], 
+[<minecraft:stick>, <ore:cordageGeneral>, <minecraft:stick>],
 [<minecraft:stick>, null, <minecraft:stick>]])
-.addOutput(<artisanworktables:artisans_pliers_quartz>)
+.addOutput(<artisanworktables:artisans_pliers_flint>)
 .setMaximumTier(1)
 .create();
 
 //Punch ========================================================
 
-function createPunch(base as IItemStack, output as IItemStack, workplace as string) { 
+function createPunch(base as IItemStack, output as IItemStack, workplace as string) {
     RecipeBuilder.get(workplace)
     .setShaped([
     [null, null, base],
-    [null, <minecraft:stick>, <ore:cordageGeneral>], 
+    [null, <minecraft:stick>, <ore:cordageGeneral>],
     [base, <ore:cordageGeneral>, null]])
     .addOutput(output)
     .setMaximumTier(1)
@@ -402,7 +393,6 @@ function createPunch(base as IItemStack, output as IItemStack, workplace as stri
 }
 
 /* FLINT    */  createPunch(<primal:flint_knapp>,<artisanworktables:artisans_punch_flint>,"basic");
-/* QUARTZ   */  createPunch(<primal:quartz_knapp>,<artisanworktables:artisans_punch_quartz>,"mason");
 /* IRON     */  createPunch(<thermalfoundation:material:32>,<artisanworktables:artisans_punch_iron>,"blacksmith");
 /* GOLD     */  createPunch(<thermalfoundation:material:33>,<artisanworktables:artisans_punch_gold>,"blacksmith");
 /* COPPER   */  createPunch(<thermalfoundation:material:320>,<artisanworktables:artisans_punch_copper>,"blacksmith");
@@ -417,7 +407,7 @@ function createPunch(base as IItemStack, output as IItemStack, workplace as stri
 RecipeBuilder.get("basic")
 .setShaped([
 [null, null, <primal:flint_knapp>],
-[<primal:plant_cordage>, <minecraft:stick>, <primal:plant_cordage>], 
+[<primal:plant_cordage>, <minecraft:stick>, <primal:plant_cordage>],
 [<primal:flint_knapp>, null, null]])
 .addOutput(<artisanworktables:artisans_carver_flint>)
 .setMaximumTier(1)

@@ -19,7 +19,7 @@ var stagemortarItems as IIngredient[] = [
 	//Botania
 	<botania:dye:*>,																															//Dye powder
 	<botania:petal:*>,																														//Petal
-	<botania:petalblock:*>
+	<botania:petalblock:*>,
 
 	//GT
 	<gregtech:meta_item_2:*>,
@@ -27,7 +27,7 @@ var stagemortarItems as IIngredient[] = [
 	//Quark
 	<quark:root_dye:*>,
 
-	Terraqueous
+	//Terraqueous
 	<terraqueous:item_main:*>																										//Petal block
 ];
 

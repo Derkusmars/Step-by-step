@@ -39,8 +39,8 @@ RecipeBuilder.get("carpenter")
 .addTool(<ore:artisansFramingHammer>, 50)
 .setMaximumTier(1)
 .create();
- 
-//Drying Rack [Spruce] 
+
+//Drying Rack [Spruce]
 RecipeBuilder.get("carpenter")
 .setShaped([
 [<minecraft:stick>, <primal:slat_spruce>, <minecraft:stick>],
@@ -119,7 +119,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [null, <primal:flint_point>, null],
-[<primal:flint_point>, <ore:cordageGeneral>, null], 
+[<primal:flint_point>, <ore:cordageGeneral>, null],
 [null, null, null]])
 .addOutput(<primal:flint_shears>)
 .setMaximumTier(1)
@@ -251,7 +251,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>],
-[<primal:adobe_brick_dry>, <primal:adobe_clump>, <primal:adobe_brick_dry>], 
+[<primal:adobe_brick_dry>, <primal:adobe_clump>, <primal:adobe_brick_dry>],
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>]])
 .addOutput(<primal:smelter:3>.withTag({type: "adobe"}))
 .setMaximumTier(1)
@@ -261,7 +261,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:adobe_clump>, <primal:adobe_brick_dry>, <primal:adobe_clump>],
-[<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>], 
+[<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>],
 [null, null, null]])
 .addOutput(<primal:smelter_lid_adobe>)
 .setMaximumTier(1)
@@ -271,7 +271,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_oak>, <primal:logs_split_oak>, <primal:logs_split_oak>],
-[<primal:logs_split_oak>, <primal:logs_split_oak>, <primal:logs_split_oak>], 
+[<primal:logs_split_oak>, <primal:logs_split_oak>, <primal:logs_split_oak>],
 [<primal:logs_split_oak>, <primal:logs_split_oak>, <primal:logs_split_oak>]])
 .addOutput(<primal:logs_stacked>)
 .setMaximumTier(1)
@@ -281,7 +281,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_spruce>, <primal:logs_split_spruce>, <primal:logs_split_spruce>],
-[<primal:logs_split_spruce>, <primal:logs_split_spruce>, <primal:logs_split_spruce>], 
+[<primal:logs_split_spruce>, <primal:logs_split_spruce>, <primal:logs_split_spruce>],
 [<primal:logs_split_spruce>, <primal:logs_split_spruce>, <primal:logs_split_spruce>]])
 .addOutput(<primal:logs_stacked:1>)
 .setMaximumTier(1)
@@ -291,7 +291,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_birch>, <primal:logs_split_birch>, <primal:logs_split_birch>],
-[<primal:logs_split_birch>, <primal:logs_split_birch>, <primal:logs_split_birch>], 
+[<primal:logs_split_birch>, <primal:logs_split_birch>, <primal:logs_split_birch>],
 [<primal:logs_split_birch>, <primal:logs_split_birch>, <primal:logs_split_birch>]])
 .addOutput(<primal:logs_stacked:2>)
 .setMaximumTier(1)
@@ -301,7 +301,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_jungle>, <primal:logs_split_jungle>, <primal:logs_split_jungle>],
-[<primal:logs_split_jungle>, <primal:logs_split_jungle>, <primal:logs_split_jungle>], 
+[<primal:logs_split_jungle>, <primal:logs_split_jungle>, <primal:logs_split_jungle>],
 [<primal:logs_split_jungle>, <primal:logs_split_jungle>, <primal:logs_split_jungle>]])
 .addOutput(<primal:logs_stacked:3>)
 .setMaximumTier(1)
@@ -311,7 +311,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_acacia>, <primal:logs_split_acacia>, <primal:logs_split_acacia>],
-[<primal:logs_split_acacia>, <primal:logs_split_acacia>, <primal:logs_split_acacia>], 
+[<primal:logs_split_acacia>, <primal:logs_split_acacia>, <primal:logs_split_acacia>],
 [<primal:logs_split_acacia>, <primal:logs_split_acacia>, <primal:logs_split_acacia>]])
 .addOutput(<primal:logs_stacked:4>)
 .setMaximumTier(1)
@@ -321,7 +321,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>],
-[<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>], 
+[<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>],
 [<primal:logs_split_bigoak>, <primal:logs_split_bigoak>, <primal:logs_split_bigoak>]])
 .addOutput(<primal:logs_stacked:5>)
 .setMaximumTier(1)
@@ -331,7 +331,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<primal:flint_knapp>, <ore:cordageGeneral>, null],
-[<minecraft:stick>, null, null], 
+[<minecraft:stick>, null, null],
 [null, null, null]])
 .addOutput(<primal:flint_hoe>)
 .setMaximumTier(1)
@@ -341,7 +341,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("farmer")
 .setShaped([
 [<primal:thatching_dry>, <primal:thatching_dry>, <primal:thatching_dry>],
-[<primal:thatching_dry>, <ore:fiberPlant>, <primal:thatching_dry>], 
+[<primal:thatching_dry>, <ore:fiberPlant>, <primal:thatching_dry>],
 [<primal:thatching_dry>, <primal:thatching_dry>, <primal:thatching_dry>]])
 .addOutput(<primal:thatch>)
 .addTool(<ore:artisansHandsaw>, 10)
@@ -356,7 +356,7 @@ mods.primal.DryingRack.removeRecipe("primal:bucket_clay");
 RecipeBuilder.get("potter")
 .setShaped([
 [null, null, null],
-[<minecraft:clay_ball>, null, <minecraft:clay_ball>], 
+[<minecraft:clay_ball>, null, <minecraft:clay_ball>],
 [null, <minecraft:clay_ball>, null]])
 .addOutput(<primal:bucket_clay_soft>)
 .addTool(<ore:artisansTrowel>, 25)
@@ -369,7 +369,7 @@ mods.primal.DryingRack.removeRecipe("primal:bucket_terra");
 RecipeBuilder.get("potter")
 .setShaped([
 [null, null, null],
-[<primal:terra_clump>, null, <primal:terra_clump>], 
+[<primal:terra_clump>, null, <primal:terra_clump>],
 [null, <primal:terra_clump>, null]])
 .addOutput(<primal:bucket_terra_soft>)
 .addTool(<ore:artisansTrowel>, 25)
@@ -382,7 +382,7 @@ mods.primal.DryingRack.removeRecipe("primal:bucket_cinis");
 RecipeBuilder.get("potter")
 .setShaped([
 [null, null, null],
-[<primal:cinis_clump>, null, <primal:cinis_clump>], 
+[<primal:cinis_clump>, null, <primal:cinis_clump>],
 [null, <primal:cinis_clump>, null]])
 .addOutput(<primal:bucket_cinis_soft>)
 .addTool(<ore:artisansTrowel>, 25)
@@ -402,7 +402,7 @@ mods.primal.Smelter.addRecipe(
 RecipeBuilder.get("basic")
 .setShaped([
 [null, <minecraft:stick>, null],
-[<minecraft:stick>, <primal:plant_cordage>, null], 
+[<minecraft:stick>, <primal:plant_cordage>, null],
 [null, null, null]])
 .addOutput(<primal:fire_bow>)
 .setMaximumTier(1)
@@ -415,7 +415,7 @@ recipes.addShapeless(<primal:fire_bow>, [<minecraft:stick>, <minecraft:stick>, <
 RecipeBuilder.get("basic")
 .setShaped([
 [<contenttweaker:compressed_cob>, <ore:cordagePlant>, <contenttweaker:compressed_cob>],
-[<contenttweaker:compressed_cob>, <minecraft:stick>, <contenttweaker:compressed_cob>], 
+[<contenttweaker:compressed_cob>, <minecraft:stick>, <contenttweaker:compressed_cob>],
 [null, <minecraft:stick>, null]])
 .addOutput(<primal:stone_gallagher>)
 .setMaximumTier(1)
@@ -425,7 +425,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("blacksmith")
 .setShaped([
 [<thermalfoundation:material:32>, <ore:cordagePlant>, <thermalfoundation:material:32>],
-[<thermalfoundation:material:32>, <minecraft:stick>, <thermalfoundation:material:32>], 
+[<thermalfoundation:material:32>, <minecraft:stick>, <thermalfoundation:material:32>],
 [null, <minecraft:stick>, null]])
 .addOutput(<primal:iron_gallagher>)
 .setMaximumTier(1)
@@ -531,7 +531,7 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("basic")
 .setShaped([
 [null, null, null],
-[<minecraft:stone:*>, null, <minecraft:stone:*>], 
+[<minecraft:stone:*>, null, <minecraft:stone:*>],
 [null, <minecraft:stone:*>, null]])
 .addOutput(<primal:stone_basin>)
 .setMaximumTier(1)
@@ -541,7 +541,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("farmer")
 .setShaped([
 [<ore:rock>, null, null],
-[<ore:barkWood>, null, null], 
+[<ore:barkWood>, null, null],
 [<primal:stone_basin>.reuse(), null, null]])
 .addOutput(<primal:tannin_ground>)
 .setMaximumTier(1)
@@ -551,7 +551,7 @@ RecipeBuilder.get("farmer")
 RecipeBuilder.get("farmer")
 .setShaped([
 [null, <ore:rock>, null],
-[null, <ore:barkWood>, null], 
+[null, <ore:barkWood>, null],
 [null, <primal:stone_basin>.reuse(), null]])
 .addOutput(<primal:tannin_ground>)
 .setMaximumTier(1)
@@ -561,7 +561,7 @@ RecipeBuilder.get("farmer")
 RecipeBuilder.get("farmer")
 .setShaped([
 [null, null, <ore:rock>],
-[null, null, <ore:barkWood>], 
+[null, null, <ore:barkWood>],
 [null, null, <primal:stone_basin>.reuse()]])
 .addOutput(<primal:tannin_ground>)
 .setMaximumTier(1)
@@ -655,7 +655,7 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("carpenter")
 .setShaped([
 [null, <primal:yew_stick>, <primal:silk_cordage>],
-[<primal:yew_stick>, null, <primal:silk_cordage>], 
+[<primal:yew_stick>, null, <primal:silk_cordage>],
 [null, <primal:yew_stick>, <primal:silk_cordage>]])
 .addOutput(<primal:yew_bow>)
 .addTool(<ore:artisansRazor>, 50)
@@ -666,7 +666,7 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("carpenter")
 .setShaped([
 [null, <primal:ironwood_stick>, <primal:silk_cordage>],
-[<primal:ironwood_stick>, null, <primal:silk_cordage>], 
+[<primal:ironwood_stick>, null, <primal:silk_cordage>],
 [null, <primal:ironwood_stick>, <primal:silk_cordage>]])
 .addOutput(<primal:ironwood_bow>)
 .addTool(<ore:artisansRazor>, 50)
@@ -795,14 +795,14 @@ var removeRecipes as string[] = [
 for recipeRegex in removeRecipes {
 	mods.primal.Smelter.removeRecipe(recipeRegex);
 }
-	
+
 //Glass in Sariras
 mods.primal.Smelter.addRecipe(
 "sand_to_glass",
 6,
 [<minecraft:sand>, <ore:tiny_coal>],
 [<minecraft:glass>]
-);		
+);
 
 //Disable all useless Gallagher Recipes
 var removeGalRecipes as string[] = [
@@ -822,76 +822,76 @@ for recipeRegex in removeGalRecipes {
 
 //Dust from Ore
 mods.primal.Gallagher.addRecipe(
-    "copper_dust", 
-    <thermalfoundation:ore>, 
-    null, 
-    <thermalfoundation:material:64>, 
+    "copper_dust",
+    <thermalfoundation:ore>,
+    null,
+    <thermalfoundation:material:64>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "tin_dust", 
-    <thermalfoundation:ore:1>, 
-    null, 
-    <thermalfoundation:material:65>, 
+    "tin_dust",
+    <thermalfoundation:ore:1>,
+    null,
+    <thermalfoundation:material:65>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "silver_dust", 
-    <thermalfoundation:ore:2>, 
-    null, 
-    <thermalfoundation:material:66>, 
+    "silver_dust",
+    <thermalfoundation:ore:2>,
+    null,
+    <thermalfoundation:material:66>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "lead_dust", 
-    <thermalfoundation:ore:3>, 
-    null, 
-    <thermalfoundation:material:67>, 
+    "lead_dust",
+    <thermalfoundation:ore:3>,
+    null,
+    <thermalfoundation:material:67>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "aluminum_dust", 
-    <thermalfoundation:ore:4>, 
-    null, 
-    <thermalfoundation:material:68>, 
+    "aluminum_dust",
+    <thermalfoundation:ore:4>,
+    null,
+    <thermalfoundation:material:68>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "nickel_dust", 
-    <thermalfoundation:ore:5>, 
-    null, 
-    <thermalfoundation:material:69>, 
+    "nickel_dust",
+    <thermalfoundation:ore:5>,
+    null,
+    <thermalfoundation:material:69>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "iron_dust", 
-    <minecraft:iron_ore>, 
-    null, 
-    <thermalfoundation:material>, 
+    "iron_dust",
+    <minecraft:iron_ore>,
+    null,
+    <thermalfoundation:material>,
     [1],
     null
-);	
+);
 
 mods.primal.Gallagher.addRecipe(
-    "gold_dust", 
-    <minecraft:gold_ore>, 
-    null, 
-    <thermalfoundation:material:1>, 
+    "gold_dust",
+    <minecraft:gold_ore>,
+    null,
+    <thermalfoundation:material:1>,
     [1],
     null
-);	
+);
 
 //Flaked Quartz
 RecipeBuilder.get("farmer")
@@ -1043,7 +1043,7 @@ mods.primal.Smelter.addRecipe(
 RecipeBuilder.get("mason")
 .setShapeless([<minecraft:iron_nugget>])
 .addOutput(<primal:iron_strand>)
-.addTool(<artisanworktables:artisans_pliers_quartz>, 20)
+.addTool(<artisanworktables:artisans_pliers_flint>, 20)
 .setMaximumTier(1)
 .create();
 
@@ -1067,7 +1067,7 @@ RecipeBuilder.get("tanner")
 RecipeBuilder.get("mason")
 .setShapeless([<minecraft:iron_bars>])
 .addOutput(<primal:slat_iron>)
-.addTool(<artisanworktables:artisans_hammer_quartz>, 20)
+.addTool(<artisanworktables:artisans_hammer_iron>, 20)
 .setMaximumTier(1)
 .create();
 
@@ -1075,7 +1075,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
 .setShaped([
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>],
-[<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>], 
+[<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>],
 [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>]])
 .addOutput(<primal:adobe_brick>)
 .addTool(<ore:artisansTrowel>, 10)

@@ -4,18 +4,18 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
 
   // Tutorial
 
-  ResearchTable.builder("base", cat) 
+  ResearchTable.builder("base", cat)
   .setIcons(<researchtable:table>)
-  .setTitle("Tutorial")
-  .setDescription("Research rhis item for start you adventure!")
-  .addCondition(<botania:cosmetic:30> * 1)
+  .setTitle("Put your potato here!")
+  .setDescription("Faster! It will begin your journey")
+  .addCondition(<botania:tinypotato> * 1)
   .setRewardStages("base")
   .setRewardCommands("/say \"@s start adventure!\"")
   .build();
 
   // Base tools
 
-  ResearchTable.builder("basetools", cat) 
+  ResearchTable.builder("basetools", cat)
   .setIcons(<primal:flint_hatchet>)
   .setTitle("You first tools")
   .setDescription("empty")
@@ -28,129 +28,75 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
 
   // Cartography
 
-  ResearchTable.builder("cartography", cat) 
-  .setIcons(<minecraft:grass>)
+  ResearchTable.builder("cartography", cat)
+  .setIcons(<minecraft:map>)
   .setTitle("Cartography")
-  .setDescription("Add in you world points of death")
-  .addCondition(<primal:flint_knapp> * 32)
+  .setDescription("Base minimap")
+  .addCondition(<primal:plant_papyrus> * 12)
+  .addCondition(<minecraft:coal> * 2)
   .setRewardStages("cartography")
-  .setRewardCommands("/say \"@s see deathpeople!\"")
+  .setRewardCommands("/say \"@s give basic cartography!\"")
   .build();
 
   // Advanced cartography
 
-  ResearchTable.builder("advcartography", cat) 
-  .setIcons(<minecraft:grass>)
-  .setTitle("Advanced cartography")
-  .setDescription("You will can mark the territory")
-  .addCondition(<primal:flint_knapp> * 32)
-  .setRewardStages("waypoints")
-  .setRewardStages("minimap")
-  .setRewardCommands("/say \"@s have waypoints!\"")
-  .build();
+//  ResearchTable.builder("advcartography", cat)
+//  .setIcons(<minecraft:grass>)
+//  .setTitle("Advanced cartography")
+//  .setDescription("You will can mark the territory")
+//  .addCondition(<primal:flint_knapp> * 32)
+//  .setRewardStages("waypoints")
+//  .setRewardStages("minimap")
+//  .setRewardCommands("/say \"@s have waypoints!\"")
+//  .build();
 
   // Deathpoints
 
-  ResearchTable.builder("deathpoints", cat) 
-  .setIcons(<minecraft:grass>)
+  ResearchTable.builder("deathpoints", cat)
+  .setIcons(<minecraft:skull>)
   .setTitle("Deathpoints")
   .setDescription("Add in you world points of death")
-  .addCondition(<primal:flint_knapp> * 32)
+  .addCondition(<minecraft:bone> * 4)
   .setRewardStages("deathpoints")
   .setRewardCommands("/say \"@s see deathpeople!\"")
   .build();
 
+  ResearchTable.builder("botania1", cat)
+    .setTitle("Apothecary")
+    .setIcons(<botania:altar>)
+  //.setRequiredStages("stage", "stageYouWillNeverGet") #TODO
+    .setDescription("А нука давай посмотрим, что эти лепесточки могут...")
+      .addCondition(<ore:botaniaPetal> * 16)
+    .setRewardStages("bot_petal")
+    .setRewardCommands("/say \"Фигусики, @s одолел эти цветочки!\"")
+    .build();
 
-  // Tools
+  ResearchTable.builder("botania2", cat)
+    .setTitle("Живое деревяшко")
+    .setIcons(<botania:livingwood>)
+  //.setRequiredStages("stage", "stageYouWillNeverGet") #TODO
+    .setDescription("Ух...сейчас наделаем деревяшек то, ух наделаем...")
+      .addCondition(<botania:livingwood> * 16)
+    .setRewardStages("bot_livingWood")
+    .setRewardCommands("/say \"Ну что теперь ваять то из этого будем?!\"")
+    .build();
 
-  ResearchTable.builder("tools", cat) 
-  .setIcons(<artisanworktables:artisans_hammer_flint>)
-  .setTitle("Need more tools")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 4)
-  .addCondition(<primal:flint_knapp> * 8)
-  .addCondition(<primal:plant_cordage> * 8)
-  .addCondition(<factorytech:machinepart:180> * 1)
-  .setRewardStages("tools")
-  .setRewardCommands("/say \"@s learn tools!\"")
-  .build();
+  ResearchTable.builder("botania3", cat)
+    .setTitle("Палочки какие-то")
+    .setIcons(<botania:manaresource:3>)
+  //.setRequiredStages("stage", "stageYouWillNeverGet") #TODO
+    .setDescription("Так-с, а это что за палочки?")
+      .addCondition(<ore:livingwoodTwig> * 16)
+    .setRewardStages("bot_livingWoodTwig")
+    .setRewardCommands("/say \"Интересненько...будет чем заняться\"")
+    .build();
 
-
-  // Carpenter
-
-  ResearchTable.builder("carpenter", cat) 
-  .setIcons(<artisanworktables:workstation:1>)
-  .setTitle("Carpenter")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("carpenter")
-  .setRewardCommands("/say \"@s learn carpenter!\"")
-  .build();
-
-
-  // Light
-
-  ResearchTable.builder("light", cat) 
-  .setIcons(<minecraft:torch>)
-  .setTitle("Light")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("light")
-  .setRewardCommands("/say \"@s learn light!\"")
-  .build();
-
-
-  // Gardener
-
-  ResearchTable.builder("gardener", cat) 
-  .setIcons(<artisanworktables:workstation:10>)
-  .setTitle("Gardener")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("gardener")
-  .setRewardCommands("/say \"@s learn gardener!\"")
-  .build();
-
-  
-  // Mortar
-
-  ResearchTable.builder("mortar", cat) 
-  .setIcons(<primal:flint_hatchet>)
-  .setTitle("Mortar")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("mortar")
-  .setRewardCommands("/say \"@s learn mortar!\"")
-  .build();
-
-  // Tanner
-
-  ResearchTable.builder("tanner", cat) 
-  .setIcons(<primal:flint_hatchet>)
-  .setTitle("Tanner")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("tanner")
-  .setRewardCommands("/say \"@s learn tanner!\"")
-  .build();
-
-  // Horse power
-  ResearchTable.builder("horsepower", cat) 
-  .setIcons(<minecraft:lead>)
-  .setTitle("Horse power")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("horsepower")
-  .setRewardCommands("/say \"@s learn horsepower!\"")
-  .build();
-
-  // Cooking
-
-  ResearchTable.builder("cooking", cat) 
-  .setIcons(<artisanworktables:workstation:11>)
-  .setTitle("Cooking")
-  .setDescription("empty")
-  .addCondition(<minecraft:stick> * 2)
-  .setRewardStages("cooking")
-  .setRewardCommands("/say \"@s learn cooking!\"")
-  .build();
+  ResearchTable.builder("botania4", cat)
+    .setTitle("Не менее живой камушек")
+    .setIcons(<botania:livingrock>)
+  //.setRequiredStages("stage", "stageYouWillNeverGet") #TODO
+    .setDescription("Настоящий живой камень PogChamp")
+      .addCondition(<botania:livingrock> * 16)
+    .setRewardStages("bot_livingRock")
+    .setRewardCommands("/say \"Ух ты...сейчас ведерок для манны наделаем\"")
+    .build();
