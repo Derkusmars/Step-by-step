@@ -29,7 +29,8 @@ minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
 gregtech:disjunction
-gregtech:radioactivity
+naturalpledge:heavy
+naturalpledge:light
 morerefinedstorage:freeze
 morerefinedstorage:antifreeze
 cofhcore:holding
@@ -40,5 +41,3 @@ cofhcore:smashing
 cofhcore:smelting
 cofhcore:soulbound
 cofhcore:vorpal
-naturalpledge:heavy
-naturalpledge:light
