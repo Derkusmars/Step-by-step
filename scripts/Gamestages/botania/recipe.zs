@@ -48,12 +48,12 @@ for i in 0 to 16 {
   Gf = <botania:shinyflower>.definition.makeStack(i);
 
   //Dye
-  RecipeBuilder.get("farmer")
-    .setShapeless([Petal])
-    .addTool(<ore:artisansMortar>, 5)
-    .addOutput(Dye)
-    .addRequirement(GameStages.anyOf([stages.bot_flowers]))
-    .create();
+//  RecipeBuilder.get("farmer")
+//    .setShapeless([Petal])
+//    .addTool(<ore:artisansMortar>, 5)
+//    .addOutput(Dye)
+//    .addRequirement(GameStages.anyOf([stages.bot_flowers]))
+//    .create();
 
   //Petal
   RecipeBuilder.get("farmer")

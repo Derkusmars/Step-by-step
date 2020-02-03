@@ -1,3 +1,4 @@
+/*
 import crafttweaker.item.IItemStack;
 
 var itemToHide as IItemStack[] = [
@@ -12,3 +13,4 @@ scripts.globalfunctions.hideItems(itemToHide);
 for items in itemToHide {
   mods.botania.ElvenTrade.removeRecipe(items);
 }
+*/

@@ -209,9 +209,6 @@ for item in removeItems {
 }
 
 //Remove And Hide
-mods.jei.JEI.removeAndHide(<minecraft:crafting_table>);
-mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);
-mods.jei.JEI.removeAndHide(<primal:worktable_slab:*>);
 mods.jei.JEI.removeAndHide(<botania:opencrate:*>);
 mods.jei.JEI.removeAndHide(<factorytech:autocrafter>);
 mods.jei.JEI.removeAndHide(<primal:flint_saw>);
@@ -324,4 +321,3 @@ recipes.remove(<ore:brickmold>);
 recipes.remove(<ore:plankWood>);
 recipes.remove(<ore:slabWood>);
 recipes.remove(<ore:rock>);
-recipes.remove(<ore:dye>);
