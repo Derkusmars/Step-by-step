@@ -868,7 +868,7 @@ RecipeBuilder.get("mage")
     [<minecraft:glass>, <ore:ingotManasteel>, <minecraft:glass>],
     [null, <ore:livingwoodTwig>, null],
     [null, <ore:livingwoodTwig>, null]])
-  .addOutput(<botania:manasteelpick>)
+  .addOutput(<botania:glasspick>)
   .setSecondaryIngredients([<foundry:mold:7>])
   .setConsumeSecondaryIngredients(false)
   .addTool(<ore:artisansHandsaw>, 15)
