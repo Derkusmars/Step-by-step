@@ -8,7 +8,7 @@ recipes.addShapeless(<factorytech:machinepart:180>, [<minecraft:stick>,<minecraf
 RecipeBuilder.get("tailor")
 .setShaped([
 [<minecraft:string>, <minecraft:string>, <minecraft:string>],
-[<minecraft:string>, <minecraft:string>, <minecraft:string>], 
+[<minecraft:string>, <minecraft:string>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]])
 .addOutput(<contenttweaker:string_mesh>)
 .addTool(<ore:artisansNeedle>, 25)
@@ -18,7 +18,7 @@ RecipeBuilder.get("tailor")
 RecipeBuilder.get("carpenter")
 .setShaped([
 [<ore:plankWood>, null, <ore:plankWood>],
-[<ore:plankWood>, <contenttweaker:string_mesh>, <ore:plankWood>], 
+[<ore:plankWood>, <contenttweaker:string_mesh>, <ore:plankWood>],
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]])
 .addOutput(<factorytech:sluice>)
 .addTool(<ore:artisansFramingHammer>, 50)
@@ -53,9 +53,9 @@ mods.factorytech.rivergrate.addRecipe(<primal:quartz_knapp>, 0.001);
 RecipeBuilder.get("mason")
 .setShaped([
 [null, <minecraft:iron_bars>, null],
-[<minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>], 
+[<minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>],
 [null, <minecraft:iron_bars>, null]])
 .addOutput(<factorytech:metal:4>)
-.addTool(<artisanworktables:artisans_hammer_quartz>, 20)
+.addTool(<artisanworktables:artisans_hammer_flint>, 20)
 .setMaximumTier(1)
 .create();

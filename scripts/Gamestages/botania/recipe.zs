@@ -48,12 +48,12 @@ for i in 0 to 16 {
   Gf = <botania:shinyflower>.definition.makeStack(i);
 
   //Dye
-  RecipeBuilder.get("farmer")
-    .setShapeless([Petal])
-    .addTool(<ore:artisansMortar>, 5)
-    .addOutput(Dye)
-    .addRequirement(GameStages.anyOf([stages.bot_flowers]))
-    .create();
+//  RecipeBuilder.get("farmer")
+//    .setShapeless([Petal])
+//    .addTool(<ore:artisansMortar>, 5)
+//    .addOutput(Dye)
+//    .addRequirement(GameStages.anyOf([stages.bot_flowers]))
+//    .create();
 
   //Petal
   RecipeBuilder.get("farmer")
@@ -868,7 +868,7 @@ RecipeBuilder.get("mage")
     [<minecraft:glass>, <ore:ingotManasteel>, <minecraft:glass>],
     [null, <ore:livingwoodTwig>, null],
     [null, <ore:livingwoodTwig>, null]])
-  .addOutput(<botania:manasteelpick>)
+  .addOutput(<botania:glasspick>)
   .setSecondaryIngredients([<foundry:mold:7>])
   .setConsumeSecondaryIngredients(false)
   .addTool(<ore:artisansHandsaw>, 15)
