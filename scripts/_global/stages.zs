@@ -2,9 +2,30 @@
 global stages as string[string] = {
 
 	//Tier 0
-	base : "base",
-	basetools : "basetools",
+	base : "base",																																//research
+	basetools : "basetools",																											//research
+
 	//Tier 1
+	bricks : "bricks",																														//research mud + grass
+	carpenter : "carpenter",																											//carpenter axe
+	cooking : "cooking",																													//research food
+	firebow : "firebow",																													//firebow
+	horsepower : "horsepower",																										//lead
+	mortar : "mortar",																														//mortar
+	pickaxe : "pickaxe",																													//pickaxe
+	shears : "shears",																														//shears
+	tanner : "tanner",																														//research skin
+	drying : "drying",																														//drying rack
+	saw : "saw",																																	//saw
+	storage : "storage",																													//research chest
+	taylor : "taylor",																														//research wool + stirng
+	scribe : "scribe",																														//research paper + dye
+	potter : "potter",																														//research clay + charcoal/coal
+	mason : "mason",																															//research stone
+	glass : "glass",																															//research sand + charcoal/coal
+	crudemetal : "crudemetal",																										//research iron + copper + nickel nuggets
+	fishing : "fishing",																													//research raw fish
+
 
 	//Tier 2
 	melting_ingot : "melting_ingot",
@@ -19,7 +40,7 @@ global stages as string[string] = {
 	nuclear : "nuclear",
 
 	//Magical 1
-	bot_flowers 				: "bot_flowers",
+	bot_flowers 				: "bot_flowers",																					//research botania flower
 	bot_petal 					: "bot_petal",
 	bot_livingWood 			: "bot_livingWood",
 	bot_livingWoodTwig 	: "bot_livingWoodTwig",

@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 
 var stagegardenerItems as IIngredient[] = [
-	
+
 
 	<minecraft:tallgrass:1>,
 

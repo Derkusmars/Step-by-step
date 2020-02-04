@@ -4,7 +4,8 @@ var stagetoolsItems as IIngredient[] = [
 
 	<minecraft:stone:*>,
 	<minecraft:sandstone:*>,
-	<minecraft:mossy_cobblestone>
+	<minecraft:mossy_cobblestone>,
+	<minecraft:cobblestone:*>
 
 ];
 

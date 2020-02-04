@@ -7,14 +7,6 @@ var stagecarpenterItems as IIngredient[] = [
 	<artisanworktables:workstation:1>,
 
 	//Primal
-	<primal:logs_split_oak>,
-	<primal:logs_split_spruce>,
-	<primal:logs_split_birch>,
-	<primal:logs_split_jungle>,
-	<primal:logs_split_acacia>,
-	<primal:logs_split_bigoak>,
-	<primal:logs_split_ironwood>,
-	<primal:logs_split_yew>,
 	<primal:planks:*>,
 	<primal:wood_pin>,
 	<primal:slat_oak>,
@@ -29,9 +21,6 @@ var stagecarpenterItems as IIngredient[] = [
 	<primal:slat_lacquer>,
 	<primal:slat_iron>,
 	<primal:drying_rack:*>,
-	<primal:thatching_dry>,
-	<primal:nether_papyrus>,
-	<primal:plant_papyrus>,
 
 	//Minecraft
 	<minecraft:planks:*>,
@@ -84,7 +73,10 @@ var stagecarpenterItems as IIngredient[] = [
 	<storagedrawers:basicdrawers:*>,
 	<storagedrawers:trim:*>,
 	<storagedrawers:framingtable>,
-	<storagedrawers:customdrawers:*>
+	<storagedrawers:customdrawers:*>,
+
+	//Factory tech
+	<factorytech:sluice>
 
 ];
 

@@ -32,8 +32,8 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
   .setIcons(<minecraft:map>)
   .setTitle("Cartography")
   .setDescription("Base minimap")
-  .addCondition(<primal:plant_papyrus> * 12)
-  .addCondition(<minecraft:coal> * 2)
+  .addCondition(<minecraft:map> * 6)
+  .addCondition(<gregtech:meta_item_2:32429> * 1)
   .setRewardStages("cartography")
   .setRewardCommands("/say \"@s give basic cartography!\"")
   .build();
@@ -59,6 +59,88 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
   .addCondition(<minecraft:bone> * 4)
   .setRewardStages("deathpoints")
   .setRewardCommands("/say \"@s see deathpeople!\"")
+  .build();
+
+  // First bricks
+
+  ResearchTable.builder("bricks", cat)
+  .setIcons(<primal:mud_clump>)
+  .setTitle("Adobe")
+  .setDescription("empty")
+  .addCondition(<primal:mud_clump> * 1)
+  .addCondition(<minecraft:tallgrass:1> * 1)
+  .setRewardStages("bricks")
+  .setRewardCommands("/say \"@s learn adobe!\"")
+  .build();
+
+  // Storage
+
+  ResearchTable.builder("storage", cat)
+  .setIcons(<minecraft:chest>)
+  .setTitle("More storage")
+  .setDescription("empty")
+  .addCondition(<minecraft:chest> * 1)
+  .setRewardStages("storage")
+  .setRewardCommands("/say \"@s learn more storage!\"")
+  .build();
+
+  // Taylor
+
+  ResearchTable.builder("taylor", cat)
+  .setIcons(<minecraft:string>)
+  .setTitle("Taylor")
+  .setDescription("empty")
+  .addCondition(<minecraft:string> * 1)
+  .addCondition(<minecraft:wool:*> * 1)
+  .setRewardStages("taylor")
+  .setRewardCommands("/say \"@s learn taylor!\"")
+  .build();
+
+  // Scribe
+
+  ResearchTable.builder("scribe", cat)
+  .setIcons(<primal:plant_papyrus>)
+  .setTitle("Scribe")
+  .setDescription("empty")
+  .addCondition(<primal:plant_papyrus> * 1)
+  .addCondition(<gregtech:meta_item_2:32429> * 1)
+  .setRewardStages("scribe")
+  .setRewardCommands("/say \"@s learn scribe!\"")
+  .build();
+
+  // Potter
+
+  ResearchTable.builder("potter", cat)
+  .setIcons(<minecraft:clay_ball>)
+  .setTitle("Potter")
+  .setDescription("empty")
+  .addCondition(<minecraft:clay_ball> * 1)
+  .addCondition(<minecraft:coal:*> * 1)
+  .setRewardStages("potter")
+  .setRewardCommands("/say \"@s learn potter!\"")
+  .build();
+
+  // Mason
+
+  ResearchTable.builder("mason", cat)
+  .setIcons(<minecraft:stone>)
+  .setTitle("Mason")
+  .setDescription("empty")
+  .addCondition(<minecraft:stone> * 1)
+  .setRewardStages("mason")
+  .setRewardCommands("/say \"@s learn mason!\"")
+  .build();
+
+  // glass
+
+  ResearchTable.builder("glass", cat)
+  .setIcons(<minecraft:sand>)
+  .setTitle("glass")
+  .setDescription("empty")
+  .addCondition(<minecraft:sand> * 1)
+  .addCondition(<minecraft:coal:*> * 1)
+  .setRewardStages("glass")
+  .setRewardCommands("/say \"@s learn glass!\"")
   .build();
 
   ResearchTable.builder("botania1", cat)

@@ -3,9 +3,10 @@ import crafttweaker.item.IIngredient;
 var stage = stages.base;
 
 var stagetannerItems as IIngredient[] = [
-	
+
 
 	<minecraft:leather>,
+	<minecraft:lead>,
 
 	//primal
 	<primal:pelt_animal>,

@@ -26,6 +26,14 @@ var stagebasetools as IIngredient[] = [
 	<harvestcraft:pamcinnamon>,
 
 	//Primal
+	<primal:logs_split_oak>,
+	<primal:logs_split_spruce>,
+	<primal:logs_split_birch>,
+	<primal:logs_split_jungle>,
+	<primal:logs_split_acacia>,
+	<primal:logs_split_bigoak>,
+	<primal:logs_split_ironwood>,
+	<primal:logs_split_yew>,
 	<primal:plant_tinder>,
 	<primal:nether_tinder>,
 	<primal:logs_stacked:*>,

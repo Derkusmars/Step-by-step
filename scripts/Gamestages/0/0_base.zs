@@ -23,6 +23,9 @@ var stagebaseItems as IIngredient[] = [
 	<minecraft:reeds>,
 	<minecraft:apple>,
 	<minecraft:cactus>,
+	<minecraft:clay_ball>,
+	<minecraft:wool:*>,
+	<minecraft:string>,
 
 	//Primal
 	<primal:plant_fiber>,
@@ -31,7 +34,9 @@ var stagebaseItems as IIngredient[] = [
 	<primal:rush_seeds>,
 	<primal:salt_dust_netjry>,
 	<primal:corn_cob>,
-	<primal:corn_stalk_wet>
+	<primal:corn_stalk_wet>,
+	<primal:cinis_clump>,
+	<primal:terra_clump>
 
 ];
 
