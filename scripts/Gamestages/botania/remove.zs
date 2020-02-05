@@ -10,7 +10,7 @@ import mods.botania.ManaInfusion;
 
 import mods.foundry.Casting;
 
-//recipes.removeByMod("Botania");
+recipes.removeByMod("Botania");
 /*
 val craftingToDisable = [
 //<botania:twigwand:*>,                                                         //Wand of the forest

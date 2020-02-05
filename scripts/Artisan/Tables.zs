@@ -1,5 +1,26 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
+/* Misc - all table
+  basic
+  blacksmith
+  carpenter
+  chef
+  chemist
+  designer
+  engineer
+  farmer
+  jeweler
+  mage
+  mason
+  potter
+  scribe
+  tailor
+  tanner
+  toolbox
+*/
+
+
+
 //Basic workbench
 recipes.remove(<artisanworktables:workstation:5>);
 recipes.addShapeless(<artisanworktables:workstation:5>, [<primal:flint_knapp>,<factorytech:machinepart:180>,<ore:logStripped>,<minecraft:stick>]);
@@ -19,7 +40,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <minecraft:brick_block>, <ore:logSplit>],
-[<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>], 
+[<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>],
 [<ore:logSplit>, <minecraft:brick_block>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:2>)
 .setMaximumTier(1)
@@ -29,7 +50,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <ore:wool>, <ore:logSplit>],
-[<ore:wool>, <ore:logWood>, <ore:wool>], 
+[<ore:wool>, <ore:logWood>, <ore:wool>],
 [<ore:logSplit>, <ore:wool>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation>)
 .setMaximumTier(1)
@@ -39,7 +60,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("carpenter")
 .setShaped([
 [<ore:slabWood>, <minecraft:trapdoor>, <ore:slabWood>],
-[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>], 
+[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
 .addOutput(<artisanworktables:toolbox>)
 .addTool(<ore:artisansHandsaw>, 50)
@@ -50,7 +71,7 @@ RecipeBuilder.get("carpenter")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <ore:plankWood>, <ore:logSplit>],
-[<ore:plankWood>, <ore:pelt>, <ore:plankWood>], 
+[<ore:plankWood>, <ore:pelt>, <ore:plankWood>],
 [<ore:logSplit>, <ore:plankWood>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:13>)
 .setMaximumTier(1)
@@ -60,7 +81,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <minecraft:stone_slab>, <ore:logSplit>],
-[<minecraft:stone_slab>, <minecraft:hardened_clay>, <minecraft:stone_slab>], 
+[<minecraft:stone_slab>, <minecraft:hardened_clay>, <minecraft:stone_slab>],
 [<ore:logSplit>, <minecraft:stone_slab>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:14>)
 .setMaximumTier(1)
@@ -70,7 +91,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <ore:plankWood>, <ore:logSplit>],
-[<ore:plankWood>, <artisanworktables:design_pattern>, <ore:plankWood>], 
+[<ore:plankWood>, <artisanworktables:design_pattern>, <ore:plankWood>],
 [<ore:logSplit>, <ore:plankWood>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:12>)
 .setMaximumTier(1)
@@ -87,7 +108,7 @@ RecipeBuilder.get("basic")
 RecipeBuilder.get("mason")
 .setShaped([
 [<ore:logSplit>, <factorytech:ingot:5>, <ore:logSplit>],
-[<factorytech:ingot:5>, <factorytech:metal:4>, <factorytech:ingot:5>], 
+[<factorytech:ingot:5>, <factorytech:metal:4>, <factorytech:ingot:5>],
 [<ore:logSplit>, <factorytech:ingot:5>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:3>)
 .setMaximumTier(1)
@@ -97,7 +118,7 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("basic")
 .setShaped([
 [<ore:logSplit>, <minecraft:tallgrass:1>, <ore:logSplit>],
-[<minecraft:tallgrass:1>, <contenttweaker:compressed_fert_dirt>, <minecraft:tallgrass:1>], 
+[<minecraft:tallgrass:1>, <contenttweaker:compressed_fert_dirt>, <minecraft:tallgrass:1>],
 [<ore:logSplit>, <minecraft:tallgrass:1>, <ore:logSplit>]])
 .addOutput(<artisanworktables:workstation:10>)
 .setMaximumTier(1)

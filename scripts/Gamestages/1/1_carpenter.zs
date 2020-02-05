@@ -25,7 +25,7 @@ var stagecarpenterItems as IIngredient[] = [
 	//Minecraft
 	<minecraft:planks:*>,
 	<minecraft:trapdoor>,
-	<minecraft:chest>,
+	<ore:chest>,
 	<minecraft:wooden_door>,
 	<minecraft:spruce_door>,
 	<minecraft:birch_door>,

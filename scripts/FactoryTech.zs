@@ -1,5 +1,116 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
+
+mods.factorytech.Grindstone.removeRecipe(<factorytech:machinepart:30>);
+mods.factorytech.Grindstone.addRecipe(<factorytech:machinepart:30>, <factorytech:bricks>, true);
+
+// Iron shaft
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:plateIron>, null],
+    [null, <ore:plateIron>, null],
+    [null, <ore:plateIron>, null]])
+  .addOutput(<factorytech:machinepart:51> * 4)
+  .addTool(<ore:artisansFile>, 25)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Basic motor
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<factorytech:machinepart:51>, <factorytech:machinepart:51>, <factorytech:machinepart:51>],
+    [<ore:plateIron>, <ore:string>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:gemLapis>, <ore:plateIron>]])
+  .setFluid(<liquid:redstone> * 100)
+  .addOutput(<factorytech:intermediate:4>)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansDriver>, 25)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Grindstone
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:stone_slab>, <factorytech:machinepart:51>, <minecraft:stone_slab>],
+    [<ore:plankWood>, <ore:materialStoneTool>, <ore:plankWood>],
+    [<factorytech:intermediate:4>, <factorytech:machinepart:51>, <factorytech:intermediate:4>]])
+  .setFluid(<liquid:iron> * 288)
+  .addOutput(<factorytech:grindstone>)
+  .addTool(<ore:artisansFile>, 50)
+  .addTool(<ore:artisansDriver>, 25)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Metal cutting machine
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateIron>, <factorytech:machinepart:51>, <ore:plateIron>],
+    [<ore:plateNickel>, <factorytech:intermediate:4>, <ore:plateNickel>],
+    [<ore:materialStoneTool>, <factorytech:machinepart:51>,  <ore:materialStoneTool>]])
+  .setFluid(<liquid:iron> * 288)
+  .addOutput(<factorytech:metalcutter>)
+  .addTool(<ore:artisansFile>, 25)
+  .addTool(<ore:artisansDriver>, 50)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Advanced motor
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ore:nuggetNickel>, null],
+    [<ore:nuggetIron>, <gregtech:meta_item_2:32011>, <ore:nuggetIron>],
+    [<ore:nuggetIron>, <factorytech:machinepart:21>,  <ore:nuggetIron>]])
+  .setFluid(<liquid:redstone> * 100)
+  .addOutput(<factorytech:machinepart:60>)
+  .addTool(<ore:artisansSolderer>, 15)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Sand brick
+RecipeBuilder.get("potter")
+  .setShaped([
+    [null, <ore:ingotBrick>, null],
+    [<ore:ingotBrick>, <ore:sand>, <ore:ingotBrick>],
+    [null, <ore:ingotBrick>, null]])
+  .addOutput(<factorytech:bricks>)
+  .addTool(<ore:artisansCarver>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Sand brick
+RecipeBuilder.get("potter")
+  .setShaped([
+    [null, <ore:ingotBrick>, null],
+    [<ore:ingotBrick>, <ore:sand>, <ore:ingotBrick>],
+    [null, <ore:ingotBrick>, null]])
+  .addOutput(<factorytech:bricks>)
+  .addTool(<ore:artisansCarver>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+// Stone gear
+RecipeBuilder.get("basic")
+  .setShaped([
+    [null, <ore:cobblestone>, null],
+    [<ore:cobblestone>, <factorytech:bricks>, <ore:cobblestone>],
+    [null, <ore:cobblestone>, null]])
+  .addOutput(<factorytech:machinepart:10>)
+  .addTool(<ore:artisansCutters>, 25)
+  .addTool(<ore:artisansCarver>, 15)
+//  .addRequirement(GameStages.anyOf([]))
+.create();
+
+
+
+
+
+
+
+
+
+
 //Mesh
 recipes.remove(<factorytech:machinepart:180>);
 recipes.addShapeless(<factorytech:machinepart:180>, [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]);

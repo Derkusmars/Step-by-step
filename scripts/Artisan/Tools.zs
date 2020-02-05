@@ -1,5 +1,43 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemStack;
+
+/* Misc - all oreDict tools
+<ore:artisansAthame>        = <artisanworktables:artisans_athame_iron>
+<ore:artisansBeaker>        = <artisanworktables:artisans_beaker_iron>
+<ore:artisansBurner>        = <artisanworktables:artisans_burner_iron>
+<ore:artisansCarver>        = <artisanworktables:artisans_carver_iron>
+<ore:artisansChisel>        = <artisanworktables:artisans_chisel_iron>
+<ore:artisansCompass>       = <artisanworktables:artisans_compass_iron>
+<ore:artisansCutters>       = <artisanworktables:artisans_cutters_iron>
+<ore:artisansCuttingBoard>  = <artisanworktables:artisans_cutting_board_iron>
+<ore:artisansDriver>        = <artisanworktables:artisans_driver_iron>
+<ore:artisansFile>          = <artisanworktables:artisans_file_iron>
+<ore:artisansFramingHammer> = <artisanworktables:artisans_framing_hammer_iron>
+<ore:artisansGemCutter>     = <artisanworktables:artisans_gemcutter_iron>
+<ore:artisansGrimoire>      = <artisanworktables:artisans_grimoire_iron>
+<ore:artisansGroover>       = <artisanworktables:artisans_groover_iron>
+<ore:artisansHammer>        = <artisanworktables:artisans_hammer_iron>
+<ore:artisansHandsaw>       = <artisanworktables:artisans_handsaw_iron>
+<ore:artisansHatchet>       = <artisanworktables:artisans_hatchet_iron>
+<ore:artisansKnife>         = <artisanworktables:artisans_knife_iron>
+<ore:artisansLens>          = <artisanworktables:artisans_lens_iron>
+<ore:artisansNeedle>        = <artisanworktables:artisans_needle_iron>
+<ore:artisansPan>           = <artisanworktables:artisans_pan_iron>
+<ore:artisansPencil>        = <artisanworktables:artisans_pencil_iron>
+<ore:artisansPliers>        = <artisanworktables:artisans_pliers_iron>
+<ore:artisansPunch>         = <artisanworktables:artisans_punch_iron>
+<ore:artisansQuill>         = <artisanworktables:artisans_quill_iron>
+<ore:artisansShears>        = <artisanworktables:artisans_shears_iron>
+<ore:artisansSifter>        = <artisanworktables:artisans_sifter_iron>
+<ore:artisansSolderer>      = <artisanworktables:artisans_solderer_iron>
+<ore:artisansSpanner>       = <artisanworktables:artisans_spanner_iron>
+<ore:artisansTrowel>        = <artisanworktables:artisans_trowel_iron>
+<ore:artisansTSquare>       = <artisanworktables:artisans_tsquare_iron>
+//new item
+<ore:artisansMortar>        = <artisanworktables:artisans_mortar_iron>
+<ore:artisansRazor>         = <artisanworktables:artisans_razor_iron>
+*/
+
 //Framing Hammer ========================================================
 
 function createFramingHammer(base as IItemStack, output as IItemStack, workplace as string) {
