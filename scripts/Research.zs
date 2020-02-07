@@ -90,7 +90,7 @@ var cat = ResearchTable.addCategory(<minecraft:grass>);
   .setIcons(<minecraft:string>)
   .setTitle("Taylor")
   .setDescription("empty")
-  .addCondition(<minecraft:string> * 1)
+  .addCondition(<ore:string> * 1)
   .addCondition(<minecraft:wool:*> * 1)
   .setRewardStages("taylor")
   .setRewardCommands("/say \"@s learn taylor!\"")

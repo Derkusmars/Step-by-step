@@ -1,6 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
-
 mods.factorytech.Grindstone.removeRecipe(<factorytech:machinepart:30>);
 mods.factorytech.Grindstone.addRecipe(<factorytech:machinepart:30>, <factorytech:bricks>, true);
 
@@ -34,7 +33,7 @@ RecipeBuilder.get("engineer")
     [<minecraft:stone_slab>, <factorytech:machinepart:51>, <minecraft:stone_slab>],
     [<ore:plankWood>, <ore:materialStoneTool>, <ore:plankWood>],
     [<factorytech:intermediate:4>, <factorytech:machinepart:51>, <factorytech:intermediate:4>]])
-  .setFluid(<liquid:iron> * 288)
+  .setFluid(<liquid:liquidiron> * 288)
   .addOutput(<factorytech:grindstone>)
   .addTool(<ore:artisansFile>, 50)
   .addTool(<ore:artisansDriver>, 25)
@@ -44,10 +43,10 @@ RecipeBuilder.get("engineer")
 // Metal cutting machine
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateIron>, <factorytech:machinepart:51>, <ore:plateIron>],
+    [<ore:plateIron>, <factorytech:machinepart:31>, <ore:plateIron>],
     [<ore:plateNickel>, <factorytech:intermediate:4>, <ore:plateNickel>],
     [<ore:materialStoneTool>, <factorytech:machinepart:51>,  <ore:materialStoneTool>]])
-  .setFluid(<liquid:iron> * 288)
+  .setFluid(<liquid:liquidiron> * 288)
   .addOutput(<factorytech:metalcutter>)
   .addTool(<ore:artisansFile>, 25)
   .addTool(<ore:artisansDriver>, 50)
@@ -118,9 +117,9 @@ recipes.addShapeless(<factorytech:machinepart:180>, [<minecraft:stick>,<minecraf
 //String Mesh
 RecipeBuilder.get("tailor")
 .setShaped([
-[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-[<minecraft:string>, <minecraft:string>, <minecraft:string>]])
+[<ore:string>, <ore:string>, <ore:string>],
+[<ore:string>, <ore:string>, <ore:string>],
+[<ore:string>, <ore:string>, <ore:string>]])
 .addOutput(<contenttweaker:string_mesh>)
 .addTool(<ore:artisansNeedle>, 25)
 .create();

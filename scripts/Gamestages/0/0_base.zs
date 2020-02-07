@@ -25,7 +25,7 @@ var stagebaseItems as IIngredient[] = [
 	<minecraft:cactus>,
 	<minecraft:clay_ball>,
 	<minecraft:wool:*>,
-	<minecraft:string>,
+	<ore:string>,
 
 	//Primal
 	<primal:plant_fiber>,

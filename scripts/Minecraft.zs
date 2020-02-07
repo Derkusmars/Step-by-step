@@ -287,40 +287,40 @@ RecipeBuilder.get("tailor")
 
 //Torch
 RecipeBuilder.get("basic")
-.setShaped([
-[null, <ore:coal>, null],
-[null, <ore:cordageGeneral>, null],
-[null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 4)
-.setMaximumTier(1)
-.create();
+  .setShaped([
+    [<ore:coal>],
+    [<ore:cordageGeneral>],
+    [<minecraft:stick>]])
+  .addOutput(<minecraft:torch> * 4)
+  .setMirrored()
+  .create();
 
 RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:charcoal_fair>, null],
-[null, <ore:cordagePlant>, null],
-[null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 4)
-.setMaximumTier(1)
-.create();
+  .setShaped([
+    [<primal:charcoal_fair>],
+    [<ore:cordagePlant>],
+    [<minecraft:stick>]])
+  .addOutput(<minecraft:torch> * 4)
+  .setMirrored()
+  .create();
 
 RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:charcoal_good>, null],
-[null, <ore:cordagePlant>, null],
-[null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 5)
-.setMaximumTier(1)
-.create();
+  .setShaped([
+    [<primal:charcoal_good>],
+    [<ore:cordagePlant>],
+    [<minecraft:stick>]])
+  .addOutput(<minecraft:torch> * 5)
+  .setMirrored()
+  .create();
 
 RecipeBuilder.get("basic")
-.setShaped([
-[null, <primal:charcoal_high>, null],
-[null, <ore:cordagePlant>, null],
-[null, <minecraft:stick>, null]])
-.addOutput(<minecraft:torch> * 6)
-.setMaximumTier(1)
-.create();
+  .setShaped([
+    [<primal:charcoal_high>],
+    [<ore:cordagePlant>],
+    [<minecraft:stick>]])
+  .addOutput(<minecraft:torch> * 6)
+  .setMirrored()
+  .create();
 
 //Stone Slab
 RecipeBuilder.get("carpenter")

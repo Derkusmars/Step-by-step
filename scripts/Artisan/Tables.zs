@@ -1,6 +1,9 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
 /* Misc - all table
+
+https://artisan-worktables.readthedocs.io/en/latest/
+
   basic
   blacksmith
   carpenter

@@ -188,7 +188,7 @@ function createShears(base as IItemStack, output as IItemStack, workplace as str
 
 //Needle ========================================================
 //  TODO: Придумать крафт иглы, временный крафт:
-// s - нитка (<minecraft:string>,<ore:cordageGeneral>)
+// s - нитка (<ore:string>,<ore:cordageGeneral>)
 // m - материал (тип иглы)
 // [s][s][s]
 // [s][m][s] = [{Material Needle}]
@@ -198,9 +198,9 @@ function createNeedle(base as IItemStack, output as IItemStack, workplace as str
 
     RecipeBuilder.get(workplace)
     .setShaped([
-    [<minecraft:string>, <minecraft:string>, <minecraft:string>],
-    [<minecraft:string>, base,               <minecraft:string>],
-    [<minecraft:string>, <minecraft:string>, <minecraft:string>]])
+    [<ore:string>, <ore:string>, <ore:string>],
+    [<ore:string>, base,         <ore:string>],
+    [<ore:string>, <ore:string>, <ore:string>]])
     .addOutput(output)
     .setMaximumTier(1)
     .create();
